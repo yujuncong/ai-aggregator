@@ -90,6 +90,59 @@ async function viaBearer(): Promise<CrawlItem[]> {
     });
 }
 
+/**
+ * 策略 1b：用户时间线（Free 计划通常可用，替代付费的 search/recent）。
+ * 轮询关注账号的最新推文，聚合为资讯。
+ */
+async function viaTimeline(bearer: string): Promise<CrawlItem[]> {
+  const headers = { Authorization: `Bearer ${bearer}`, "User-Agent": "ai-radar" };
+  const items: CrawlItem[] = [];
+  for (const account of X.accounts) {
+    try {
+      const lookup = await fetch(
+        `https://api.twitter.com/2/users/by/username/${account}`,
+        { headers, signal: AbortSignal.timeout(20_000) },
+      );
+      // 402/401/403 = 计划或权限不含该接口，整个时间线方案不可用，提前放弃
+      if (lookup.status === 402 || lookup.status === 401 || lookup.status === 403) {
+        return items;
+      }
+      if (!lookup.ok) continue;
+      const uid = ((await lookup.json()) as { data?: { id: string } })?.data?.id;
+      if (!uid) continue;
+
+      const turl =
+        `https://api.twitter.com/2/users/${uid}/tweets` +
+        `?max_results=100&exclude=retweets&tweet.fields=created_at`;
+      const tres = await fetch(turl, { headers, signal: AbortSignal.timeout(20_000) });
+      if (tres.status === 402 || tres.status === 401 || tres.status === 403) {
+        return items;
+      }
+      if (!tres.ok) continue;
+      const body = (await tres.json()) as { data?: { id: string; text: string; created_at: string }[] };
+
+      for (const t of body.data ?? []) {
+        const text = cleanText(t.text);
+        if (!text) continue;
+        items.push({
+          id: makeId("x", `https://x.com/${account}/status/${t.id}`),
+          source: "x",
+          url: `https://x.com/${account}/status/${t.id}`,
+          title: summarize(text, 120),
+          summary: summarize(text),
+          author: account,
+          postedAt: t.created_at ?? new Date().toISOString(),
+          tags: extractTags(text),
+        } as CrawlItem);
+      }
+    } catch {
+      /* 单个账号失败不阻塞 */
+    }
+    if (items.length >= X.maxItems) break;
+  }
+  return items;
+}
+
 /** 策略 2：RSSHub 公共实例 twitter/user/<账号> */
 async function viaRsshub(account: string): Promise<CrawlItem[]> {
   for (const inst of X.rsshubInstances) {
@@ -137,10 +190,23 @@ async function viaNitter(account: string): Promise<CrawlItem[]> {
 
 export async function crawlX(): Promise<CrawlResult> {
   try {
-    if (process.env.X_API_BEARER) {
-      const items = await viaBearer();
-      if (items.length) return { source: "x", items };
+    const bearer = process.env.X_API_BEARER;
+    if (bearer) {
+      // 策略 1：官方 search/recent（需付费计划，返回 402 时自动降级）
+      try {
+        const items = await viaBearer();
+        if (items.length) return { source: "x", items };
+      } catch (searchErr) {
+        console.error(
+          `[x] search/recent 不可用（${searchErr instanceof Error ? searchErr.message : searchErr}），尝试用户时间线`,
+        );
+      }
+      // 策略 1b：用户时间线（Free 计划可能可用）
+      const timeline = await viaTimeline(bearer);
+      if (timeline.length) return { source: "x", items: timeline };
     }
+
+    // 策略 2/3：RSSHub / Nitter（无 token 或官方 API 全不可用时兜底）
     const items: CrawlItem[] = [];
     for (const account of X.accounts) {
       let got = await viaRsshub(account);
@@ -150,7 +216,9 @@ export async function crawlX(): Promise<CrawlResult> {
     }
     if (!items.length) {
       throw new Error(
-        "无可用 X 通道（无 X_API_BEARER，RSSHub/Nitter 均不可达或被墙）",
+        bearer
+          ? "X 官方 API 不可用（search/recent 需付费，用户时间线亦失败）"
+          : "无可用 X 通道（无 X_API_BEARER，RSSHub/Nitter 均不可达或被墙）",
       );
     }
     return { source: "x", items };
