@@ -1,0 +1,22 @@
+{
+  "name": "ai-aggregator",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI 资讯聚合站：每天 2 次自动抓取 X / AI 电商 / GitHub，纯静态展示，自动部署到 GitHub Pages",
+  "type": "module",
+  "scripts": {
+    "crawl": "tsx crawlers/index.ts",
+    "crawl:dry": "tsx crawlers/index.ts --dry",
+    "build": "npm --prefix web run build",
+    "typecheck": "tsc --noEmit",
+    "preview": "npx --yes serve web/out -l 4173"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.0"
+  }
+}
