@@ -9,7 +9,7 @@
     "crawl:dry": "tsx crawlers/index.ts --dry",
     "build": "npm --prefix web run build",
     "typecheck": "tsc --noEmit",
-    "preview": "npx --yes serve web/out -l 4173"
+    "preview": "node scripts/serve.mjs"
   },
   "dependencies": {
     "fast-xml-parser": "^4.5.3"

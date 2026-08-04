@@ -59,6 +59,8 @@ async function searchRepos(
       author: r.owner?.login ?? "",
       postedAt: r.created_at ?? new Date().toISOString(),
       tags,
+      score: r.stargazers_count ?? 0,
+      lang: r.language ?? undefined,
     });
   }
   return items;
