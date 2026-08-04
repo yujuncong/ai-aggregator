@@ -116,9 +116,15 @@ export function ItemCard({ item }: { item: CrawlItem }) {
           {item.title}
         </h2>
 
-        {/* 摘要 */}
+        {/* 中文解释说明（主） */}
+        {item.zh && (
+          <p className="mt-1.5 line-clamp-2 text-sm text-foreground/90">{item.zh}</p>
+        )}
+        {/* 原文摘要（辅） */}
         {item.summary && (
-          <p className="mt-1 line-clamp-2 text-sm text-muted-foreground">{item.summary}</p>
+          <p className="mt-0.5 line-clamp-1 text-xs text-muted-foreground">
+            {item.summary}
+          </p>
         )}
 
         {/* 标签 */}

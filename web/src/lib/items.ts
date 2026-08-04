@@ -13,6 +13,8 @@ export interface CrawlItem {
   score?: number;
   /** 主语言（GitHub） */
   lang?: string;
+  /** 中文解释说明 */
+  zh?: string;
 }
 
 export interface DataEnvelope {

@@ -6,6 +6,7 @@ import { DATA_DIR, MERGE_DAYS } from "./config";
 import { loadRecentEnvelopes, dedupeByUrl } from "./utils/dedupe";
 import { appendFailedLog, writeJson } from "./utils/io";
 import { todayISO } from "./utils/time";
+import { explainInChinese } from "./utils/zh";
 import type { CrawlItem } from "./utils/types";
 
 const dry = process.argv.includes("--dry");
@@ -38,6 +39,7 @@ async function main(): Promise<void> {
   for (const it of items) {
     if (!it.tags.length) it.tags = ["ai"];
     if (!it.summary) it.summary = "…";
+    if (!it.zh) it.zh = explainInChinese(it);
   }
 
   const generatedAt = new Date().toISOString();
