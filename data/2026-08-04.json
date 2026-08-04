@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T16:47:51.000Z",
+  "generatedAt": "2026-08-04T17:01:08.085Z",
   "count": 103,
   "items": [
     {
@@ -506,7 +506,7 @@
         "llm",
         "inference"
       ],
-      "score": 1734,
+      "score": 1737,
       "lang": "C"
     },
     {
@@ -782,6 +782,22 @@
       "lang": "HTML"
     },
     {
+      "id": "0ebc91d4e8a9",
+      "source": "github",
+      "url": "https://github.com/openwarehq/websiteprompts",
+      "title": "openwarehq/websiteprompts",
+      "summary": "30 free copy-paste prompts that turn Claude Code, Cursor or v0 into a cinematic website — exact colours, easing and z-index, plus a background video that is alr…",
+      "author": "openwarehq",
+      "postedAt": "2026-08-02T04:49:19Z",
+      "tags": [
+        "ai",
+        "llm",
+        "claude",
+        "prompt"
+      ],
+      "score": 39
+    },
+    {
       "id": "f6d0fe072e3f",
       "source": "github",
       "url": "https://github.com/krauseantoine1973/fanous-llm-lens-v2026",
@@ -797,22 +813,6 @@
       "lang": "HTML"
     },
     {
-      "id": "0ebc91d4e8a9",
-      "source": "github",
-      "url": "https://github.com/openwarehq/websiteprompts",
-      "title": "openwarehq/websiteprompts",
-      "summary": "30 free copy-paste prompts that turn Claude Code, Cursor or v0 into a cinematic website — exact colours, easing and z-index, plus a background video that is alr…",
-      "author": "openwarehq",
-      "postedAt": "2026-08-02T04:49:19Z",
-      "tags": [
-        "ai",
-        "llm",
-        "claude",
-        "prompt"
-      ],
-      "score": 38
-    },
-    {
       "id": "a4bf1a3b00f5",
       "source": "github",
       "url": "https://github.com/david-g-3654/homebench",
@@ -826,7 +826,7 @@
         "evaluation",
         "benchmark"
       ],
-      "score": 36,
+      "score": 37,
       "lang": "Python"
     },
     {
@@ -842,7 +842,7 @@
         "llm",
         "api"
       ],
-      "score": 36,
+      "score": 37,
       "lang": "Python"
     },
     {
@@ -889,7 +889,7 @@
         "gpt",
         "claude"
       ],
-      "score": 177,
+      "score": 178,
       "lang": "Go"
     },
     {
@@ -1041,7 +1041,7 @@
         "model",
         "prompt"
       ],
-      "score": 50,
+      "score": 51,
       "lang": "Python"
     },
     {
@@ -1245,13 +1245,50 @@
       "lang": "Shell"
     },
     {
-      "id": "ecc3c30e893b",
+      "id": "7fb2f953f270",
       "source": "ecommerce",
-      "url": "https://www.producthunt.com/products/video-ai-me",
-      "title": "VIDEO AI ME",
-      "summary": "Make videos and post them everywhere with just one tool",
-      "author": "Paul G",
-      "postedAt": "2026-08-03T19:35:56.000Z",
+      "url": "https://www.producthunt.com/products/atlaso",
+      "title": "Atlaso",
+      "summary": "One memory for every AI you use",
+      "author": "Ashish Khandelwal",
+      "postedAt": "2026-07-18T22:04:00.000Z",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "a72a9ff21cec",
+      "source": "ecommerce",
+      "url": "https://www.producthunt.com/products/domo-a-claude-agent-for-your-calendar",
+      "title": "Domo",
+      "summary": "Build and customize your own calendar agent you can text",
+      "author": "Patrick Lucas",
+      "postedAt": "2026-07-24T19:13:39.000Z",
+      "tags": [
+        "agent"
+      ]
+    },
+    {
+      "id": "6ff657caed63",
+      "source": "ecommerce",
+      "url": "https://www.producthunt.com/products/driven-ai",
+      "title": "Driven",
+      "summary": "The trusted AI investment agent, from insight to action",
+      "author": "Zac Zuo",
+      "postedAt": "2026-07-22T02:16:19.000Z",
+      "tags": [
+        "ai",
+        "agent"
+      ]
+    },
+    {
+      "id": "bd1e57d1cde5",
+      "source": "ecommerce",
+      "url": "https://www.producthunt.com/products/finyuus",
+      "title": "Finyuus",
+      "summary": "A code-first language for durable, governed AI workflows",
+      "author": "marius ndini",
+      "postedAt": "2026-08-03T18:14:47.000Z",
       "tags": [
         "ai"
       ]
@@ -1281,30 +1318,6 @@
       ]
     },
     {
-      "id": "a72a9ff21cec",
-      "source": "ecommerce",
-      "url": "https://www.producthunt.com/products/domo-a-claude-agent-for-your-calendar",
-      "title": "Domo",
-      "summary": "Build and customize your own calendar agent you can text",
-      "author": "Patrick Lucas",
-      "postedAt": "2026-07-24T19:13:39.000Z",
-      "tags": [
-        "agent"
-      ]
-    },
-    {
-      "id": "bd1e57d1cde5",
-      "source": "ecommerce",
-      "url": "https://www.producthunt.com/products/finyuus",
-      "title": "Finyuus",
-      "summary": "A code-first language for durable, governed AI workflows",
-      "author": "marius ndini",
-      "postedAt": "2026-08-03T18:14:47.000Z",
-      "tags": [
-        "ai"
-      ]
-    },
-    {
       "id": "2185d9e206a6",
       "source": "ecommerce",
       "url": "https://www.producthunt.com/products/glasp-mcp-connector",
@@ -1315,31 +1328,6 @@
       "tags": [
         "gpt",
         "claude"
-      ]
-    },
-    {
-      "id": "6ff657caed63",
-      "source": "ecommerce",
-      "url": "https://www.producthunt.com/products/driven-ai",
-      "title": "Driven",
-      "summary": "The trusted AI investment agent, from insight to action",
-      "author": "Zac Zuo",
-      "postedAt": "2026-07-22T02:16:19.000Z",
-      "tags": [
-        "ai",
-        "agent"
-      ]
-    },
-    {
-      "id": "7fb2f953f270",
-      "source": "ecommerce",
-      "url": "https://www.producthunt.com/products/atlaso",
-      "title": "Atlaso",
-      "summary": "One memory for every AI you use",
-      "author": "Ashish Khandelwal",
-      "postedAt": "2026-07-18T22:04:00.000Z",
-      "tags": [
-        "ai"
       ]
     },
     {
@@ -1367,30 +1355,6 @@
       ]
     },
     {
-      "id": "a72a9ff21cec",
-      "source": "ecommerce",
-      "url": "https://www.producthunt.com/products/domo-a-claude-agent-for-your-calendar",
-      "title": "Domo",
-      "summary": "Build and customize your own calendar agent you can text",
-      "author": "Patrick Lucas",
-      "postedAt": "2026-07-24T19:13:39.000Z",
-      "tags": [
-        "agent"
-      ]
-    },
-    {
-      "id": "bd1e57d1cde5",
-      "source": "ecommerce",
-      "url": "https://www.producthunt.com/products/finyuus",
-      "title": "Finyuus",
-      "summary": "A code-first language for durable, governed AI workflows",
-      "author": "marius ndini",
-      "postedAt": "2026-08-03T18:14:47.000Z",
-      "tags": [
-        "ai"
-      ]
-    },
-    {
       "id": "3d94299d1f9b",
       "source": "ecommerce",
       "url": "https://www.producthunt.com/products/stynar",
@@ -1398,18 +1362,6 @@
       "summary": "The AI SDR that runs outbound for you",
       "author": "Pranav Shelke",
       "postedAt": "2026-08-04T04:49:37.000Z",
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "7fe972c3dcf2",
-      "source": "ecommerce",
-      "url": "https://www.producthunt.com/products/airproof-ai",
-      "title": "AirProof AI",
-      "summary": "Find the best spot for your air purifier in seconds",
-      "author": "Ender Demirel",
-      "postedAt": "2026-07-31T19:11:12.000Z",
       "tags": [
         "ai"
       ]
