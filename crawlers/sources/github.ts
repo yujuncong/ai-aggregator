@@ -82,7 +82,9 @@ export async function crawlGithub(): Promise<CrawlResult> {
       seen.add(it.url);
       return true;
     });
-    return { source: "github", items };
+    // 按 star 降序，只保留最优质的前 maxItems 条
+    items.sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
+    return { source: "github", items: items.slice(0, GITHUB.maxItems) };
   } catch (e) {
     const msg = e instanceof Error ? e.message : String(e);
     await appendFailedLog("github", msg);

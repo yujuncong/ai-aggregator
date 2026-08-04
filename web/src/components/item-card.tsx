@@ -86,14 +86,16 @@ export function ItemCard({ item }: { item: CrawlItem }) {
             {meta.label}
           </span>
           <span className="truncate text-muted-foreground">{item.author}</span>
-          {typeof item.score === "number" && item.score > 0 && (
-            <span className="inline-flex shrink-0 items-center gap-0.5 text-amber-500 dark:text-amber-400">
-              <svg viewBox="0 0 16 16" width="11" height="11" fill="currentColor" aria-hidden="true">
-                <path d="M8 1l1.96 4.35 4.79.4-3.63 3.15 1.09 4.68L8 11.62l-4.21 2.56 1.09-4.68L1.25 5.75l4.79-.4L8 1z" />
-              </svg>
-              {item.score.toLocaleString()}
-            </span>
-          )}
+          {item.source === "github" &&
+            typeof item.score === "number" &&
+            item.score > 0 && (
+              <span className="inline-flex shrink-0 items-center gap-0.5 text-amber-500 dark:text-amber-400">
+                <svg viewBox="0 0 16 16" width="11" height="11" fill="currentColor" aria-hidden="true">
+                  <path d="M8 1l1.96 4.35 4.79.4-3.63 3.15 1.09 4.68L8 11.62l-4.21 2.56 1.09-4.68L1.25 5.75l4.79-.4L8 1z" />
+                </svg>
+                {item.score.toLocaleString()}
+              </span>
+            )}
           {item.lang && (
             <span className="hidden items-center gap-1 text-muted-foreground sm:inline-flex">
               {langColor && (

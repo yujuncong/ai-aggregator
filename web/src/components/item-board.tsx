@@ -18,13 +18,23 @@ const TABS: { id: Tab; label: string }[] = [
 export function ItemBoard({ items }: { items: CrawlItem[] }) {
   const [tab, setTab] = useState<Tab>("all");
   const [q, setQ] = useState("");
-  const [sort, setSort] = useState<Sort>("latest");
+  const [sort, setSort] = useState<Sort>("hot");
   const [recentOnly, setRecentOnly] = useState(false);
 
   const counts = useMemo(() => {
     const c: Record<string, number> = { all: items.length, x: 0, ecommerce: 0, github: 0 };
     for (const it of items) c[it.source] = (c[it.source] ?? 0) + 1;
     return c;
+  }, [items]);
+
+  // 每个来源的分数量纲不同（GitHub=stars，电商=热度），按来源归一化到 0-1 再混排
+  const maxScoreBySource = useMemo(() => {
+    const m = new Map<string, number>();
+    for (const it of items) {
+      const cur = m.get(it.source) ?? 0;
+      if ((it.score ?? 0) > cur) m.set(it.source, it.score ?? 0);
+    }
+    return m;
   }, [items]);
 
   const filtered = useMemo(() => {
@@ -45,13 +55,13 @@ export function ItemBoard({ items }: { items: CrawlItem[] }) {
       });
     return list.sort((a, b) => {
       if (sort === "hot") {
-        const sa = a.score ?? 0;
-        const sb = b.score ?? 0;
-        if (sa !== sb) return sb - sa;
+        const na = (a.score ?? 0) / (maxScoreBySource.get(a.source) ?? 1);
+        const nb = (b.score ?? 0) / (maxScoreBySource.get(b.source) ?? 1);
+        if (na !== nb) return nb - na;
       }
       return new Date(b.postedAt).getTime() - new Date(a.postedAt).getTime();
     });
-  }, [items, tab, q, sort, recentOnly]);
+  }, [items, tab, q, sort, recentOnly, maxScoreBySource]);
 
   return (
     <div>

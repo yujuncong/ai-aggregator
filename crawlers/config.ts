@@ -15,6 +15,8 @@ export const GITHUB = {
   /** 低于该 stars 数的仓库过滤掉 */
   minStars: 10,
   perQuery: 30,
+  /** 每天只保留 star 最高的前 N 条（最优质） */
+  maxItems: 30,
 };
 
 export const ECOMMERCE = {

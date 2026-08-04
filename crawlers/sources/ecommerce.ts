@@ -60,7 +60,8 @@ export async function crawlEcommerce(): Promise<CrawlResult> {
     }
 
     const kwRe = new RegExp(ECOMMERCE.keywords.join("|"), "i");
-    const cutoff = Date.now() - ECOMMERCE.maxAgeDays * 864e5;
+    const now = Date.now();
+    const cutoff = now - ECOMMERCE.maxAgeDays * 864e5;
     const items: CrawlItem[] = [];
 
     for (const e of entries) {
@@ -75,6 +76,12 @@ export async function crawlEcommerce(): Promise<CrawlResult> {
       ).toISOString();
       if (new Date(postedAt).getTime() < cutoff) continue;
 
+      // 热度分：feed 的 updated 表示最近活跃（投票/评论），越近越热，0-14 分
+      const updatedMs = new Date((e.updated ?? e.published) as string).getTime();
+      const heat = Number.isNaN(updatedMs)
+        ? 0
+        : Math.max(0, Math.round(14 - (now - updatedMs) / 864e5));
+
       items.push({
         id: makeId("ecommerce", url),
         source: "ecommerce",
@@ -84,8 +91,15 @@ export async function crawlEcommerce(): Promise<CrawlResult> {
         author: authorOf(e),
         postedAt,
         tags: extractTags(title, content),
+        score: heat,
       });
     }
+    // 按热度降序（同分按发布时间倒序）
+    items.sort(
+      (a, b) =>
+        (b.score ?? 0) - (a.score ?? 0) ||
+        new Date(b.postedAt).getTime() - new Date(a.postedAt).getTime(),
+    );
     return { source: "ecommerce", items };
   } catch (e) {
     const msg = e instanceof Error ? e.message : String(e);
