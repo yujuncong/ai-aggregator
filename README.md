@@ -50,12 +50,16 @@ npm run preview        # 本地预览 http://localhost:4173
 }
 ```
 
-## GitHub Secrets
+## 配置
+
+**线上（GitHub Actions）**通过仓库 Secrets 注入，可用 `gh secret set <NAME> -R yujuncong/ai-aggregator` 配置：
 
 | Secret | 必填 | 说明 |
 |---|---|---|
 | `GH_TOKEN` | 建议 | GitHub PAT，搜索 API 限额 60/h → 5000/h；不填也能跑 |
 | `X_API_BEARER` | 可选 | X 官方 API Bearer Token；**不填则 X 源自动跳过**，站点 X tab 显示空态提示 |
+
+**本地开发**：把 `.env.example` 复制为 `.env` 填写即可（`.env` 已在 .gitignore，不会提交；crawler 启动时自动读取）：
 
 ## X 源说明（重要）
 

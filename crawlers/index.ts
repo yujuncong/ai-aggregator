@@ -3,6 +3,7 @@ import { crawlEcommerce } from "./sources/ecommerce";
 import { crawlGithub } from "./sources/github";
 import { crawlX } from "./sources/x";
 import { DATA_DIR, MERGE_DAYS } from "./config";
+import { loadDotEnv } from "./utils/env";
 import { loadRecentEnvelopes, dedupeByUrl } from "./utils/dedupe";
 import { appendFailedLog, writeJson } from "./utils/io";
 import { todayISO } from "./utils/time";
@@ -12,6 +13,9 @@ import type { CrawlItem } from "./utils/types";
 const dry = process.argv.includes("--dry");
 
 async function main(): Promise<void> {
+  // 读取仓库根目录 .env（若有），再跑抓取
+  loadDotEnv();
+
   // 三源并行，单源失败不阻塞其他源
   const results = await Promise.allSettled([
     crawlGithub(),
