@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T17:01:08.085Z",
+  "generatedAt": "2026-08-04T17:23:49.013Z",
   "count": 103,
   "items": [
     {
@@ -34,9 +34,9 @@
         "agents",
         "claude"
       ],
-      "score": 154,
+      "score": 155,
       "lang": "Python",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：计算机操作（Computer Use）、执行框架（Harness）、AI 智能体（Agent）。让 AI 直接操控电脑/浏览器完成任务。当前已获 154 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：计算机操作（Computer Use）、执行框架（Harness）、AI 智能体（Agent）。让 AI 直接操控电脑/浏览器完成任务。当前已获 155 颗星。"
     },
     {
       "id": "3584d231f139",
@@ -142,9 +142,9 @@
         "llm",
         "prompt"
       ],
-      "score": 59,
+      "score": 60,
       "lang": "TypeScript",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 TypeScript）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、提示词（Prompt）。能自主规划并执行任务的 AI 程序。当前已获 59 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 TypeScript）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、提示词（Prompt）。能自主规划并执行任务的 AI 程序。当前已获 60 颗星。"
     },
     {
       "id": "28dfdb6da177",
@@ -246,9 +246,9 @@
         "llm",
         "rag"
       ],
-      "score": 35,
+      "score": 36,
       "lang": "Python",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、检索增强生成（RAG）。能自主规划并执行任务的 AI 程序。当前已获 35 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、检索增强生成（RAG）。能自主规划并执行任务的 AI 程序。当前已获 36 颗星。"
     },
     {
       "id": "4ce8907e1c3e",
@@ -536,8 +536,9 @@
         "llm",
         "inference"
       ],
-      "score": 1737,
-      "lang": "C"
+      "score": 1751,
+      "lang": "C",
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 C）。核心方向：大语言模型（LLM）、推理（Inference）。以文本为核心的大规模神经网络模型。当前已获 1751 颗星。"
     },
     {
       "id": "080f3511b34e",
@@ -625,9 +626,9 @@
         "llm",
         "api"
       ],
-      "score": 184,
+      "score": 185,
       "lang": "Python",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、API 接口。能自主规划并执行任务的 AI 程序。当前已获 184 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、API 接口。能自主规划并执行任务的 AI 程序。当前已获 185 颗星。"
     },
     {
       "id": "54422b94c76c",
@@ -824,38 +825,8 @@
         "inference"
       ],
       "score": 39,
-      "lang": "HTML"
-    },
-    {
-      "id": "0ebc91d4e8a9",
-      "source": "github",
-      "url": "https://github.com/openwarehq/websiteprompts",
-      "title": "openwarehq/websiteprompts",
-      "summary": "30 free copy-paste prompts that turn Claude Code, Cursor or v0 into a cinematic website — exact colours, easing and z-index, plus a background video that is alr…",
-      "author": "openwarehq",
-      "postedAt": "2026-08-02T04:49:19Z",
-      "tags": [
-        "ai",
-        "llm",
-        "claude",
-        "prompt"
-      ],
-      "score": 39
-    },
-    {
-      "id": "f6d0fe072e3f",
-      "source": "github",
-      "url": "https://github.com/krauseantoine1973/fanous-llm-lens-v2026",
-      "title": "krauseantoine1973/fanous-llm-lens-v2026",
-      "summary": "Linux-oriented mechanistic interpretability toolkit for exploring small language models with transformer lens-style workflows, bilingual Arabic and English note…",
-      "author": "krauseantoine1973",
-      "postedAt": "2026-08-02T17:44:40Z",
-      "tags": [
-        "model",
-        "models"
-      ],
-      "score": 38,
-      "lang": "HTML"
+      "lang": "HTML",
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 HTML）。核心方向：大语言模型（LLM）、推理（Inference）、API 接口。以文本为核心的大规模神经网络模型。当前已获 39 颗星。"
     },
     {
       "id": "a4bf1a3b00f5",
@@ -871,8 +842,42 @@
         "evaluation",
         "benchmark"
       ],
-      "score": 37,
-      "lang": "Python"
+      "score": 39,
+      "lang": "Python",
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：大语言模型（LLM）、评估与基准测试（Evaluation）、记忆（Memory）。以文本为核心的大规模神经网络模型。当前已获 39 颗星。"
+    },
+    {
+      "id": "0ebc91d4e8a9",
+      "source": "github",
+      "url": "https://github.com/openwarehq/websiteprompts",
+      "title": "openwarehq/websiteprompts",
+      "summary": "30 free copy-paste prompts that turn Claude Code, Cursor or v0 into a cinematic website — exact colours, easing and z-index, plus a background video that is alr…",
+      "author": "openwarehq",
+      "postedAt": "2026-08-02T04:49:19Z",
+      "tags": [
+        "ai",
+        "llm",
+        "claude",
+        "prompt"
+      ],
+      "score": 39,
+      "zh": "GitHub 近期新增的 AI 开源项目（语言未标注）。核心方向：大语言模型（LLM）、提示词（Prompt）、Claude 模型。以文本为核心的大规模神经网络模型。当前已获 39 颗星。"
+    },
+    {
+      "id": "f6d0fe072e3f",
+      "source": "github",
+      "url": "https://github.com/krauseantoine1973/fanous-llm-lens-v2026",
+      "title": "krauseantoine1973/fanous-llm-lens-v2026",
+      "summary": "Linux-oriented mechanistic interpretability toolkit for exploring small language models with transformer lens-style workflows, bilingual Arabic and English note…",
+      "author": "krauseantoine1973",
+      "postedAt": "2026-08-02T17:44:40Z",
+      "tags": [
+        "model",
+        "models"
+      ],
+      "score": 38,
+      "lang": "HTML",
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 HTML）。核心方向：大语言模型（LLM）、工作流（Workflow）。以文本为核心的大规模神经网络模型。当前已获 38 颗星。"
     },
     {
       "id": "271605b3061a",
@@ -888,7 +893,8 @@
         "api"
       ],
       "score": 37,
-      "lang": "Python"
+      "lang": "Python",
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：大语言模型（LLM）、API 接口、视频生成（Video）。以文本为核心的大规模神经网络模型。当前已获 37 颗星。"
     },
     {
       "id": "09e4b0504c57",
@@ -920,9 +926,9 @@
       "tags": [
         "claude"
       ],
-      "score": 249,
+      "score": 250,
       "lang": "Python",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：Claude 模型、技能（Skill）、代码开发。Anthropic 出品的大语言模型。当前已获 249 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：Claude 模型、技能（Skill）、代码开发。Anthropic 出品的大语言模型。当前已获 250 颗星。"
     },
     {
       "id": "8b0e9aba1c97",
@@ -936,8 +942,9 @@
         "gpt",
         "claude"
       ],
-      "score": 178,
-      "lang": "Go"
+      "score": 179,
+      "lang": "Go",
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Go）。核心方向：Claude 模型、GPT 模型、MCP 协议。Anthropic 出品的大语言模型。当前已获 179 颗星。"
     },
     {
       "id": "f6da02e60bc1",
@@ -965,9 +972,9 @@
       "tags": [
         "claude"
       ],
-      "score": 110,
+      "score": 111,
       "lang": "Rust",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Rust）。核心方向：Claude 模型、代码开发。Anthropic 出品的大语言模型。当前已获 110 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Rust）。核心方向：Claude 模型、代码开发。Anthropic 出品的大语言模型。当前已获 111 颗星。"
     },
     {
       "id": "df006e7122ad",
@@ -1098,23 +1105,8 @@
         "benchmark"
       ],
       "score": 52,
-      "lang": "TypeScript"
-    },
-    {
-      "id": "10f03e49fcce",
-      "source": "github",
-      "url": "https://github.com/edvardgrishin27/nativeprompt",
-      "title": "edvardgrishin27/nativeprompt",
-      "summary": "Rewrite your prompt into the native dialect of the model you're actually running (Claude Code / Codex) — by each vendor's OFFICIAL rules — and see which rule dr…",
-      "author": "edvardgrishin27",
-      "postedAt": "2026-07-30T09:06:24Z",
-      "tags": [
-        "claude",
-        "model",
-        "prompt"
-      ],
-      "score": 51,
-      "lang": "Python"
+      "lang": "TypeScript",
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 TypeScript）。核心方向：评估与基准测试（Evaluation）、Claude 模型、GPT 模型。用标准任务衡量模型的能力与效果。当前已获 52 颗星。"
     },
     {
       "id": "25fbbcf548ba",
@@ -1326,7 +1318,8 @@
         "claude"
       ],
       "score": 26,
-      "lang": "Shell"
+      "lang": "Shell",
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Shell）。核心方向：Claude 模型、技能（Skill）、代码开发。Anthropic 出品的大语言模型。当前已获 26 颗星。"
     },
     {
       "id": "7fb2f953f270",
@@ -1338,32 +1331,8 @@
       "postedAt": "2026-07-18T22:04:00.000Z",
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "a72a9ff21cec",
-      "source": "ecommerce",
-      "url": "https://www.producthunt.com/products/domo-a-claude-agent-for-your-calendar",
-      "title": "Domo",
-      "summary": "Build and customize your own calendar agent you can text",
-      "author": "Patrick Lucas",
-      "postedAt": "2026-07-24T19:13:39.000Z",
-      "tags": [
-        "agent"
-      ]
-    },
-    {
-      "id": "6ff657caed63",
-      "source": "ecommerce",
-      "url": "https://www.producthunt.com/products/driven-ai",
-      "title": "Driven",
-      "summary": "The trusted AI investment agent, from insight to action",
-      "author": "Zac Zuo",
-      "postedAt": "2026-07-22T02:16:19.000Z",
-      "tags": [
-        "ai",
-        "agent"
-      ]
+      ],
+      "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：记忆（Memory）。AI 跨会话保存并调用上下文。"
     },
     {
       "id": "bd1e57d1cde5",
@@ -1375,44 +1344,8 @@
       "postedAt": "2026-08-03T18:14:47.000Z",
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "7fe972c3dcf2",
-      "source": "ecommerce",
-      "url": "https://www.producthunt.com/products/airproof-ai",
-      "title": "AirProof AI",
-      "summary": "Find the best spot for your air purifier in seconds",
-      "author": "Ender Demirel",
-      "postedAt": "2026-07-31T19:11:12.000Z",
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "ecc3c30e893b",
-      "source": "ecommerce",
-      "url": "https://www.producthunt.com/products/video-ai-me",
-      "title": "VIDEO AI ME",
-      "summary": "Make videos and post them everywhere with just one tool",
-      "author": "Paul G",
-      "postedAt": "2026-08-03T19:35:56.000Z",
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "2185d9e206a6",
-      "source": "ecommerce",
-      "url": "https://www.producthunt.com/products/glasp-mcp-connector",
-      "title": "Glasp MCP Connector",
-      "summary": "Search your highlights and notes inside Claude and ChatGPT",
-      "author": "Kei Watanabe",
-      "postedAt": "2026-08-03T18:39:20.000Z",
-      "tags": [
-        "gpt",
-        "claude"
-      ]
+      ],
+      "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：工作流（Workflow）、代码开发。把多个 AI 步骤编排成固定流程。"
     },
     {
       "id": "ba535579336b",
@@ -1450,7 +1383,61 @@
       "postedAt": "2026-08-04T04:49:37.000Z",
       "tags": [
         "ai"
-      ]
+      ],
+      "zh": "Product Hunt 上发布的 AI 相关新产品。"
+    },
+    {
+      "id": "2185d9e206a6",
+      "source": "ecommerce",
+      "url": "https://www.producthunt.com/products/glasp-mcp-connector",
+      "title": "Glasp MCP Connector",
+      "summary": "Search your highlights and notes inside Claude and ChatGPT",
+      "author": "Kei Watanabe",
+      "postedAt": "2026-08-03T18:39:20.000Z",
+      "tags": [
+        "gpt",
+        "claude"
+      ],
+      "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：Claude 模型、GPT 模型、MCP 协议。Anthropic 出品的大语言模型。"
+    },
+    {
+      "id": "ecc3c30e893b",
+      "source": "ecommerce",
+      "url": "https://www.producthunt.com/products/video-ai-me",
+      "title": "VIDEO AI ME",
+      "summary": "Make videos and post them everywhere with just one tool",
+      "author": "Paul G",
+      "postedAt": "2026-08-03T19:35:56.000Z",
+      "tags": [
+        "ai"
+      ],
+      "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：视频生成（Video）。根据文字/图片生成视频。"
+    },
+    {
+      "id": "7fe972c3dcf2",
+      "source": "ecommerce",
+      "url": "https://www.producthunt.com/products/airproof-ai",
+      "title": "AirProof AI",
+      "summary": "Find the best spot for your air purifier in seconds",
+      "author": "Ender Demirel",
+      "postedAt": "2026-07-31T19:11:12.000Z",
+      "tags": [
+        "ai"
+      ],
+      "zh": "Product Hunt 上发布的 AI 相关新产品。"
+    },
+    {
+      "id": "a72a9ff21cec",
+      "source": "ecommerce",
+      "url": "https://www.producthunt.com/products/domo-a-claude-agent-for-your-calendar",
+      "title": "Domo",
+      "summary": "Build and customize your own calendar agent you can text",
+      "author": "Patrick Lucas",
+      "postedAt": "2026-07-24T19:13:39.000Z",
+      "tags": [
+        "agent"
+      ],
+      "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：AI 智能体（Agent）。能自主规划并执行任务的 AI 程序。"
     },
     {
       "id": "cb143d6868b5",
@@ -1464,6 +1451,20 @@
         "claude"
       ],
       "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：Claude 模型、代码开发。Anthropic 出品的大语言模型。"
+    },
+    {
+      "id": "6ff657caed63",
+      "source": "ecommerce",
+      "url": "https://www.producthunt.com/products/driven-ai",
+      "title": "Driven",
+      "summary": "The trusted AI investment agent, from insight to action",
+      "author": "Zac Zuo",
+      "postedAt": "2026-07-22T02:16:19.000Z",
+      "tags": [
+        "ai",
+        "agent"
+      ],
+      "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：AI 智能体（Agent）。能自主规划并执行任务的 AI 程序。"
     },
     {
       "id": "4065abbe023d",
@@ -1490,6 +1491,47 @@
         "ai"
       ],
       "zh": "Product Hunt 上发布的 AI 相关新产品。"
+    },
+    {
+      "id": "edc4307e7e7c",
+      "source": "ecommerce",
+      "url": "https://www.producthunt.com/products/airtop",
+      "title": "Airtop for Google Ads Automation",
+      "summary": "Build campaigns, optimize spend, and create reports.",
+      "author": "Ben Lang",
+      "postedAt": "2026-07-21T21:35:15.000Z",
+      "tags": [
+        "ai",
+        "automation"
+      ],
+      "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：自动化（Automation）。把重复流程交给 AI 自动完成。"
+    },
+    {
+      "id": "49964f37e7ba",
+      "source": "ecommerce",
+      "url": "https://www.producthunt.com/products/the-garden-of-mind",
+      "title": "The Garden of Mind",
+      "summary": "Your subconscious mind as a living 3D garden you water daily",
+      "author": "Victor Tanaka",
+      "postedAt": "2026-08-02T20:19:35.000Z",
+      "tags": [
+        "ai"
+      ],
+      "zh": "Product Hunt 上发布的 AI 相关新产品。"
+    },
+    {
+      "id": "437d939420a2",
+      "source": "ecommerce",
+      "url": "https://www.producthunt.com/products/open-minis",
+      "title": "Open Minis",
+      "summary": "An on-device AI Agent that runs on your phone, open & secure",
+      "author": "Wang Ethan",
+      "postedAt": "2026-08-02T14:34:55.000Z",
+      "tags": [
+        "ai",
+        "agent"
+      ],
+      "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：AI 智能体（Agent）。能自主规划并执行任务的 AI 程序。"
     },
     {
       "id": "e339a4d927ed",
@@ -1522,20 +1564,6 @@
       "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：AI 智能体（Agent）。能自主规划并执行任务的 AI 程序。"
     },
     {
-      "id": "437d939420a2",
-      "source": "ecommerce",
-      "url": "https://www.producthunt.com/products/open-minis",
-      "title": "Open Minis",
-      "summary": "An on-device AI Agent that runs on your phone, open & secure",
-      "author": "Wang Ethan",
-      "postedAt": "2026-08-02T14:34:55.000Z",
-      "tags": [
-        "ai",
-        "agent"
-      ],
-      "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：AI 智能体（Agent）。能自主规划并执行任务的 AI 程序。"
-    },
-    {
       "id": "7b6543ad1551",
       "source": "ecommerce",
       "url": "https://www.producthunt.com/products/mascotai",
@@ -1543,33 +1571,6 @@
       "summary": "Animated SVG mascot studios for apps that need a personality",
       "author": "Tahiru Nasuru",
       "postedAt": "2026-08-03T06:19:32.000Z",
-      "tags": [
-        "ai"
-      ],
-      "zh": "Product Hunt 上发布的 AI 相关新产品。"
-    },
-    {
-      "id": "edc4307e7e7c",
-      "source": "ecommerce",
-      "url": "https://www.producthunt.com/products/airtop",
-      "title": "Airtop for Google Ads Automation",
-      "summary": "Build campaigns, optimize spend, and create reports.",
-      "author": "Ben Lang",
-      "postedAt": "2026-07-21T21:35:15.000Z",
-      "tags": [
-        "ai",
-        "automation"
-      ],
-      "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：自动化（Automation）。把重复流程交给 AI 自动完成。"
-    },
-    {
-      "id": "49964f37e7ba",
-      "source": "ecommerce",
-      "url": "https://www.producthunt.com/products/the-garden-of-mind",
-      "title": "The Garden of Mind",
-      "summary": "Your subconscious mind as a living 3D garden you water daily",
-      "author": "Victor Tanaka",
-      "postedAt": "2026-08-02T20:19:35.000Z",
       "tags": [
         "ai"
       ],
