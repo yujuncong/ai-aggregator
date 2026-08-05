@@ -2,7 +2,7 @@
   "name": "ai-aggregator",
   "version": "0.1.0",
   "private": true,
-  "description": "AI 资讯聚合站：每天 2 次自动抓取 X / AI 电商 / GitHub，纯静态展示，自动部署到 GitHub Pages",
+  "description": "AI 资讯聚合站：每天 2 次自动抓取 X / AI 电商 / GitHub / Hugging Face，纯静态展示，自动部署到 GitHub Pages",
   "type": "module",
   "scripts": {
     "crawl": "tsx crawlers/index.ts",

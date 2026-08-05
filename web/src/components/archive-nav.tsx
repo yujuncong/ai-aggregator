@@ -5,8 +5,8 @@ import type { CrawlItem } from "@/lib/items";
 import { ItemBoard } from "./item-board";
 
 /**
- * 历史归档切换：默认展示今天（构建时烧入的 latest 数据），
- * 选择历史日期后从 data/YYYY-MM-DD.json 拉取当日归档。
+ * 归档切换：默认展示今天（构建时烧入的 latest），
+ * 选历史日期则从 data/YYYY-MM-DD.json 拉取当日快照。
  */
 export function ArchiveNav({
   today,
@@ -17,12 +17,12 @@ export function ArchiveNav({
   dates: string[];
   todayItems: CrawlItem[];
 }) {
-  const [date, setDate] = useState<string>(""); // "" = 今天
+  const [date, setDate] = useState(""); // "" = 今天
   const [items, setItems] = useState<CrawlItem[]>(todayItems);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  const selectDate = useCallback(
+  const select = useCallback(
     async (d: string) => {
       setDate(d);
       setError("");
@@ -48,39 +48,66 @@ export function ArchiveNav({
 
   return (
     <div>
-      <div className="mb-3 flex flex-wrap items-center gap-2 text-sm">
-        <span className="text-muted-foreground">历史归档</span>
-        <select
-          value={date}
-          onChange={(e) => selectDate(e.target.value)}
-          className="rounded-xl border border-border bg-card px-2 py-1.5 text-sm outline-none focus:border-indigo-500/60"
-          aria-label="选择归档日期"
-        >
-          <option value="">今天（{today}）</option>
-          {dates.map((d) => (
-            <option key={d} value={d}>
-              {d}
-            </option>
-          ))}
-        </select>
-        {date && (
-          <button
-            type="button"
-            onClick={() => selectDate("")}
-            className="rounded-xl border border-border bg-card px-2 py-1.5 text-sm text-muted-foreground transition-colors hover:border-indigo-500/50 hover:text-foreground"
+      {/* 归档头 */}
+      <div className="mb-5 flex flex-wrap items-center justify-between gap-3">
+        <div>
+          <p className="eyebrow">情报流</p>
+          <h2 className="headline mt-2 text-[var(--step-2)]">
+            {date ? (
+              <>
+                <span className="mono grad-text">{date}</span> 归档快照
+              </>
+            ) : (
+              <>
+                今日榜单 · <span className="mono grad-text">{today}</span>
+              </>
+            )}
+          </h2>
+        </div>
+
+        <div className="flex flex-wrap items-center gap-2">
+          <label
+            className="mono text-[0.7rem] uppercase tracking-[0.12em] text-[var(--ink-dim)]"
+            htmlFor="archive-date"
           >
-            返回今天
-          </button>
-        )}
-        {loading && <span className="text-xs text-muted-foreground">加载中…</span>}
+            归档
+          </label>
+          <select
+            id="archive-date"
+            value={date}
+            onChange={(e) => select(e.target.value)}
+            className="select"
+          >
+            <option value="">今天（{today}）</option>
+            {dates.map((d) => (
+              <option key={d} value={d}>
+                {d}
+              </option>
+            ))}
+          </select>
+          {date && (
+            <button type="button" onClick={() => select("")} className="icon-btn px-3">
+              返回今天
+            </button>
+          )}
+          {loading && (
+            <span className="mono text-[0.72rem] text-[var(--ink-dim)]">载入中…</span>
+          )}
+        </div>
       </div>
 
-      {date && !loading && (
-        <p className="mb-3 text-xs text-muted-foreground">
-          正在查看 {date} 的归档（{items.length} 条）
+      {error && (
+        <p
+          className="mono mb-4 rounded-[var(--r-sm)] border px-3 py-2 text-[0.75rem]"
+          style={{
+            borderColor: "color-mix(in srgb, var(--err) 35%, transparent)",
+            background: "color-mix(in srgb, var(--err) 10%, transparent)",
+            color: "var(--err)",
+          }}
+        >
+          {error}
         </p>
       )}
-      {error && <p className="mb-3 text-xs text-red-500">{error}</p>}
 
       <ItemBoard items={items} />
     </div>

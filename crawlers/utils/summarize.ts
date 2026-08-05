@@ -3,6 +3,7 @@ const TAG_KEYWORDS = [
   "open source", "opensource", "api", "rag", "multimodal", "fine-tune",
   "finetune", "training", "inference", "chatbot", "copilot", "automation",
   "prompt", "embedding", "evaluation", "benchmark", "vision",
+  "skill", "skills", "mcp",
 ];
 
 /** 剥离 HTML 标签（PH feed 的 content 是 HTML 片段） */

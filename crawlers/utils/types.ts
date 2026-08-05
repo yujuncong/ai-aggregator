@@ -1,4 +1,4 @@
-export type SourceId = "x" | "ecommerce" | "github";
+export type SourceId = "x" | "ecommerce" | "github" | "hf" | "hf-video";
 
 export interface CrawlItem {
   id: string;

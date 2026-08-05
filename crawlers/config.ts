@@ -8,8 +8,8 @@ export const DATA_DIR = path.join(REPO_ROOT, "data");
 export const MERGE_DAYS = 7;
 
 export const GITHUB = {
-  /** 搜索关键词（每个占一次 search API 调用） */
-  queries: ["ai agent", "llm", "claude"],
+  /** 搜索关键词（每个占一次 search API 调用）；claude skill 专门捞 AI 技能仓库 */
+  queries: ["ai agent", "llm", "claude", "claude skill"],
   /** 档1「本周质量榜」：近 N 天内创建 */
   createdDays: 7,
   /** 档1 最低 star（已获认可的质量门槛） */
@@ -44,4 +44,33 @@ export const X = {
   rsshubInstances: ["rsshub.app", "rsshub.rssforever.com"],
   nitterMirrors: ["nitter.privacyredirect.com", "nitter.net"],
   maxItems: 20,
+};
+
+/**
+ * Hugging Face：两块独立榜单，互不合并。
+ * 榜①通用模型：HF 官方 Trending（trendingScore 已加权近期热度 = 最热最新）。
+ * 榜②视频模型：按视频 pipeline 逐个抓 Trending 再合并（HF API 多个 filter 是 AND，无法一次取并集）。
+ * 注：sort=createdAt 前 100 名几乎全是 0 赞/0 下载的裸上传，不直接用作「最新」来源。
+ */
+export const HUGGINGFACE = {
+  api: "https://huggingface.co/api/models",
+  /** 通用榜：Trending 取多少条 */
+  trendingLimit: 30,
+  /** 通用榜封顶 */
+  maxItems: 30,
+  /** 视频相关 pipeline（命中任一即算视频，逐类抓取） */
+  videoPipelines: [
+    "text-to-video",
+    "image-to-video",
+    "image-text-to-video",
+    "video-to-video",
+    "video-editing",
+    "video-text-to-text",
+    "video-to-text",
+    "video-classification",
+  ],
+  /** 每类视频 pipeline 各取 Trending 前多少条 */
+  perPipelineLimit: 8,
+  /** 视频榜封顶 */
+  videoMaxItems: 20,
 };

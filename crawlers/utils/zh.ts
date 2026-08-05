@@ -34,8 +34,8 @@ const GLOSSARY: Concept[] = [
   { keys: ["memory"], zh: "记忆（Memory）", desc: "AI 跨会话保存并调用上下文" },
   { keys: ["search"], zh: "联网搜索（Search）", desc: "让 AI 检索实时信息再作答" },
   { keys: ["voice", "speech", "tts", "asr"], zh: "语音能力（Voice）", desc: "语音合成（TTS）或识别（ASR）" },
-  { keys: ["image"], zh: "图像生成（Image）", desc: "根据文字描述生成图片" },
   { keys: ["video"], zh: "视频生成（Video）", desc: "根据文字/图片生成视频" },
+  { keys: ["image"], zh: "图像生成（Image）", desc: "根据文字描述生成图片" },
   { keys: ["onchain", "blockchain", "crypto", "web3"], zh: "链上/Web3", desc: "与区块链、智能合约结合的应用" },
   { keys: ["code", "coding", "programming"], zh: "代码开发", desc: "生成或修改代码的开发类工具" },
 ];
@@ -76,6 +76,20 @@ export function explainInChinese(it: CrawlItem): string {
     let s = `Product Hunt 上发布的 AI 相关新产品。`;
     if (terms) s += `主打方向：${terms}。`;
     if (desc) s += `${desc}。`;
+    return s;
+  }
+
+  if (it.source === "hf" || it.source === "hf-video") {
+    const lib = it.lang ? `基于 ${it.lang} 库` : "库未标注";
+    const head =
+      it.source === "hf-video"
+        ? "Hugging Face 上热门的 AI 视频开源模型"
+        : "Hugging Face 上热门的 AI 开源模型";
+    let s = `${head}（${lib}）。`;
+    if (terms) s += `核心方向：${terms}。`;
+    if (desc) s += `${desc}。`;
+    const likes = it.score ?? 0;
+    if (likes > 0) s += `社区已点赞 ${likes} 次。`;
     return s;
   }
 

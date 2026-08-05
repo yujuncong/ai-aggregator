@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-08-05T15:16:38.051Z",
-  "count": 77,
+  "generatedAt": "2026-08-05T18:42:14.493Z",
+  "count": 128,
   "items": [
+    {
+      "id": "fbdc3b92c9a2",
+      "source": "github",
+      "url": "https://github.com/0xwilliamortiz/claude-red",
+      "title": "0xwilliamortiz/claude-red",
+      "summary": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude…",
+      "author": "0xwilliamortiz",
+      "postedAt": "2026-08-05T16:54:36Z",
+      "tags": [
+        "claude",
+        "skill",
+        "skills",
+        "今日创新"
+      ],
+      "score": 72,
+      "lang": "Python",
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：Claude 模型、技能（Skill）。Anthropic 出品的大语言模型。当前已获 72 颗星。"
+    },
     {
       "id": "0c9bda4c5c14",
       "source": "github",
@@ -33,6 +51,7 @@
         "agent",
         "agents",
         "claude",
+        "mcp",
         "今日创新"
       ],
       "score": 10,
@@ -49,11 +68,12 @@
       "tags": [
         "ai",
         "agent",
-        "agents"
+        "agents",
+        "skill"
       ],
-      "score": 310,
+      "score": 481,
       "lang": "Python",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：AI 智能体（Agent）、技能（Skill）。能自主规划并执行任务的 AI 程序。当前已获 310 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：AI 智能体（Agent）、技能（Skill）。能自主规划并执行任务的 AI 程序。当前已获 481 颗星。"
     },
     {
       "id": "d739ad9a3d7b",
@@ -100,7 +120,8 @@
       "postedAt": "2026-08-04T23:35:35.000Z",
       "tags": [
         "gpt",
-        "claude"
+        "claude",
+        "mcp"
       ],
       "score": 14,
       "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：Claude 模型、GPT 模型、MCP 协议。Anthropic 出品的大语言模型。"
@@ -114,10 +135,28 @@
       "author": "Rafaella Fontes",
       "postedAt": "2026-08-04T21:56:41.000Z",
       "tags": [
-        "ai"
+        "ai",
+        "mcp"
       ],
       "score": 14,
       "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：MCP 协议。模型上下文协议，让 AI 接入外部工具与数据。"
+    },
+    {
+      "id": "304bfdf4a71f",
+      "source": "hf",
+      "url": "https://huggingface.co/deepgrove/maple-preview",
+      "title": "deepgrove/maple-preview",
+      "summary": "文本生成 · transformers · 0 downloads",
+      "author": "deepgrove",
+      "postedAt": "2026-08-04T20:50:54.000Z",
+      "tags": [
+        "text-generation",
+        "transformers",
+        "safetensors"
+      ],
+      "score": 133,
+      "lang": "transformers",
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。社区已点赞 133 次。"
     },
     {
       "id": "11c881efe5d5",
@@ -130,11 +169,13 @@
       "tags": [
         "agent",
         "gpt",
-        "claude"
+        "claude",
+        "skill",
+        "skills"
       ],
-      "score": 400,
+      "score": 393,
       "lang": "Shell",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Shell）。核心方向：AI 智能体（Agent）、Claude 模型、GPT 模型。能自主规划并执行任务的 AI 程序。当前已获 400 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Shell）。核心方向：AI 智能体（Agent）、Claude 模型、GPT 模型。能自主规划并执行任务的 AI 程序。当前已获 393 颗星。"
     },
     {
       "id": "fe254e33111a",
@@ -179,9 +220,9 @@
         "ai",
         "agent"
       ],
-      "score": 268,
+      "score": 313,
       "lang": "TypeScript",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 TypeScript）。核心方向：AI 智能体（Agent）。能自主规划并执行任务的 AI 程序。当前已获 268 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 TypeScript）。核心方向：AI 智能体（Agent）。能自主规划并执行任务的 AI 程序。当前已获 313 颗星。"
     },
     {
       "id": "078f5936873b",
@@ -212,6 +253,22 @@
       "zh": "Product Hunt 上发布的 AI 相关新产品。"
     },
     {
+      "id": "1314a7c79a65",
+      "source": "hf-video",
+      "url": "https://huggingface.co/joeygambino/MiniMax-H3-Multishot-Workflow",
+      "title": "joeygambino/MiniMax-H3-Multishot-Workflow",
+      "summary": "文生视频 · 0 downloads",
+      "author": "joeygambino",
+      "postedAt": "2026-08-04T11:48:41.000Z",
+      "tags": [
+        "text-to-video",
+        "video",
+        "audio"
+      ],
+      "score": 30,
+      "zh": "Hugging Face 上热门的 AI 视频开源模型（库未标注）。核心方向：工作流（Workflow）、视频生成（Video）。把多个 AI 步骤编排成固定流程。社区已点赞 30 次。"
+    },
+    {
       "id": "667a05d2f331",
       "source": "github",
       "url": "https://github.com/cristicretu/diri",
@@ -222,11 +279,12 @@
       "tags": [
         "agent",
         "agents",
-        "claude"
+        "claude",
+        "mcp"
       ],
-      "score": 193,
+      "score": 197,
       "lang": "Rust",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Rust）。核心方向：AI 智能体（Agent）、Claude 模型、代码开发。能自主规划并执行任务的 AI 程序。当前已获 193 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Rust）。核心方向：AI 智能体（Agent）、Claude 模型、MCP 协议。能自主规划并执行任务的 AI 程序。当前已获 197 颗星。"
     },
     {
       "id": "3d94299d1f9b",
@@ -256,9 +314,9 @@
         "agents",
         "claude"
       ],
-      "score": 265,
+      "score": 270,
       "lang": "Python",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：计算机操作（Computer Use）、执行框架（Harness）、AI 智能体（Agent）。让 AI 直接操控电脑/浏览器完成任务。当前已获 265 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：计算机操作（Computer Use）、执行框架（Harness）、AI 智能体（Agent）。让 AI 直接操控电脑/浏览器完成任务。当前已获 270 颗星。"
     },
     {
       "id": "ecc3c30e893b",
@@ -298,7 +356,8 @@
       "postedAt": "2026-08-03T18:39:20.000Z",
       "tags": [
         "gpt",
-        "claude"
+        "claude",
+        "mcp"
       ],
       "score": 14,
       "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：Claude 模型、GPT 模型、MCP 协议。Anthropic 出品的大语言模型。"
@@ -328,10 +387,78 @@
       "tags": [
         "ai",
         "agent",
-        "agents"
+        "agents",
+        "skill",
+        "skills"
       ],
-      "score": 104,
-      "zh": "GitHub 近期新增的 AI 开源项目（语言未标注）。核心方向：AI 智能体（Agent）、技能（Skill）、联网搜索（Search）。能自主规划并执行任务的 AI 程序。当前已获 104 颗星。"
+      "score": 105,
+      "zh": "GitHub 近期新增的 AI 开源项目（语言未标注）。核心方向：AI 智能体（Agent）、技能（Skill）、联网搜索（Search）。能自主规划并执行任务的 AI 程序。当前已获 105 颗星。"
+    },
+    {
+      "id": "77aa051286af",
+      "source": "hf-video",
+      "url": "https://huggingface.co/sand-ai/MAGI-2-preview",
+      "title": "sand-ai/MAGI-2-preview",
+      "summary": "图文生视频 · 0 downloads",
+      "author": "sand-ai",
+      "postedAt": "2026-08-03T12:34:20.000Z",
+      "tags": [
+        "image-text-to-video",
+        "video",
+        "safetensors",
+        "multimodal"
+      ],
+      "score": 28,
+      "zh": "Hugging Face 上热门的 AI 视频开源模型（库未标注）。核心方向：多模态（Multimodal）、视频生成（Video）、图像生成（Image）。同时处理文本、图像、音频等多种数据。社区已点赞 28 次。"
+    },
+    {
+      "id": "94056091c379",
+      "source": "hf-video",
+      "url": "https://huggingface.co/tsolful/Minimax_H3_INT4MixedConvRot",
+      "title": "tsolful/Minimax_H3_INT4MixedConvRot",
+      "summary": "图文生视频 · 0 downloads",
+      "author": "tsolful",
+      "postedAt": "2026-08-03T12:07:57.000Z",
+      "tags": [
+        "image-text-to-video",
+        "video",
+        "multimodal"
+      ],
+      "score": 28,
+      "zh": "Hugging Face 上热门的 AI 视频开源模型（库未标注）。核心方向：多模态（Multimodal）、视频生成（Video）、图像生成（Image）。同时处理文本、图像、音频等多种数据。社区已点赞 28 次。"
+    },
+    {
+      "id": "f22862608aa2",
+      "source": "hf-video",
+      "url": "https://huggingface.co/Abiray/Minimax-H3-nvfp4-INT4-INT8-Convrot",
+      "title": "Abiray/Minimax-H3-nvfp4-INT4-INT8-Convrot",
+      "summary": "图文生视频 · diffusers · 43.2k downloads",
+      "author": "Abiray",
+      "postedAt": "2026-08-03T09:54:37.000Z",
+      "tags": [
+        "image-text-to-video",
+        "video",
+        "diffusers",
+        "multimodal"
+      ],
+      "score": 91,
+      "lang": "diffusers",
+      "zh": "Hugging Face 上热门的 AI 视频开源模型（基于 diffusers 库）。核心方向：多模态（Multimodal）、视频生成（Video）、图像生成（Image）。同时处理文本、图像、音频等多种数据。社区已点赞 91 次。"
+    },
+    {
+      "id": "b863b9f6f899",
+      "source": "hf",
+      "url": "https://huggingface.co/ethanfel/Qwen3-VL-32B-Ultra-Heretic-H3-ComfyUI-INT8-ConvRot",
+      "title": "ethanfel/Qwen3-VL-32B-Ultra-Heretic-H3-ComfyUI-INT8-ConvRot",
+      "summary": "图文理解 · comfyui · 0 downloads",
+      "author": "ethanfel",
+      "postedAt": "2026-08-03T09:25:01.000Z",
+      "tags": [
+        "image-text-to-text"
+      ],
+      "score": 273,
+      "lang": "comfyui",
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 comfyui 库）。核心方向：图像生成（Image）。根据文字描述生成图片。社区已点赞 273 次。"
     },
     {
       "id": "ba535579336b",
@@ -362,6 +489,38 @@
       "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：语音能力（Voice）。语音合成（TTS）或识别（ASR）。"
     },
     {
+      "id": "d100627bd171",
+      "source": "hf-video",
+      "url": "https://huggingface.co/lilcheaty/MiniMax-H3-NVFP4",
+      "title": "lilcheaty/MiniMax-H3-NVFP4",
+      "summary": "文生视频 · 0 downloads",
+      "author": "lilcheaty",
+      "postedAt": "2026-08-03T06:43:24.000Z",
+      "tags": [
+        "text-to-video",
+        "video"
+      ],
+      "score": 56,
+      "zh": "Hugging Face 上热门的 AI 视频开源模型（库未标注）。核心方向：视频生成（Video）。根据文字/图片生成视频。社区已点赞 56 次。"
+    },
+    {
+      "id": "9a068da6e665",
+      "source": "hf-video",
+      "url": "https://huggingface.co/Abiray/MiniMax-H3-GGUF",
+      "title": "Abiray/MiniMax-H3-GGUF",
+      "summary": "图生视频 · 84.3k downloads",
+      "author": "Abiray",
+      "postedAt": "2026-08-03T06:36:21.000Z",
+      "tags": [
+        "image-to-video",
+        "video",
+        "gguf",
+        "multimodal"
+      ],
+      "score": 58,
+      "zh": "Hugging Face 上热门的 AI 视频开源模型（库未标注）。核心方向：多模态（Multimodal）、视频生成（Video）、图像生成（Image）。同时处理文本、图像、音频等多种数据。社区已点赞 58 次。"
+    },
+    {
       "id": "7b6543ad1551",
       "source": "ecommerce",
       "url": "https://www.producthunt.com/products/mascotai",
@@ -374,6 +533,20 @@
       ],
       "score": 14,
       "zh": "Product Hunt 上发布的 AI 相关新产品。"
+    },
+    {
+      "id": "85d407fe829b",
+      "source": "hf",
+      "url": "https://huggingface.co/realrebelai/MiniMax-H3_GGUFs",
+      "title": "realrebelai/MiniMax-H3_GGUFs",
+      "summary": "40.0k downloads",
+      "author": "realrebelai",
+      "postedAt": "2026-08-03T03:34:11.000Z",
+      "tags": [
+        "gguf"
+      ],
+      "score": 133,
+      "zh": "Hugging Face 上热门的 AI 开源模型（库未标注）。社区已点赞 133 次。"
     },
     {
       "id": "f5b521ed8bc5",
@@ -466,6 +639,21 @@
       "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：Claude 模型、代码开发。Anthropic 出品的大语言模型。"
     },
     {
+      "id": "a45ac757324b",
+      "source": "hf",
+      "url": "https://huggingface.co/inclusionAI/Ling-3.0-flash",
+      "title": "inclusionAI/Ling-3.0-flash",
+      "summary": "文本生成 · 25 downloads",
+      "author": "inclusionAI",
+      "postedAt": "2026-08-02T16:14:41.000Z",
+      "tags": [
+        "text-generation",
+        "safetensors"
+      ],
+      "score": 149,
+      "zh": "Hugging Face 上热门的 AI 开源模型（库未标注）。社区已点赞 149 次。"
+    },
+    {
       "id": "7749020775fa",
       "source": "github",
       "url": "https://github.com/drpwchen/lecture-to-notes",
@@ -509,9 +697,9 @@
         "inference",
         "benchmark"
       ],
-      "score": 326,
+      "score": 328,
       "lang": "HTML",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 HTML）。核心方向：大语言模型（LLM）、推理（Inference）、评估与基准测试（Evaluation）。以文本为核心的大规模神经网络模型。当前已获 326 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 HTML）。核心方向：大语言模型（LLM）、推理（Inference）、评估与基准测试（Evaluation）。以文本为核心的大规模神经网络模型。当前已获 328 颗星。"
     },
     {
       "id": "0ad2fdcf236c",
@@ -560,9 +748,9 @@
         "llm",
         "api"
       ],
-      "score": 201,
+      "score": 202,
       "lang": "Python",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、API 接口。能自主规划并执行任务的 AI 程序。当前已获 201 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、API 接口。能自主规划并执行任务的 AI 程序。当前已获 202 颗星。"
     },
     {
       "id": "df006e7122ad",
@@ -676,9 +864,9 @@
         "llm",
         "inference"
       ],
-      "score": 143,
+      "score": 128,
       "lang": "JavaScript",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 JavaScript）。核心方向：大语言模型（LLM）、推理（Inference）。以文本为核心的大规模神经网络模型。当前已获 143 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 JavaScript）。核心方向：大语言模型（LLM）、推理（Inference）。以文本为核心的大规模神经网络模型。当前已获 128 颗星。"
     },
     {
       "id": "694fab35f904",
@@ -695,9 +883,9 @@
         "claude",
         "model"
       ],
-      "score": 294,
+      "score": 300,
       "lang": "Python",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、Claude 模型。能自主规划并执行任务的 AI 程序。当前已获 294 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、Claude 模型。能自主规划并执行任务的 AI 程序。当前已获 300 颗星。"
     },
     {
       "id": "8d5dbd0500bf",
@@ -730,9 +918,9 @@
         "llm",
         "inference"
       ],
-      "score": 2415,
+      "score": 2499,
       "lang": "C",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 C）。核心方向：大语言模型（LLM）、推理（Inference）。以文本为核心的大规模神经网络模型。当前已获 2415 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 C）。核心方向：大语言模型（LLM）、推理（Inference）。以文本为核心的大规模神经网络模型。当前已获 2499 颗星。"
     },
     {
       "id": "3584d231f139",
@@ -749,9 +937,9 @@
         "model",
         "automation"
       ],
-      "score": 111,
+      "score": 115,
       "lang": "Rust",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Rust）。核心方向：计算机操作（Computer Use）、AI 智能体（Agent）、自动化（Automation）。让 AI 直接操控电脑/浏览器完成任务。当前已获 111 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Rust）。核心方向：计算机操作（Computer Use）、AI 智能体（Agent）、自动化（Automation）。让 AI 直接操控电脑/浏览器完成任务。当前已获 115 颗星。"
     },
     {
       "id": "f89c28bccbcf",
@@ -835,6 +1023,51 @@
       "zh": "GitHub 近期新增的 AI 开源项目（主语言 JavaScript）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、Claude 模型。能自主规划并执行任务的 AI 程序。当前已获 431 颗星。"
     },
     {
+      "id": "5d9d16c24ddc",
+      "source": "hf",
+      "url": "https://huggingface.co/unsloth/DeepSeek-V4-Flash-0731-GGUF",
+      "title": "unsloth/DeepSeek-V4-Flash-0731-GGUF",
+      "summary": "111.7k downloads",
+      "author": "unsloth",
+      "postedAt": "2026-07-31T12:24:24.000Z",
+      "tags": [
+        "gguf"
+      ],
+      "score": 496,
+      "zh": "Hugging Face 上热门的 AI 开源模型（库未标注）。社区已点赞 496 次。"
+    },
+    {
+      "id": "82dc2ddde0b5",
+      "source": "hf",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+      "title": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "summary": "文本生成 · transformers · 433.3k downloads",
+      "author": "deepseek-ai",
+      "postedAt": "2026-07-31T07:30:24.000Z",
+      "tags": [
+        "text-generation",
+        "transformers",
+        "safetensors"
+      ],
+      "score": 2466,
+      "lang": "transformers",
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。社区已点赞 2466 次。"
+    },
+    {
+      "id": "b4ece5de1bbf",
+      "source": "hf",
+      "url": "https://huggingface.co/lodestones/Kroma",
+      "title": "lodestones/Kroma",
+      "summary": "文生图 · 0 downloads",
+      "author": "lodestones",
+      "postedAt": "2026-07-31T06:24:58.000Z",
+      "tags": [
+        "text-to-image"
+      ],
+      "score": 190,
+      "zh": "Hugging Face 上热门的 AI 开源模型（库未标注）。核心方向：图像生成（Image）。根据文字描述生成图片。社区已点赞 190 次。"
+    },
+    {
       "id": "e339a4d927ed",
       "source": "ecommerce",
       "url": "https://www.producthunt.com/products/agentsky",
@@ -864,6 +1097,20 @@
       "score": 112,
       "lang": "Rust",
       "zh": "GitHub 近期新增的 AI 开源项目（主语言 Rust）。核心方向：Claude 模型、代码开发。Anthropic 出品的大语言模型。当前已获 112 颗星。"
+    },
+    {
+      "id": "14a70cb4c3e3",
+      "source": "hf",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
+      "title": "Comfy-Org/MiniMax-H3",
+      "summary": "2 downloads",
+      "author": "Comfy-Org",
+      "postedAt": "2026-07-30T22:36:12.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 732,
+      "zh": "Hugging Face 上热门的 AI 开源模型（库未标注）。社区已点赞 732 次。"
     },
     {
       "id": "bfde85d5100e",
@@ -940,11 +1187,13 @@
       "postedAt": "2026-07-30T08:54:23Z",
       "tags": [
         "gpt",
-        "claude"
+        "claude",
+        "skill",
+        "mcp"
       ],
-      "score": 183,
+      "score": 184,
       "lang": "Go",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Go）。核心方向：Claude 模型、GPT 模型、MCP 协议。Anthropic 出品的大语言模型。当前已获 183 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Go）。核心方向：Claude 模型、GPT 模型、MCP 协议。Anthropic 出品的大语言模型。当前已获 184 颗星。"
     },
     {
       "id": "79a680869afa",
@@ -955,7 +1204,8 @@
       "author": "0rangec3t",
       "postedAt": "2026-07-30T03:42:47Z",
       "tags": [
-        "claude"
+        "claude",
+        "skill"
       ],
       "score": 258,
       "lang": "Python",
@@ -1012,6 +1262,20 @@
       ],
       "score": 59,
       "zh": "GitHub 近期新增的 AI 开源项目（语言未标注）。核心方向：Claude 模型、技能（Skill）、代码开发。Anthropic 出品的大语言模型。当前已获 59 颗星。"
+    },
+    {
+      "id": "b880601fa65e",
+      "source": "hf",
+      "url": "https://huggingface.co/nvidia/NVIDIA-NemotronLabs-VoiceChat-11B",
+      "title": "nvidia/NVIDIA-NemotronLabs-VoiceChat-11B",
+      "summary": "80 downloads",
+      "author": "nvidia",
+      "postedAt": "2026-07-29T17:46:48.000Z",
+      "tags": [
+        "safetensors"
+      ],
+      "score": 122,
+      "zh": "Hugging Face 上热门的 AI 开源模型（库未标注）。核心方向：语音能力（Voice）。语音合成（TTS）或识别（ASR）。社区已点赞 122 次。"
     },
     {
       "id": "b70faddceb80",
@@ -1104,6 +1368,128 @@
       "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：大语言模型（LLM）。以文本为核心的大规模神经网络模型。当前已获 309 颗星。"
     },
     {
+      "id": "55923f606ee8",
+      "source": "hf",
+      "url": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B",
+      "title": "LGAI-EXAONE/K-EXAONE-2.0-750B-A37B",
+      "summary": "文本生成 · transformers · 325 downloads",
+      "author": "LGAI-EXAONE",
+      "postedAt": "2026-07-29T02:52:49.000Z",
+      "tags": [
+        "text-generation",
+        "transformers",
+        "safetensors"
+      ],
+      "score": 129,
+      "lang": "transformers",
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。社区已点赞 129 次。"
+    },
+    {
+      "id": "5205afa9446f",
+      "source": "hf",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
+      "title": "LiquidAI/LFM2.5-2.6B",
+      "summary": "文本生成 · transformers · 47.4k downloads",
+      "author": "LiquidAI",
+      "postedAt": "2026-07-28T22:14:32.000Z",
+      "tags": [
+        "text-generation",
+        "transformers",
+        "safetensors"
+      ],
+      "score": 256,
+      "lang": "transformers",
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。社区已点赞 256 次。"
+    },
+    {
+      "id": "f8d488e5753f",
+      "source": "hf",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+      "title": "MiniMaxAI/MiniMax-H3",
+      "summary": "图文生视频 · diffusers · 10.8k downloads",
+      "author": "MiniMaxAI",
+      "postedAt": "2026-07-28T10:45:18.000Z",
+      "tags": [
+        "image-text-to-video",
+        "diffusers",
+        "safetensors",
+        "multimodal"
+      ],
+      "score": 2454,
+      "lang": "diffusers",
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 diffusers 库）。核心方向：多模态（Multimodal）、视频生成（Video）、图像生成（Image）。同时处理文本、图像、音频等多种数据。社区已点赞 2454 次。"
+    },
+    {
+      "id": "51af3540356a",
+      "source": "hf-video",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+      "title": "MiniMaxAI/MiniMax-H3",
+      "summary": "图文生视频 · diffusers · 10.8k downloads",
+      "author": "MiniMaxAI",
+      "postedAt": "2026-07-28T10:45:18.000Z",
+      "tags": [
+        "image-text-to-video",
+        "video",
+        "diffusers",
+        "safetensors"
+      ],
+      "score": 2454,
+      "lang": "diffusers",
+      "zh": "Hugging Face 上热门的 AI 视频开源模型（基于 diffusers 库）。核心方向：视频生成（Video）、图像生成（Image）。根据文字/图片生成视频。社区已点赞 2454 次。"
+    },
+    {
+      "id": "343d5df4c12e",
+      "source": "hf",
+      "url": "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.6b",
+      "title": "Audio8/Audio8-TTS-Preview-0.6b",
+      "summary": "语音合成 · transformers · 11.3k downloads",
+      "author": "Audio8",
+      "postedAt": "2026-07-28T07:53:00.000Z",
+      "tags": [
+        "text-to-speech",
+        "transformers",
+        "safetensors",
+        "audio"
+      ],
+      "score": 271,
+      "lang": "transformers",
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。核心方向：语音能力（Voice）。语音合成（TTS）或识别（ASR）。社区已点赞 271 次。"
+    },
+    {
+      "id": "136207e218cb",
+      "source": "hf",
+      "url": "https://huggingface.co/thinkingmachines/Inkling-Small",
+      "title": "thinkingmachines/Inkling-Small",
+      "summary": "图文理解 · transformers · 15.5k downloads",
+      "author": "thinkingmachines",
+      "postedAt": "2026-07-27T22:33:44.000Z",
+      "tags": [
+        "image-text-to-text",
+        "transformers",
+        "safetensors"
+      ],
+      "score": 306,
+      "lang": "transformers",
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。核心方向：图像生成（Image）。根据文字描述生成图片。社区已点赞 306 次。"
+    },
+    {
+      "id": "34d27b5fdabb",
+      "source": "hf",
+      "url": "https://huggingface.co/unsloth/Kimi-K3-GGUF",
+      "title": "unsloth/Kimi-K3-GGUF",
+      "summary": "图文理解 · transformers · 170.1k downloads",
+      "author": "unsloth",
+      "postedAt": "2026-07-27T17:24:30.000Z",
+      "tags": [
+        "image-text-to-text",
+        "transformers",
+        "gguf"
+      ],
+      "score": 316,
+      "lang": "transformers",
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。核心方向：图像生成（Image）。根据文字描述生成图片。社区已点赞 316 次。"
+    },
+    {
       "id": "4065abbe023d",
       "source": "ecommerce",
       "url": "https://www.producthunt.com/products/crodo-ai",
@@ -1116,6 +1502,41 @@
       ],
       "score": 14,
       "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：语音能力（Voice）。语音合成（TTS）或识别（ASR）。"
+    },
+    {
+      "id": "5dab9f498201",
+      "source": "hf-video",
+      "url": "https://huggingface.co/FuzzPuppy/LTX-2.3-Black-Magic-LoRA",
+      "title": "FuzzPuppy/LTX-2.3-Black-Magic-LoRA",
+      "summary": "视频转视频 · diffusers · 393 downloads",
+      "author": "FuzzPuppy",
+      "postedAt": "2026-07-27T03:54:33.000Z",
+      "tags": [
+        "video-to-video",
+        "video",
+        "diffusers"
+      ],
+      "score": 39,
+      "lang": "diffusers",
+      "zh": "Hugging Face 上热门的 AI 视频开源模型（基于 diffusers 库）。核心方向：视频生成（Video）。根据文字/图片生成视频。社区已点赞 39 次。"
+    },
+    {
+      "id": "cfc6beca27a0",
+      "source": "hf",
+      "url": "https://huggingface.co/microsoft/Mage-VL",
+      "title": "microsoft/Mage-VL",
+      "summary": "图文理解 · transformers · 435.8k downloads",
+      "author": "microsoft",
+      "postedAt": "2026-07-25T08:29:09.000Z",
+      "tags": [
+        "image-text-to-text",
+        "transformers",
+        "safetensors",
+        "multimodal"
+      ],
+      "score": 274,
+      "lang": "transformers",
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。核心方向：多模态（Multimodal）、图像生成（Image）。同时处理文本、图像、音频等多种数据。社区已点赞 274 次。"
     },
     {
       "id": "a72a9ff21cec",
@@ -1161,6 +1582,57 @@
       "zh": "Product Hunt 上发布的 AI 相关新产品。"
     },
     {
+      "id": "142a1a129316",
+      "source": "hf",
+      "url": "https://huggingface.co/Kwaipilot/KAT-Coder-V2.5-Dev",
+      "title": "Kwaipilot/KAT-Coder-V2.5-Dev",
+      "summary": "文本生成 · transformers · 15.4k downloads",
+      "author": "Kwaipilot",
+      "postedAt": "2026-07-23T09:54:08.000Z",
+      "tags": [
+        "text-generation",
+        "transformers",
+        "safetensors"
+      ],
+      "score": 488,
+      "lang": "transformers",
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。核心方向：代码开发。生成或修改代码的开发类工具。社区已点赞 488 次。"
+    },
+    {
+      "id": "e54dadf03aa9",
+      "source": "hf",
+      "url": "https://huggingface.co/XYZAILab/XYZ-Aquila-pro",
+      "title": "XYZAILab/XYZ-Aquila-pro",
+      "summary": "文本生成 · transformers · 1.4k downloads",
+      "author": "XYZAILab",
+      "postedAt": "2026-07-22T11:12:08.000Z",
+      "tags": [
+        "text-generation",
+        "transformers",
+        "safetensors"
+      ],
+      "score": 366,
+      "lang": "transformers",
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。社区已点赞 366 次。"
+    },
+    {
+      "id": "68207dee53e9",
+      "source": "hf",
+      "url": "https://huggingface.co/XYZAILab/XYZ-Aquila-mini",
+      "title": "XYZAILab/XYZ-Aquila-mini",
+      "summary": "文本生成 · transformers · 1.3k downloads",
+      "author": "XYZAILab",
+      "postedAt": "2026-07-22T11:02:04.000Z",
+      "tags": [
+        "text-generation",
+        "transformers",
+        "safetensors"
+      ],
+      "score": 416,
+      "lang": "transformers",
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。社区已点赞 416 次。"
+    },
+    {
       "id": "6ff657caed63",
       "source": "ecommerce",
       "url": "https://www.producthunt.com/products/driven-ai",
@@ -1174,6 +1646,22 @@
       ],
       "score": 14,
       "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：AI 智能体（Agent）。能自主规划并执行任务的 AI 程序。"
+    },
+    {
+      "id": "44bd4830c1f4",
+      "source": "hf",
+      "url": "https://huggingface.co/EschaLabs/Qwen3.6-35B-A3B-Escha-W2",
+      "title": "EschaLabs/Qwen3.6-35B-A3B-Escha-W2",
+      "summary": "文本生成 · 3.0k downloads",
+      "author": "EschaLabs",
+      "postedAt": "2026-07-22T01:03:52.000Z",
+      "tags": [
+        "text-generation",
+        "safetensors",
+        "quantization"
+      ],
+      "score": 208,
+      "zh": "Hugging Face 上热门的 AI 开源模型（库未标注）。社区已点赞 208 次。"
     },
     {
       "id": "edc4307e7e7c",
@@ -1191,6 +1679,24 @@
       "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：自动化（Automation）。把重复流程交给 AI 自动完成。"
     },
     {
+      "id": "ee2d6c5bd24f",
+      "source": "hf-video",
+      "url": "https://huggingface.co/PrunaAI/PrunaVAED",
+      "title": "PrunaAI/PrunaVAED",
+      "summary": "文生视频 · diffusers · 0 downloads",
+      "author": "PrunaAI",
+      "postedAt": "2026-07-21T12:16:48.000Z",
+      "tags": [
+        "text-to-video",
+        "video",
+        "diffusers",
+        "safetensors"
+      ],
+      "score": 64,
+      "lang": "diffusers",
+      "zh": "Hugging Face 上热门的 AI 视频开源模型（基于 diffusers 库）。核心方向：视频生成（Video）。根据文字/图片生成视频。社区已点赞 64 次。"
+    },
+    {
       "id": "fdb640a19fcf",
       "source": "ecommerce",
       "url": "https://www.producthunt.com/products/fileflippers",
@@ -1203,6 +1709,21 @@
       ],
       "score": 14,
       "zh": "Product Hunt 上发布的 AI 相关新产品。"
+    },
+    {
+      "id": "0f47aaf9bcb9",
+      "source": "hf",
+      "url": "https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
+      "title": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
+      "summary": "图文理解 · 323.1k downloads",
+      "author": "DavidAU",
+      "postedAt": "2026-07-19T04:33:55.000Z",
+      "tags": [
+        "image-text-to-text",
+        "gguf"
+      ],
+      "score": 278,
+      "zh": "Hugging Face 上热门的 AI 开源模型（库未标注）。核心方向：图像生成（Image）。根据文字描述生成图片。社区已点赞 278 次。"
     },
     {
       "id": "7fb2f953f270",
@@ -1219,6 +1740,71 @@
       "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：记忆（Memory）。AI 跨会话保存并调用上下文。"
     },
     {
+      "id": "a35598a0ed3b",
+      "source": "hf",
+      "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "title": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "summary": "图文理解 · 1.6M downloads",
+      "author": "DavidAU",
+      "postedAt": "2026-07-17T00:27:17.000Z",
+      "tags": [
+        "image-text-to-text",
+        "gguf"
+      ],
+      "score": 1569,
+      "zh": "Hugging Face 上热门的 AI 开源模型（库未标注）。核心方向：图像生成（Image）。根据文字描述生成图片。社区已点赞 1569 次。"
+    },
+    {
+      "id": "09d9f1e38ddb",
+      "source": "hf",
+      "url": "https://huggingface.co/mistralai/Shieldstral-1.0-3B",
+      "title": "mistralai/Shieldstral-1.0-3B",
+      "summary": "vllm · 166 downloads",
+      "author": "mistralai",
+      "postedAt": "2026-07-16T10:24:13.000Z",
+      "tags": [
+        "safetensors"
+      ],
+      "score": 119,
+      "lang": "vllm",
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 vllm 库）。核心方向：大语言模型（LLM）。以文本为核心的大规模神经网络模型。社区已点赞 119 次。"
+    },
+    {
+      "id": "40e4cf028e7c",
+      "source": "hf",
+      "url": "https://huggingface.co/empero-ai/Qwythos-27B-v1",
+      "title": "empero-ai/Qwythos-27B-v1",
+      "summary": "图文理解 · transformers · 2.2k downloads",
+      "author": "empero-ai",
+      "postedAt": "2026-07-13T20:20:02.000Z",
+      "tags": [
+        "image-text-to-text",
+        "transformers",
+        "safetensors",
+        "multimodal"
+      ],
+      "score": 144,
+      "lang": "transformers",
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。核心方向：多模态（Multimodal）、图像生成（Image）。同时处理文本、图像、音频等多种数据。社区已点赞 144 次。"
+    },
+    {
+      "id": "f95583b9ef68",
+      "source": "hf",
+      "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V7-GGUF",
+      "title": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V7-GGUF",
+      "summary": "图文理解 · hermes · 308.9k downloads",
+      "author": "LuffyTheFox",
+      "postedAt": "2026-07-13T06:40:13.000Z",
+      "tags": [
+        "image-text-to-text",
+        "gguf",
+        "multimodal"
+      ],
+      "score": 381,
+      "lang": "hermes",
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 hermes 库）。核心方向：多模态（Multimodal）、图像生成（Image）。同时处理文本、图像、音频等多种数据。社区已点赞 381 次。"
+    },
+    {
       "id": "cf839a93af6d",
       "source": "ecommerce",
       "url": "https://www.producthunt.com/products/yapyap-3",
@@ -1231,6 +1817,271 @@
       ],
       "score": 14,
       "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：语音能力（Voice）。语音合成（TTS）或识别（ASR）。"
+    },
+    {
+      "id": "bc74bb81516d",
+      "source": "hf",
+      "url": "https://huggingface.co/owensong/Inflect-Micro-v2",
+      "title": "owensong/Inflect-Micro-v2",
+      "summary": "语音合成 · 2.1k downloads",
+      "author": "owensong",
+      "postedAt": "2026-06-25T17:36:22.000Z",
+      "tags": [
+        "text-to-speech",
+        "pytorch"
+      ],
+      "score": 417,
+      "zh": "Hugging Face 上热门的 AI 开源模型（库未标注）。核心方向：语音能力（Voice）。语音合成（TTS）或识别（ASR）。社区已点赞 417 次。"
+    },
+    {
+      "id": "055d55bee65d",
+      "source": "hf-video",
+      "url": "https://huggingface.co/jdopensource/JoyAI-VL-Interaction-Preview",
+      "title": "jdopensource/JoyAI-VL-Interaction-Preview",
+      "summary": "视频问答 · 4.1k downloads",
+      "author": "jdopensource",
+      "postedAt": "2026-06-19T15:21:27.000Z",
+      "tags": [
+        "video-text-to-text",
+        "video",
+        "safetensors"
+      ],
+      "score": 76,
+      "zh": "Hugging Face 上热门的 AI 视频开源模型（库未标注）。核心方向：开源（Open Source）、视频生成（Video）。代码公开、可自由使用与改进。社区已点赞 76 次。"
+    },
+    {
+      "id": "257952402b47",
+      "source": "hf",
+      "url": "https://huggingface.co/baidu/Unlimited-OCR",
+      "title": "baidu/Unlimited-OCR",
+      "summary": "图文理解 · transformers · 2.7M downloads",
+      "author": "baidu",
+      "postedAt": "2026-06-19T09:40:33.000Z",
+      "tags": [
+        "image-text-to-text",
+        "transformers",
+        "safetensors"
+      ],
+      "score": 3900,
+      "lang": "transformers",
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。核心方向：图像生成（Image）。根据文字描述生成图片。社区已点赞 3900 次。"
+    },
+    {
+      "id": "6c801ae9a6d5",
+      "source": "hf",
+      "url": "https://huggingface.co/zai-org/GLM-5.2",
+      "title": "zai-org/GLM-5.2",
+      "summary": "文本生成 · transformers · 2.2M downloads",
+      "author": "zai-org",
+      "postedAt": "2026-06-16T07:39:20.000Z",
+      "tags": [
+        "text-generation",
+        "transformers",
+        "safetensors"
+      ],
+      "score": 4846,
+      "lang": "transformers",
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。社区已点赞 4846 次。"
+    },
+    {
+      "id": "618be2c22b29",
+      "source": "hf",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3",
+      "title": "moonshotai/Kimi-K3",
+      "summary": "图文理解 · transformers · 1.1M downloads",
+      "author": "moonshotai",
+      "postedAt": "2026-06-13T06:42:57.000Z",
+      "tags": [
+        "image-text-to-text",
+        "transformers",
+        "safetensors"
+      ],
+      "score": 10105,
+      "lang": "transformers",
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。核心方向：图像生成（Image）。根据文字描述生成图片。社区已点赞 10105 次。"
+    },
+    {
+      "id": "61ae40ba863f",
+      "source": "hf-video",
+      "url": "https://huggingface.co/neuregex/Bernini-R-GGUF",
+      "title": "neuregex/Bernini-R-GGUF",
+      "summary": "文生视频 · gguf · 28.9k downloads",
+      "author": "neuregex",
+      "postedAt": "2026-06-06T10:22:43.000Z",
+      "tags": [
+        "text-to-video",
+        "video",
+        "gguf"
+      ],
+      "score": 32,
+      "lang": "gguf",
+      "zh": "Hugging Face 上热门的 AI 视频开源模型（基于 gguf 库）。核心方向：视频生成（Video）。根据文字/图片生成视频。社区已点赞 32 次。"
+    },
+    {
+      "id": "c2687f6cf2b4",
+      "source": "hf-video",
+      "url": "https://huggingface.co/NemoStation/Marlin-2B",
+      "title": "NemoStation/Marlin-2B",
+      "summary": "视频问答 · transformers · 7.0k downloads",
+      "author": "NemoStation",
+      "postedAt": "2026-05-13T16:23:12.000Z",
+      "tags": [
+        "video-text-to-text",
+        "video",
+        "transformers",
+        "safetensors"
+      ],
+      "score": 575,
+      "lang": "transformers",
+      "zh": "Hugging Face 上热门的 AI 视频开源模型（基于 transformers 库）。核心方向：视频生成（Video）。根据文字/图片生成视频。社区已点赞 575 次。"
+    },
+    {
+      "id": "09a2b435f47a",
+      "source": "hf-video",
+      "url": "https://huggingface.co/Alissonerdx/EditAnything",
+      "title": "Alissonerdx/EditAnything",
+      "summary": "diffusers · 10.3k downloads",
+      "author": "Alissonerdx",
+      "postedAt": "2026-05-01T08:12:57.000Z",
+      "tags": [
+        "video",
+        "diffusers"
+      ],
+      "score": 93,
+      "lang": "diffusers",
+      "zh": "Hugging Face 上热门的 AI 视频开源模型（基于 diffusers 库）。核心方向：视频生成（Video）。根据文字/图片生成视频。社区已点赞 93 次。"
+    },
+    {
+      "id": "b914baedaead",
+      "source": "hf-video",
+      "url": "https://huggingface.co/joyfox/LTX2.3-ICEdit-Insight",
+      "title": "joyfox/LTX2.3-ICEdit-Insight",
+      "summary": "视频转视频 · diffusers · 65.7k downloads",
+      "author": "joyfox",
+      "postedAt": "2026-04-23T10:09:22.000Z",
+      "tags": [
+        "video-to-video",
+        "video",
+        "diffusers"
+      ],
+      "score": 166,
+      "lang": "diffusers",
+      "zh": "Hugging Face 上热门的 AI 视频开源模型（基于 diffusers 库）。核心方向：视频生成（Video）。根据文字/图片生成视频。社区已点赞 166 次。"
+    },
+    {
+      "id": "ed9ba8d19c70",
+      "source": "hf",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash",
+      "title": "deepseek-ai/DeepSeek-V4-Flash",
+      "summary": "文本生成 · transformers · 2.7M downloads",
+      "author": "deepseek-ai",
+      "postedAt": "2026-04-22T06:04:20.000Z",
+      "tags": [
+        "text-generation",
+        "transformers",
+        "safetensors"
+      ],
+      "score": 2028,
+      "lang": "transformers",
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。社区已点赞 2028 次。"
+    },
+    {
+      "id": "c288f14b02f7",
+      "source": "hf-video",
+      "url": "https://huggingface.co/RuneXX/LTX-2.3-Workflows",
+      "title": "RuneXX/LTX-2.3-Workflows",
+      "summary": "图生视频 · ltx · 0 downloads",
+      "author": "RuneXX",
+      "postedAt": "2026-03-05T19:01:16.000Z",
+      "tags": [
+        "image-to-video",
+        "video",
+        "gguf"
+      ],
+      "score": 833,
+      "lang": "ltx",
+      "zh": "Hugging Face 上热门的 AI 视频开源模型（基于 ltx 库）。核心方向：工作流（Workflow）、视频生成（Video）、图像生成（Image）。把多个 AI 步骤编排成固定流程。社区已点赞 833 次。"
+    },
+    {
+      "id": "64b77a456e11",
+      "source": "hf-video",
+      "url": "https://huggingface.co/Lightricks/LTX-2.3",
+      "title": "Lightricks/LTX-2.3",
+      "summary": "图生视频 · diffusers · 2.1M downloads",
+      "author": "Lightricks",
+      "postedAt": "2026-03-04T22:28:28.000Z",
+      "tags": [
+        "image-to-video",
+        "video",
+        "diffusers"
+      ],
+      "score": 1756,
+      "lang": "diffusers",
+      "zh": "Hugging Face 上热门的 AI 视频开源模型（基于 diffusers 库）。核心方向：视频生成（Video）、图像生成（Image）。根据文字/图片生成视频。社区已点赞 1756 次。"
+    },
+    {
+      "id": "30d492df22fb",
+      "source": "hf-video",
+      "url": "https://huggingface.co/ByteDance/LatentSync-1.6",
+      "title": "ByteDance/LatentSync-1.6",
+      "summary": "torchgeo · 82.6k downloads",
+      "author": "ByteDance",
+      "postedAt": "2025-06-11T09:18:00.000Z",
+      "tags": [
+        "video"
+      ],
+      "score": 77,
+      "lang": "torchgeo",
+      "zh": "Hugging Face 上热门的 AI 视频开源模型（基于 torchgeo 库）。核心方向：视频生成（Video）。根据文字/图片生成视频。社区已点赞 77 次。"
+    },
+    {
+      "id": "3a27556ce09d",
+      "source": "hf-video",
+      "url": "https://huggingface.co/ByteDance/LatentSync-1.5",
+      "title": "ByteDance/LatentSync-1.5",
+      "summary": "torchgeo · 19.9k downloads",
+      "author": "ByteDance",
+      "postedAt": "2025-03-14T09:38:35.000Z",
+      "tags": [
+        "video"
+      ],
+      "score": 90,
+      "lang": "torchgeo",
+      "zh": "Hugging Face 上热门的 AI 视频开源模型（基于 torchgeo 库）。核心方向：视频生成（Video）。根据文字/图片生成视频。社区已点赞 90 次。"
+    },
+    {
+      "id": "7ccc5753f174",
+      "source": "hf-video",
+      "url": "https://huggingface.co/ElenaRyumina/face_emotion_recognition",
+      "title": "ElenaRyumina/face_emotion_recognition",
+      "summary": "视频分类 · PyTorch · 0 downloads",
+      "author": "ElenaRyumina",
+      "postedAt": "2024-01-19T18:52:42.000Z",
+      "tags": [
+        "video-classification",
+        "video"
+      ],
+      "score": 128,
+      "lang": "PyTorch",
+      "zh": "Hugging Face 上热门的 AI 视频开源模型（基于 PyTorch 库）。核心方向：视频生成（Video）。根据文字/图片生成视频。社区已点赞 128 次。"
+    },
+    {
+      "id": "d91e65879629",
+      "source": "hf-video",
+      "url": "https://huggingface.co/facebook/timesformer-base-finetuned-k400",
+      "title": "facebook/timesformer-base-finetuned-k400",
+      "summary": "视频分类 · transformers · 11.3k downloads",
+      "author": "facebook",
+      "postedAt": "2022-10-07T19:03:04.000Z",
+      "tags": [
+        "video-classification",
+        "video",
+        "transformers",
+        "pytorch"
+      ],
+      "score": 44,
+      "lang": "transformers",
+      "zh": "Hugging Face 上热门的 AI 视频开源模型（基于 transformers 库）。核心方向：微调（Fine-tuning）、视频生成（Video）。在预训练模型基础上做针对性再训练。社区已点赞 44 次。"
     }
   ]
 }

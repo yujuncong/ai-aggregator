@@ -2,13 +2,17 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import type { CrawlItem } from "./types";
 
-/** 按 url 去重，保留先出现的 */
+/**
+ * 按 source+url 去重，保留先出现的。
+ * 键含 source：同一模型若同时出现在 HF 通用榜与视频榜，两榜互不合并（要求独立展示）。
+ */
 export function dedupeByUrl(items: CrawlItem[]): CrawlItem[] {
   const seen = new Set<string>();
   const out: CrawlItem[] = [];
   for (const it of items) {
-    if (!it.url || seen.has(it.url)) continue;
-    seen.add(it.url);
+    const key = `${it.source}|${it.url}`;
+    if (!it.url || seen.has(key)) continue;
+    seen.add(key);
     out.push(it);
   }
   return out;

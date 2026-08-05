@@ -1,6 +1,7 @@
 import path from "node:path";
 import { crawlEcommerce } from "./sources/ecommerce";
 import { crawlGithub } from "./sources/github";
+import { crawlHuggingFace, crawlHuggingFaceVideo } from "./sources/huggingface";
 import { crawlX } from "./sources/x";
 import { DATA_DIR, MERGE_DAYS } from "./config";
 import { loadDotEnv } from "./utils/env";
@@ -16,11 +17,13 @@ async function main(): Promise<void> {
   // 读取仓库根目录 .env（若有），再跑抓取
   loadDotEnv();
 
-  // 三源并行，单源失败不阻塞其他源
+  // 五榜并行，单源失败不阻塞其他源（HF 通用榜 / HF 视频榜各自独立，不合并）
   const results = await Promise.allSettled([
     crawlGithub(),
     crawlEcommerce(),
     crawlX(),
+    crawlHuggingFace(),
+    crawlHuggingFaceVideo(),
   ]);
 
   const perSource: { source: string; count: number; error?: string }[] = [];

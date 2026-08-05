@@ -1,166 +1,105 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import type { CrawlItem, SourceId } from "@/lib/items";
-import { SOURCE_META } from "@/lib/items";
+import { useNowMs } from "@/hooks/use-clock";
+import type { CrawlItem } from "@/lib/items";
+import {
+  LANG_COLORS,
+  SOURCE_META,
+  compact,
+  hostOf,
+  relTime,
+} from "@/lib/items";
+import { FlameIcon, SourceGlyph, StarIcon } from "./icons";
 
-const LANG_COLORS: Record<string, string> = {
-  TypeScript: "#3178c6",
-  JavaScript: "#f1e05a",
-  Python: "#3572a5",
-  Rust: "#dea584",
-  Go: "#00add8",
-  Java: "#b07219",
-  C: "#555555",
-  "C++": "#f34b7d",
-  Swift: "#f05138",
-  Kotlin: "#a97bff",
-  Ruby: "#701516",
-  PHP: "#4f5d95",
-  Shell: "#89e051",
-  HTML: "#e34c26",
-  CSS: "#563d7c",
-  Vue: "#41b883",
-  "Jupyter Notebook": "#da5b0b",
-  Dart: "#00b4ab",
-  Elixir: "#6e4a7e",
-  Zig: "#ec915c",
-  Scala: "#c22d40",
-  Lua: "#000080",
-};
-
-function SourceGlyph({ source }: { source: SourceId }) {
-  switch (source) {
-    case "x":
-      return <span className="leading-none">𝕏</span>;
-    case "ecommerce":
-      return <span className="leading-none">▲</span>;
-    case "github":
-      return (
-        <svg viewBox="0 0 16 16" width="10" height="10" fill="currentColor" aria-hidden="true">
-          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
-        </svg>
-      );
-  }
-}
-
-function relativeTime(iso: string): string {
-  const then = new Date(iso).getTime();
-  if (Number.isNaN(then)) return "";
-  const diff = Date.now() - then;
-  const units: [Intl.RelativeTimeFormatUnit, number][] = [
-    ["year", 31536e6],
-    ["month", 2592e6],
-    ["day", 864e5],
-    ["hour", 36e5],
-    ["minute", 6e4],
-    ["second", 1e3],
-  ];
-  const rtf = new Intl.RelativeTimeFormat("zh-CN", { numeric: "auto" });
-  for (const [unit, ms] of units) {
-    if (Math.abs(diff) >= ms || unit === "second") {
-      return rtf.format(-Math.round(diff / ms), unit);
-    }
-  }
-  return "";
-}
-
-function domain(url: string): string {
-  try {
-    return new URL(url).hostname.replace(/^www\./, "");
-  } catch {
-    return "";
-  }
-}
-
-export function ItemCard({ item, rank }: { item: CrawlItem; rank?: number }) {
-  // 相对时间依赖 Date.now()，SSR 与浏览器水合结果不同会导致
-  // React 水合不一致（error #418）→ 交互失效。挂载后再计算。
-  const [mounted, setMounted] = useState(false);
-  useEffect(() => setMounted(true), []);
+export function ItemCard({ item, rank }: { item: CrawlItem; rank: number }) {
+  // 相对时间取自分钟级时钟；水合前 now=0 → 显示占位，规避水合不一致
+  const now = useNowMs();
+  const posted = relTime(item.postedAt, now);
 
   const meta = SOURCE_META[item.source];
-  const dom = domain(item.url);
+  const host = hostOf(item.url);
   const langColor = item.lang ? LANG_COLORS[item.lang] : undefined;
-  const top3 = rank !== undefined && rank <= 3;
+  const isTop = rank <= 3;
 
   return (
-    <li className="group relative overflow-hidden rounded-2xl border border-border bg-card p-5 transition-all duration-200 hover:-translate-y-0.5 hover:border-ring hover:shadow-xl hover:shadow-ring/5">
-      {/* 左侧来源色条 */}
-      <span
-        className={`absolute inset-y-0 left-0 w-[3px] ${meta.dot} opacity-50 transition-opacity group-hover:opacity-100`}
-        aria-hidden="true"
-      />
-
-      <a href={item.url} target="_blank" rel="noopener noreferrer" className="block">
-        {/* 元信息行 */}
-        <div className="mb-2 flex flex-wrap items-center gap-x-2 gap-y-1 pr-1 text-xs">
-          <span
-            className={`inline-flex items-center gap-1 rounded-md px-1.5 py-0.5 font-semibold ${meta.badge}`}
-          >
+    <li style={{ ["--src-color" as string]: meta.color }}>
+      <a
+        href={item.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="feed-item group"
+      >
+        {/* ── 元信息行 ── */}
+        <div className="mb-2 flex flex-wrap items-center gap-x-2 gap-y-1.5">
+          <span className={`rank ${isTop ? "rank--top" : "rank--rest"}`}>
+            {rank}
+          </span>
+          <span className="badge-src">
             <SourceGlyph source={item.source} />
-            {meta.label}
+            {meta.code}
           </span>
-          {top3 && (
-            <span className="inline-flex h-5 w-5 items-center justify-center rounded-md bg-gradient-to-br from-violet-500 to-indigo-600 text-[11px] font-bold text-white shadow-sm">
-              {rank}
-            </span>
-          )}
-          <span className="truncate text-muted-foreground">{item.author}</span>
-          <span className="text-muted-foreground">·</span>
-          <span className="text-muted-foreground">
-            {mounted ? relativeTime(item.postedAt) : ""}
+          <span className="mono truncate text-[0.72rem] text-[var(--ink-muted)]">
+            {item.author}
           </span>
-          {dom && (
-            <span className="ml-auto hidden truncate font-mono text-muted-foreground/80 sm:inline">
-              {dom}
+          <span className="text-[var(--ink-dim)]">·</span>
+          <span className="mono text-[0.72rem] text-[var(--ink-muted)]">
+            {posted || "—"}
+          </span>
+          {host && (
+            <span className="mono ml-auto hidden truncate text-[0.7rem] text-[var(--ink-dim)] sm:inline">
+              {host}
             </span>
           )}
         </div>
 
-        {/* 标题 */}
-        <h2
-          className={`font-bold leading-snug tracking-tight text-foreground ${
-            top3 ? "text-[17px]" : "text-base"
-          } transition-colors group-hover:text-primary`}
-        >
-          {item.title}
-        </h2>
+        {/* ── 标题 ── */}
+        <h3 className="feed-item__title">{item.title}</h3>
 
-        {/* 中文解释（主） */}
+        {/* ── 中文解读（主） ── */}
         {item.zh && (
-          <p className="mt-1.5 line-clamp-2 text-sm leading-relaxed text-foreground/75">
+          <p className="feed-item__zh clamp-2 mt-1.5 text-[var(--step-0)] leading-relaxed">
             {item.zh}
           </p>
         )}
-        {/* 英文原文摘要（辅） */}
+
+        {/* ── 英文原文摘要（辅） ── */}
         {item.summary && (
-          <p className="mt-1 line-clamp-1 text-xs text-muted-foreground/70">{item.summary}</p>
+          <p className="clamp-1 mono mt-1.5 text-[0.72rem] text-[var(--ink-dim)]">
+            {item.summary}
+          </p>
         )}
 
-        {/* 指标 + 标签 */}
+        {/* ── 指标 + 标签 ── */}
         <div className="mt-3 flex flex-wrap items-center gap-1.5">
-          {item.source === "github" && typeof item.score === "number" && item.score > 0 && (
-            <span className="inline-flex items-center gap-1 rounded-full border border-border bg-muted/60 px-2 py-0.5 text-xs font-medium text-amber-600 dark:text-amber-400">
-              <svg viewBox="0 0 16 16" width="11" height="11" fill="currentColor" aria-hidden="true">
-                <path d="M8 1l1.96 4.35 4.79.4-3.63 3.15 1.09 4.68L8 11.62l-4.21 2.56 1.09-4.68L1.25 5.75l4.79-.4L8 1z" />
-              </svg>
-              {item.score.toLocaleString()} stars
+          {typeof item.score === "number" && item.score > 0 && (
+            <span
+              className="mono inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[0.7rem] font-bold"
+              style={{
+                borderColor: "color-mix(in srgb, var(--warn) 32%, transparent)",
+                background: "color-mix(in srgb, var(--warn) 11%, transparent)",
+                color: "var(--warn)",
+              }}
+            >
+              {item.source === "ecommerce" ? <FlameIcon /> : <StarIcon />}
+              {compact(item.score)}
+              <span className="font-medium opacity-70">{meta.unit}</span>
             </span>
           )}
+
           {item.lang && (
-            <span className="inline-flex items-center gap-1 rounded-full border border-border bg-muted/60 px-2 py-0.5 text-xs text-muted-foreground">
+            <span className="mono inline-flex items-center gap-1.5 rounded-full border border-[var(--line)] bg-[var(--bg-alt)] px-2 py-0.5 text-[0.7rem] font-semibold text-[var(--ink-muted)]">
               {langColor && (
-                <span className="h-1.5 w-1.5 rounded-full" style={{ backgroundColor: langColor }} />
+                <span
+                  className="h-1.5 w-1.5 rounded-full"
+                  style={{ background: langColor }}
+                />
               )}
               {item.lang}
             </span>
           )}
-          {item.tags.slice(0, 3).map((t) => (
-            <span
-              key={t}
-              className="rounded-full bg-secondary px-2 py-0.5 text-xs text-secondary-foreground"
-            >
+
+          {item.tags.slice(0, 4).map((t) => (
+            <span key={t} className="tag">
               #{t}
             </span>
           ))}
