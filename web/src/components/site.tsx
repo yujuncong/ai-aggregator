@@ -1,6 +1,6 @@
 import type { CrawlItem } from "@/lib/items";
 import { SOURCE_META } from "@/lib/items";
-import { ItemBoard } from "./item-board";
+import { ArchiveNav } from "./archive-nav";
 
 function updatedLabel(iso: string): string {
   if (!iso) return "";
@@ -14,9 +14,13 @@ function updatedLabel(iso: string): string {
 export function Site({
   items,
   generatedAt,
+  today,
+  dates,
 }: {
   items: CrawlItem[];
   generatedAt: string;
+  today: string;
+  dates: string[];
 }) {
   const counts: Record<string, number> = { x: 0, ecommerce: 0, github: 0 };
   for (const it of items) counts[it.source]++;
@@ -58,7 +62,7 @@ export function Site({
         </div>
       </header>
 
-      <ItemBoard items={items} />
+      <ArchiveNav today={today} dates={dates} todayItems={items} />
 
       <footer className="mt-10 border-t border-border pt-4 text-xs text-muted-foreground">
         <p>

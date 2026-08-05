@@ -7,7 +7,7 @@
   "scripts": {
     "crawl": "tsx crawlers/index.ts",
     "crawl:dry": "tsx crawlers/index.ts --dry",
-    "build": "npm --prefix web run build",
+    "build": "node scripts/sync-data.mjs && npm --prefix web run build",
     "typecheck": "tsc --noEmit",
     "preview": "node scripts/serve.mjs"
   },

@@ -51,7 +51,6 @@ jobs:
           git push
 
       - name: Build site
-        working-directory: web
         run: npm run build
 
       - name: Setup Pages
