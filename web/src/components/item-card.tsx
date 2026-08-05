@@ -70,78 +70,91 @@ function domain(url: string): string {
   }
 }
 
-export function ItemCard({ item }: { item: CrawlItem }) {
+export function ItemCard({ item, rank }: { item: CrawlItem; rank?: number }) {
   const meta = SOURCE_META[item.source];
   const dom = domain(item.url);
   const langColor = item.lang ? LANG_COLORS[item.lang] : undefined;
+  const top3 = rank !== undefined && rank <= 3;
+
   return (
-    <li className="group rounded-xl border border-border bg-card p-4 shadow-sm transition-all hover:-translate-y-0.5 hover:border-ring hover:shadow-md">
+    <li className="group relative overflow-hidden rounded-2xl border border-border bg-card p-5 transition-all duration-200 hover:-translate-y-0.5 hover:border-ring hover:shadow-xl hover:shadow-ring/5">
+      {/* 左侧来源色条 */}
+      <span
+        className={`absolute inset-y-0 left-0 w-[3px] ${meta.dot} opacity-50 transition-opacity group-hover:opacity-100`}
+        aria-hidden="true"
+      />
+
       <a href={item.url} target="_blank" rel="noopener noreferrer" className="block">
         {/* 元信息行 */}
-        <div className="mb-1.5 flex items-center gap-2 text-xs">
+        <div className="mb-2 flex flex-wrap items-center gap-x-2 gap-y-1 pr-1 text-xs">
           <span
-            className={`inline-flex items-center gap-1 rounded px-1.5 py-0.5 font-semibold ${meta.badge}`}
+            className={`inline-flex items-center gap-1 rounded-md px-1.5 py-0.5 font-semibold ${meta.badge}`}
           >
             <SourceGlyph source={item.source} />
             {meta.label}
           </span>
-          <span className="truncate text-muted-foreground">{item.author}</span>
-          {item.source === "github" &&
-            typeof item.score === "number" &&
-            item.score > 0 && (
-              <span className="inline-flex shrink-0 items-center gap-0.5 text-amber-500 dark:text-amber-400">
-                <svg viewBox="0 0 16 16" width="11" height="11" fill="currentColor" aria-hidden="true">
-                  <path d="M8 1l1.96 4.35 4.79.4-3.63 3.15 1.09 4.68L8 11.62l-4.21 2.56 1.09-4.68L1.25 5.75l4.79-.4L8 1z" />
-                </svg>
-                {item.score.toLocaleString()}
-              </span>
-            )}
-          {item.lang && (
-            <span className="hidden items-center gap-1 text-muted-foreground sm:inline-flex">
-              {langColor && (
-                <span className="h-2 w-2 rounded-full" style={{ backgroundColor: langColor }} />
-              )}
-              {item.lang}
+          {top3 && (
+            <span className="inline-flex h-5 w-5 items-center justify-center rounded-md bg-gradient-to-br from-violet-500 to-indigo-600 text-[11px] font-bold text-white shadow-sm">
+              {rank}
             </span>
           )}
+          <span className="truncate text-muted-foreground">{item.author}</span>
           <span className="text-muted-foreground">·</span>
           <span className="text-muted-foreground">{relativeTime(item.postedAt)}</span>
           {dom && (
-            <span className="ml-auto hidden truncate font-mono text-muted-foreground sm:inline">
+            <span className="ml-auto hidden truncate font-mono text-muted-foreground/80 sm:inline">
               {dom}
             </span>
           )}
         </div>
 
         {/* 标题 */}
-        <h2 className="font-semibold leading-snug text-foreground group-hover:underline">
+        <h2
+          className={`font-bold leading-snug tracking-tight text-foreground ${
+            top3 ? "text-[17px]" : "text-base"
+          } transition-colors group-hover:text-primary`}
+        >
           {item.title}
         </h2>
 
-        {/* 中文解释说明（主） */}
+        {/* 中文解释（主） */}
         {item.zh && (
-          <p className="mt-1.5 line-clamp-2 text-sm text-foreground/90">{item.zh}</p>
-        )}
-        {/* 原文摘要（辅） */}
-        {item.summary && (
-          <p className="mt-0.5 line-clamp-1 text-xs text-muted-foreground">
-            {item.summary}
+          <p className="mt-1.5 line-clamp-2 text-sm leading-relaxed text-foreground/75">
+            {item.zh}
           </p>
         )}
-
-        {/* 标签 */}
-        {item.tags.length > 0 && (
-          <div className="mt-2 flex flex-wrap gap-1">
-            {item.tags.slice(0, 3).map((t) => (
-              <span
-                key={t}
-                className="rounded-full bg-secondary px-2 py-0.5 text-xs text-secondary-foreground transition-colors group-hover:bg-secondary/70"
-              >
-                #{t}
-              </span>
-            ))}
-          </div>
+        {/* 英文原文摘要（辅） */}
+        {item.summary && (
+          <p className="mt-1 line-clamp-1 text-xs text-muted-foreground/70">{item.summary}</p>
         )}
+
+        {/* 指标 + 标签 */}
+        <div className="mt-3 flex flex-wrap items-center gap-1.5">
+          {item.source === "github" && typeof item.score === "number" && item.score > 0 && (
+            <span className="inline-flex items-center gap-1 rounded-full border border-border bg-muted/60 px-2 py-0.5 text-xs font-medium text-amber-600 dark:text-amber-400">
+              <svg viewBox="0 0 16 16" width="11" height="11" fill="currentColor" aria-hidden="true">
+                <path d="M8 1l1.96 4.35 4.79.4-3.63 3.15 1.09 4.68L8 11.62l-4.21 2.56 1.09-4.68L1.25 5.75l4.79-.4L8 1z" />
+              </svg>
+              {item.score.toLocaleString()} stars
+            </span>
+          )}
+          {item.lang && (
+            <span className="inline-flex items-center gap-1 rounded-full border border-border bg-muted/60 px-2 py-0.5 text-xs text-muted-foreground">
+              {langColor && (
+                <span className="h-1.5 w-1.5 rounded-full" style={{ backgroundColor: langColor }} />
+              )}
+              {item.lang}
+            </span>
+          )}
+          {item.tags.slice(0, 3).map((t) => (
+            <span
+              key={t}
+              className="rounded-full bg-secondary px-2 py-0.5 text-xs text-secondary-foreground"
+            >
+              #{t}
+            </span>
+          ))}
+        </div>
       </a>
     </li>
   );

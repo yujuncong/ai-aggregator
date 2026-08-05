@@ -53,7 +53,7 @@ export function ArchiveNav({
         <select
           value={date}
           onChange={(e) => selectDate(e.target.value)}
-          className="rounded-lg border border-border bg-card px-2 py-1.5 text-sm outline-none focus:border-ring"
+          className="rounded-xl border border-border bg-card px-2 py-1.5 text-sm outline-none focus:border-indigo-500/60"
           aria-label="选择归档日期"
         >
           <option value="">今天（{today}）</option>
@@ -67,7 +67,7 @@ export function ArchiveNav({
           <button
             type="button"
             onClick={() => selectDate("")}
-            className="rounded-lg border border-border px-2 py-1.5 text-sm text-muted-foreground transition-colors hover:border-ring hover:text-foreground"
+            className="rounded-xl border border-border bg-card px-2 py-1.5 text-sm text-muted-foreground transition-colors hover:border-indigo-500/50 hover:text-foreground"
           >
             返回今天
           </button>
