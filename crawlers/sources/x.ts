@@ -101,7 +101,7 @@ async function viaTimeline(bearer: string): Promise<CrawlItem[]> {
     try {
       const lookup = await fetch(
         `https://api.twitter.com/2/users/by/username/${account}`,
-        { headers, signal: AbortSignal.timeout(20_000) },
+        { headers, signal: AbortSignal.timeout(10_000) },
       );
       // 402/401/403 = 计划或权限不含该接口，整个时间线方案不可用，提前放弃
       if (lookup.status === 402 || lookup.status === 401 || lookup.status === 403) {
@@ -114,7 +114,7 @@ async function viaTimeline(bearer: string): Promise<CrawlItem[]> {
       const turl =
         `https://api.twitter.com/2/users/${uid}/tweets` +
         `?max_results=100&exclude=retweets&tweet.fields=created_at`;
-      const tres = await fetch(turl, { headers, signal: AbortSignal.timeout(20_000) });
+      const tres = await fetch(turl, { headers, signal: AbortSignal.timeout(10_000) });
       if (tres.status === 402 || tres.status === 401 || tres.status === 403) {
         return items;
       }
@@ -150,7 +150,7 @@ async function viaRsshub(account: string): Promise<CrawlItem[]> {
       const res = await fetch(`https://${inst}/twitter/user/${account}`, {
         headers: UA,
         redirect: "follow",
-        signal: AbortSignal.timeout(20_000),
+        signal: AbortSignal.timeout(10_000),
       });
       if (!res.ok) continue;
       const xml = await res.text();
@@ -172,7 +172,7 @@ async function viaNitter(account: string): Promise<CrawlItem[]> {
     try {
       const res = await fetch(`https://${mirror}/${account}/rss`, {
         headers: UA,
-        signal: AbortSignal.timeout(20_000),
+        signal: AbortSignal.timeout(10_000),
       });
       if (!res.ok) continue;
       const xml = await res.text();
@@ -206,13 +206,15 @@ export async function crawlX(): Promise<CrawlResult> {
       if (timeline.length) return { source: "x", items: timeline };
     }
 
-    // 策略 2/3：RSSHub / Nitter（无 token 或官方 API 全不可用时兜底）
+    // 策略 2/3：RSSHub / Nitter（仅无 token 时兜底；有 token 时免费代理已知全死，跳过省时间）
     const items: CrawlItem[] = [];
-    for (const account of X.accounts) {
-      let got = await viaRsshub(account);
-      if (!got.length) got = await viaNitter(account);
-      items.push(...got);
-      if (items.length >= X.maxItems) break;
+    if (!bearer) {
+      for (const account of X.accounts) {
+        let got = await viaRsshub(account);
+        if (!got.length) got = await viaNitter(account);
+        items.push(...got);
+        if (items.length >= X.maxItems) break;
+      }
     }
     if (!items.length) {
       throw new Error(

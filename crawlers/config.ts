@@ -10,12 +10,14 @@ export const MERGE_DAYS = 7;
 export const GITHUB = {
   /** 搜索关键词（每个占一次 search API 调用） */
   queries: ["ai agent", "llm", "claude"],
-  /** 创建时间窗口（天）：当日新仓库 star 普遍偏低，放宽到 7 天更有内容 */
+  /** 档1「本周质量榜」：近 N 天内创建 */
   createdDays: 7,
-  /** 低于该 stars 数的仓库过滤掉 */
-  minStars: 10,
+  /** 档1 最低 star（已获认可的质量门槛） */
+  minStars: 100,
   perQuery: 30,
-  /** 每天只保留 star 最高的前 N 条（最优质） */
+  /** 档2「今日创新榜」：当天创建的最低 star（新仓库 star 普遍偏低） */
+  todayMinStars: 10,
+  /** 每天总封顶条数 */
   maxItems: 30,
 };
 

@@ -21,6 +21,8 @@ async function searchRepos(
   query: string,
   token: string | undefined,
   since: string,
+  minStars: number,
+  extraTag?: string,
 ): Promise<CrawlItem[]> {
   const url =
     `${API}/search/repositories?q=${encodeURIComponent(`${query} created:>${since}`)}` +
@@ -48,8 +50,9 @@ async function searchRepos(
   const items: CrawlItem[] = [];
   for (const r of body.items ?? []) {
     const desc = cleanText(r.description);
-    if ((r.stargazers_count ?? 0) < GITHUB.minStars || !desc) continue;
+    if ((r.stargazers_count ?? 0) < minStars || !desc) continue;
     const tags = extractTags(desc, (r.topics ?? []).join(" "), r.language);
+    if (extraTag && !tags.includes(extraTag)) tags.push(extraTag);
     items.push({
       id: makeId("github", r.html_url),
       source: "github",
@@ -68,12 +71,20 @@ async function searchRepos(
 
 export async function crawlGithub(): Promise<CrawlResult> {
   const token = process.env.GH_TOKEN;
-  const since = daysAgoISO(GITHUB.createdDays);
+  // 档1「本周质量榜」：近 createdDays 天创建，star ≥ minStars
+  const weekSince = daysAgoISO(GITHUB.createdDays);
+  // 档2「今日创新榜」：当天创建，star ≥ todayMinStars
+  const todaySince = daysAgoISO(1);
   try {
     const perQuery: CrawlItem[][] = [];
     for (const q of GITHUB.queries) {
       // 单个查询失败不阻塞其余查询
-      perQuery.push(await searchRepos(q, token, since).catch(() => []));
+      perQuery.push(await searchRepos(q, token, weekSince, GITHUB.minStars).catch(() => []));
+      perQuery.push(
+        await searchRepos(q, token, todaySince, GITHUB.todayMinStars, "今日创新").catch(
+          () => [],
+        ),
+      );
     }
     // 跨查询按 url 去重（同一仓库可能命中多个关键词）
     const seen = new Set<string>();

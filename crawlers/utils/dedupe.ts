@@ -32,5 +32,8 @@ export async function loadRecentEnvelopes(
       /* 当日无文件则跳过 */
     }
   }
-  return dedupeByUrl(items);
+  // 合并后统一按发布时间倒序（最新在前）
+  return dedupeByUrl(items).sort(
+    (a, b) => new Date(b.postedAt).getTime() - new Date(a.postedAt).getTime(),
+  );
 }

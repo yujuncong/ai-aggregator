@@ -50,6 +50,14 @@ npm run preview        # 本地预览 http://localhost:4173
 }
 ```
 
+## 数据筛选规则
+
+| 源 | 规则（crawlers/config.ts 可调） |
+|---|---|
+| GitHub | **两档混合**：档1「本周质量榜」近 7 天创建且 star ≥ 100；档2「今日创新榜」当天创建且 star ≥ 10（带「今日创新」标签）。合并按 star 降序，每天封顶 30 条 |
+| 电商 | 用 feed 的 `updated`（最近投票/评论活跃）算热度分 0-14，按热度降序 |
+| X | 官方 search/recent（付费）→ 用户时间线 → RSSHub → Nitter，全失败则空 |
+
 ## 配置
 
 **线上（GitHub Actions）**通过仓库 Secrets 注入，可用 `gh secret set <NAME> -R yujuncong/ai-aggregator` 配置：
