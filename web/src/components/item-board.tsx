@@ -31,8 +31,8 @@ interface SubTab {
 /**
  * 每个源的子榜。
  * -xxx-week  = 本周最热（近 7 天按热度排序）
- * -xxx-skill = Skill（AI 可复用专项能力：SKILL.md / 技能包）
- * 各子榜与综合榜数据不混、各自独立。HF 的「本周最热 / Skill」跨通用 + 视频两个子榜。
+ * -xxx-skill = Skill（AI 可复用专项能力：SKILL.md / 技能包），仅 GitHub 保留
+ * 各子榜与综合榜数据不混、各自独立。HF 的「本周最热」跨通用 + 视频两个子榜。
  */
 const SUB_TABS: Record<Exclude<TopTab, "all">, SubTab[]> = {
   github: [
@@ -43,18 +43,15 @@ const SUB_TABS: Record<Exclude<TopTab, "all">, SubTab[]> = {
   ecommerce: [
     { id: "ecommerce", label: "综合榜", countKey: "ecommerce" },
     { id: "ecommerce-week", label: "本周最热", countKey: "ecommerceWeek" },
-    { id: "ecommerce-skill", label: "Skill", countKey: "ecommerceSkill" },
   ],
   x: [
     { id: "x", label: "综合榜", countKey: "x" },
     { id: "x-week", label: "本周最热", countKey: "xWeek" },
-    { id: "x-skill", label: "Skill", countKey: "xSkill" },
   ],
   hf: [
     { id: "hf", label: "通用模型", countKey: "hfModel" },
     { id: "hf-video", label: "视频模型", countKey: "hfVideo" },
     { id: "hf-week", label: "本周最热", countKey: "hfWeek" },
-    { id: "hf-skill", label: "Skill", countKey: "hfSkill" },
   ],
 };
 
@@ -139,16 +136,8 @@ export function ItemBoard({ items }: { items: CrawlItem[] }) {
         (it) => pred(it.source) && (now ? withinWindow(it.postedAt, now, WEEK_MS) : true),
       ).length;
     }
-    // 各源「Skill」计数 = 内容含 skill
-    const skillPreds: [string, (s: SourceId) => boolean][] = [
-      ["githubSkill", (s) => s === "github"],
-      ["ecommerceSkill", (s) => s === "ecommerce"],
-      ["xSkill", (s) => s === "x"],
-      ["hfSkill", (s) => s === "hf" || s === "hf-video"],
-    ];
-    for (const [key, pred] of skillPreds) {
-      c[key] = items.filter((it) => pred(it.source) && isSkill(it)).length;
-    }
+    // 「Skill」计数 = 内容含 skill，仅 GitHub 子榜使用
+    c.githubSkill = items.filter((it) => it.source === "github" && isSkill(it)).length;
     return c;
   }, [items, now]);
 

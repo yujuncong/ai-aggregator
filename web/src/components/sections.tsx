@@ -56,8 +56,8 @@ export function SourcesSection() {
         </h2>
         <p className="mt-4 max-w-[58ch] text-[var(--step-1)] leading-relaxed text-[var(--ink-muted)]">
           阈值都写在 <code className="mono text-[var(--accent-3)]">crawlers/config.ts</code>{" "}
-          里，可自行调整后重跑。每个源的子榜里都有独立的「本周最热」（近 7 天按热度降序）
-          与「Skill」（AI 可复用专项能力）——都是前端过滤，不重复抓取。
+          里，可自行调整后重跑。每个源的子榜里都有独立的「本周最热」（近 7 天按热度降序）；
+          「Skill」（AI 可复用专项能力）目前集中在 GitHub 子榜——都是前端过滤，不重复抓取。
         </p>
 
         <div className="mt-9 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
