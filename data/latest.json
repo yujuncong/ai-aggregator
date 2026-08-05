@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-08-05T04:13:31.003Z",
-  "count": 59,
+  "generatedAt": "2026-08-05T10:16:09.795Z",
+  "count": 72,
   "items": [
+    {
+      "id": "d739ad9a3d7b",
+      "source": "github",
+      "url": "https://github.com/hpstream/vscode-cc-gui",
+      "title": "hpstream/vscode-cc-gui",
+      "summary": "100% 开源的 Claude Code CLI 与 Codex 图形界面（VS Code 插件）。",
+      "author": "hpstream",
+      "postedAt": "2026-08-05T01:45:07Z",
+      "tags": [
+        "claude",
+        "今日创新"
+      ],
+      "score": 12,
+      "lang": "TypeScript",
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 TypeScript）。核心方向：Claude 模型、代码开发。Anthropic 出品的大语言模型。当前已获 12 颗星。"
+    },
     {
       "id": "97990b1a4016",
       "source": "github",
@@ -17,9 +33,113 @@
         "rag",
         "今日创新"
       ],
-      "score": 35,
+      "score": 36,
       "lang": "TypeScript",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 TypeScript）。核心方向：大语言模型（LLM）、检索增强生成（RAG）、API 接口。以文本为核心的大规模神经网络模型。当前已获 35 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 TypeScript）。核心方向：大语言模型（LLM）、检索增强生成（RAG）、API 接口。以文本为核心的大规模神经网络模型。当前已获 36 颗星。"
+    },
+    {
+      "id": "f6a9274c8b77",
+      "source": "ecommerce",
+      "url": "https://www.producthunt.com/products/dover",
+      "title": "Dover MCP",
+      "summary": "Run your hiring process from Claude or ChatGPT",
+      "author": "George Carollo",
+      "postedAt": "2026-08-04T23:35:35.000Z",
+      "tags": [
+        "gpt",
+        "claude"
+      ],
+      "score": 14,
+      "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：Claude 模型、GPT 模型、MCP 协议。Anthropic 出品的大语言模型。"
+    },
+    {
+      "id": "9e2b0eaaf86d",
+      "source": "ecommerce",
+      "url": "https://www.producthunt.com/products/backengine-mcp",
+      "title": "BackEngine MCP",
+      "summary": "Make private company knowledge usable for AI",
+      "author": "Rafaella Fontes",
+      "postedAt": "2026-08-04T21:56:41.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 14,
+      "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：MCP 协议。模型上下文协议，让 AI 接入外部工具与数据。"
+    },
+    {
+      "id": "fe254e33111a",
+      "source": "ecommerce",
+      "url": "https://www.producthunt.com/products/keystroke-2",
+      "title": "Keystroke",
+      "summary": "Build powerful AI agents & workflows",
+      "author": "Garry Tan",
+      "postedAt": "2026-08-04T19:29:34.000Z",
+      "tags": [
+        "ai",
+        "agent",
+        "agents"
+      ],
+      "score": 14,
+      "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：AI 智能体（Agent）、工作流（Workflow）。能自主规划并执行任务的 AI 程序。"
+    },
+    {
+      "id": "a09d41230cb1",
+      "source": "ecommerce",
+      "url": "https://www.producthunt.com/products/kiro",
+      "title": "Kiro Crew",
+      "summary": "Open source agentic development workspace",
+      "author": "Kyle Seaman",
+      "postedAt": "2026-08-04T18:07:24.000Z",
+      "tags": [
+        "agent",
+        "opensource"
+      ],
+      "score": 14,
+      "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：AI 智能体（Agent）、开源（Open Source）。能自主规划并执行任务的 AI 程序。"
+    },
+    {
+      "id": "99a3725ce801",
+      "source": "github",
+      "url": "https://github.com/criptogus/HermesOffice",
+      "title": "criptogus/HermesOffice",
+      "summary": "HermesOffice — AI-native office suite forked from GenOffice (Apache-2.0), with native Hermes Agent AI",
+      "author": "criptogus",
+      "postedAt": "2026-08-04T15:55:03Z",
+      "tags": [
+        "ai",
+        "agent"
+      ],
+      "score": 176,
+      "lang": "TypeScript",
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 TypeScript）。核心方向：AI 智能体（Agent）。能自主规划并执行任务的 AI 程序。当前已获 176 颗星。"
+    },
+    {
+      "id": "078f5936873b",
+      "source": "ecommerce",
+      "url": "https://www.producthunt.com/products/cloudflare",
+      "title": "Cloudflare Wallets",
+      "summary": "the programmable wallet for the agentic Internet",
+      "author": "Justin Jincaid",
+      "postedAt": "2026-08-04T15:40:39.000Z",
+      "tags": [
+        "agent"
+      ],
+      "score": 14,
+      "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：AI 智能体（Agent）。能自主规划并执行任务的 AI 程序。"
+    },
+    {
+      "id": "437b1cc5d032",
+      "source": "ecommerce",
+      "url": "https://www.producthunt.com/products/wisprflow",
+      "title": "Wispr Flow Notetaker",
+      "summary": "Meeting notes that get the details right.",
+      "author": "Rajiv Ayyangar",
+      "postedAt": "2026-08-04T15:22:48.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 14,
+      "zh": "Product Hunt 上发布的 AI 相关新产品。"
     },
     {
       "id": "667a05d2f331",
@@ -34,9 +154,9 @@
         "agents",
         "claude"
       ],
-      "score": 128,
+      "score": 163,
       "lang": "Rust",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Rust）。核心方向：AI 智能体（Agent）、Claude 模型、代码开发。能自主规划并执行任务的 AI 程序。当前已获 128 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Rust）。核心方向：AI 智能体（Agent）、Claude 模型、代码开发。能自主规划并执行任务的 AI 程序。当前已获 163 颗星。"
     },
     {
       "id": "3d94299d1f9b",
@@ -66,9 +186,9 @@
         "agents",
         "claude"
       ],
-      "score": 210,
+      "score": 244,
       "lang": "Python",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：计算机操作（Computer Use）、执行框架（Harness）、AI 智能体（Agent）。让 AI 直接操控电脑/浏览器完成任务。当前已获 210 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：计算机操作（Computer Use）、执行框架（Harness）、AI 智能体（Agent）。让 AI 直接操控电脑/浏览器完成任务。当前已获 244 颗星。"
     },
     {
       "id": "ecc3c30e893b",
@@ -142,6 +262,20 @@
       "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：代码开发。生成或修改代码的开发类工具。"
     },
     {
+      "id": "b850f414c863",
+      "source": "ecommerce",
+      "url": "https://www.producthunt.com/products/speakoflow",
+      "title": "SpeakoFlow",
+      "summary": "Free, open-source voice dictation and AI assistant, offline",
+      "author": "Abhishek Barali",
+      "postedAt": "2026-08-03T08:34:16.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 14,
+      "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：语音能力（Voice）。语音合成（TTS）或识别（ASR）。"
+    },
+    {
       "id": "7b6543ad1551",
       "source": "ecommerce",
       "url": "https://www.producthunt.com/products/mascotai",
@@ -163,6 +297,22 @@
       "summary": "Cloud canvas where your team and AI agents works together",
       "author": "Moss’Ab Mirande-Ney",
       "postedAt": "2026-08-03T02:46:50.000Z",
+      "tags": [
+        "ai",
+        "agent",
+        "agents"
+      ],
+      "score": 14,
+      "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：AI 智能体（Agent）。能自主规划并执行任务的 AI 程序。"
+    },
+    {
+      "id": "f296c76e8d05",
+      "source": "ecommerce",
+      "url": "https://www.producthunt.com/products/npm-i-g-hotcell",
+      "title": "npm i -g hotcell",
+      "summary": "Local sandboxes for AI agents on your Mac, Linux, bare metal",
+      "author": "Sina Meraji",
+      "postedAt": "2026-08-03T02:39:07.000Z",
       "tags": [
         "ai",
         "agent",
@@ -273,9 +423,9 @@
         "inference",
         "benchmark"
       ],
-      "score": 295,
+      "score": 311,
       "lang": "HTML",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 HTML）。核心方向：大语言模型（LLM）、推理（Inference）、评估与基准测试（Evaluation）。以文本为核心的大规模神经网络模型。当前已获 295 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 HTML）。核心方向：大语言模型（LLM）、推理（Inference）、评估与基准测试（Evaluation）。以文本为核心的大规模神经网络模型。当前已获 311 颗星。"
     },
     {
       "id": "0ad2fdcf236c",
@@ -324,9 +474,9 @@
         "llm",
         "api"
       ],
-      "score": 191,
+      "score": 197,
       "lang": "Python",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、API 接口。能自主规划并执行任务的 AI 程序。当前已获 191 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、API 接口。能自主规划并执行任务的 AI 程序。当前已获 197 颗星。"
     },
     {
       "id": "df006e7122ad",
@@ -343,9 +493,9 @@
         "claude",
         "model"
       ],
-      "score": 128,
+      "score": 144,
       "lang": "Python",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、Claude 模型。能自主规划并执行任务的 AI 程序。当前已获 128 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、Claude 模型。能自主规划并执行任务的 AI 程序。当前已获 144 颗星。"
     },
     {
       "id": "f389853492bc",
@@ -362,22 +512,6 @@
       "zh": "Product Hunt 上发布的 AI 相关新产品。"
     },
     {
-      "id": "4a15963cd983",
-      "source": "ecommerce",
-      "url": "https://www.producthunt.com/products/bolcho-ai",
-      "title": "Bolcho AI",
-      "summary": "Build Voice AI agents that actually speak India",
-      "author": "Kumar Ajay",
-      "postedAt": "2026-08-01T22:44:45.000Z",
-      "tags": [
-        "ai",
-        "agent",
-        "agents"
-      ],
-      "score": 14,
-      "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：AI 智能体（Agent）、语音能力（Voice）。能自主规划并执行任务的 AI 程序。"
-    },
-    {
       "id": "55df09a3f4e5",
       "source": "github",
       "url": "https://github.com/AFan4724/clone-chat",
@@ -392,9 +526,9 @@
         "llm",
         "chatbot"
       ],
-      "score": 73,
+      "score": 111,
       "lang": "JavaScript",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 JavaScript）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、聊天机器人（Chatbot）。能自主规划并执行任务的 AI 程序。当前已获 73 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 JavaScript）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、聊天机器人（Chatbot）。能自主规划并执行任务的 AI 程序。当前已获 111 颗星。"
     },
     {
       "id": "f6da02e60bc1",
@@ -456,9 +590,28 @@
         "llm",
         "inference"
       ],
-      "score": 142,
+      "score": 143,
       "lang": "JavaScript",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 JavaScript）。核心方向：大语言模型（LLM）、推理（Inference）。以文本为核心的大规模神经网络模型。当前已获 142 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 JavaScript）。核心方向：大语言模型（LLM）、推理（Inference）。以文本为核心的大规模神经网络模型。当前已获 143 颗星。"
+    },
+    {
+      "id": "694fab35f904",
+      "source": "github",
+      "url": "https://github.com/Anionex/agent-vision-toolkit",
+      "title": "Anionex/agent-vision-toolkit",
+      "summary": "给纯文本 LLM agent 装上眼睛：图片问答、OCR、截图分析、视觉定位等一套视觉工具箱 + skill，并可无缝接入 Codex、Claude Code、OpenCode、Pi ｜ Give text-only LLM agents vision: image Q&A, OCR, screenshot under…",
+      "author": "Anionex",
+      "postedAt": "2026-08-01T10:00:13Z",
+      "tags": [
+        "agent",
+        "agents",
+        "llm",
+        "claude",
+        "model"
+      ],
+      "score": 285,
+      "lang": "Python",
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、Claude 模型。能自主规划并执行任务的 AI 程序。当前已获 285 颗星。"
     },
     {
       "id": "8d5dbd0500bf",
@@ -475,9 +628,9 @@
         "models",
         "multimodal"
       ],
-      "score": 276,
+      "score": 272,
       "lang": "Python",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、多模态（Multimodal）。能自主规划并执行任务的 AI 程序。当前已获 276 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、多模态（Multimodal）。能自主规划并执行任务的 AI 程序。当前已获 272 颗星。"
     },
     {
       "id": "572269a2984f",
@@ -491,9 +644,9 @@
         "llm",
         "inference"
       ],
-      "score": 2106,
+      "score": 2264,
       "lang": "C",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 C）。核心方向：大语言模型（LLM）、推理（Inference）。以文本为核心的大规模神经网络模型。当前已获 2106 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 C）。核心方向：大语言模型（LLM）、推理（Inference）。以文本为核心的大规模神经网络模型。当前已获 2264 颗星。"
     },
     {
       "id": "3584d231f139",
@@ -510,9 +663,40 @@
         "model",
         "automation"
       ],
-      "score": 104,
+      "score": 108,
       "lang": "Rust",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Rust）。核心方向：计算机操作（Computer Use）、AI 智能体（Agent）、自动化（Automation）。让 AI 直接操控电脑/浏览器完成任务。当前已获 104 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Rust）。核心方向：计算机操作（Computer Use）、AI 智能体（Agent）、自动化（Automation）。让 AI 直接操控电脑/浏览器完成任务。当前已获 108 颗星。"
+    },
+    {
+      "id": "f89c28bccbcf",
+      "source": "ecommerce",
+      "url": "https://www.producthunt.com/products/adant-ai",
+      "title": "AdAnt AI",
+      "summary": "Claude for viral, high-converting social ads",
+      "author": "Iris Tu",
+      "postedAt": "2026-08-01T05:39:48.000Z",
+      "tags": [
+        "ai",
+        "claude"
+      ],
+      "score": 14,
+      "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：Claude 模型。Anthropic 出品的大语言模型。"
+    },
+    {
+      "id": "f6382f8e76f2",
+      "source": "ecommerce",
+      "url": "https://www.producthunt.com/products/aegisora",
+      "title": "Aegisora",
+      "summary": "The narrow control plane for AI agent tool and API calls.",
+      "author": "Eray Özer",
+      "postedAt": "2026-08-01T04:06:08.000Z",
+      "tags": [
+        "ai",
+        "agent",
+        "api"
+      ],
+      "score": 14,
+      "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：AI 智能体（Agent）、API 接口。能自主规划并执行任务的 AI 程序。"
     },
     {
       "id": "00aa1cfc243c",
@@ -640,9 +824,9 @@
         "model",
         "models"
       ],
-      "score": 101,
+      "score": 102,
       "lang": "TypeScript",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 TypeScript）。核心方向：大语言模型（LLM）。以文本为核心的大规模神经网络模型。当前已获 101 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 TypeScript）。核心方向：大语言模型（LLM）。以文本为核心的大规模神经网络模型。当前已获 102 颗星。"
     },
     {
       "id": "188f960e1c77",
@@ -687,9 +871,9 @@
       "tags": [
         "claude"
       ],
-      "score": 253,
+      "score": 257,
       "lang": "Python",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：Claude 模型、技能（Skill）、代码开发。Anthropic 出品的大语言模型。当前已获 253 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：Claude 模型、技能（Skill）、代码开发。Anthropic 出品的大语言模型。当前已获 257 颗星。"
     },
     {
       "id": "348a5b82e5d0",
@@ -874,6 +1058,21 @@
       ],
       "score": 14,
       "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：视频生成（Video）。根据文字/图片生成视频。"
+    },
+    {
+      "id": "926dee508f88",
+      "source": "ecommerce",
+      "url": "https://www.producthunt.com/products/ngrok-ai-gateway",
+      "title": "ngrok AI Gateway",
+      "summary": "One private gateway for every AI model",
+      "author": "fmerian",
+      "postedAt": "2026-07-23T19:29:44.000Z",
+      "tags": [
+        "ai",
+        "model"
+      ],
+      "score": 14,
+      "zh": "Product Hunt 上发布的 AI 相关新产品。"
     },
     {
       "id": "6ff657caed63",
