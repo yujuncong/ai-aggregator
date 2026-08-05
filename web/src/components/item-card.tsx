@@ -1,3 +1,6 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import type { CrawlItem, SourceId } from "@/lib/items";
 import { SOURCE_META } from "@/lib/items";
 
@@ -71,6 +74,11 @@ function domain(url: string): string {
 }
 
 export function ItemCard({ item, rank }: { item: CrawlItem; rank?: number }) {
+  // 相对时间依赖 Date.now()，SSR 与浏览器水合结果不同会导致
+  // React 水合不一致（error #418）→ 交互失效。挂载后再计算。
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+
   const meta = SOURCE_META[item.source];
   const dom = domain(item.url);
   const langColor = item.lang ? LANG_COLORS[item.lang] : undefined;
@@ -100,7 +108,9 @@ export function ItemCard({ item, rank }: { item: CrawlItem; rank?: number }) {
           )}
           <span className="truncate text-muted-foreground">{item.author}</span>
           <span className="text-muted-foreground">·</span>
-          <span className="text-muted-foreground">{relativeTime(item.postedAt)}</span>
+          <span className="text-muted-foreground">
+            {mounted ? relativeTime(item.postedAt) : ""}
+          </span>
           {dom && (
             <span className="ml-auto hidden truncate font-mono text-muted-foreground/80 sm:inline">
               {dom}
