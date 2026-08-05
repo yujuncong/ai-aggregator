@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-05T00:12:21.382Z",
-  "count": 40,
+  "generatedAt": "2026-08-05T04:13:31.003Z",
+  "count": 42,
   "items": [
     {
       "id": "572269a2984f",
@@ -14,9 +14,9 @@
         "llm",
         "inference"
       ],
-      "score": 2007,
+      "score": 2106,
       "lang": "C",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 C）。核心方向：大语言模型（LLM）、推理（Inference）。以文本为核心的大规模神经网络模型。当前已获 2007 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 C）。核心方向：大语言模型（LLM）、推理（Inference）。以文本为核心的大规模神经网络模型。当前已获 2106 颗星。"
     },
     {
       "id": "080f3511b34e",
@@ -50,9 +50,9 @@
         "inference",
         "benchmark"
       ],
-      "score": 289,
+      "score": 295,
       "lang": "HTML",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 HTML）。核心方向：大语言模型（LLM）、推理（Inference）、评估与基准测试（Evaluation）。以文本为核心的大规模神经网络模型。当前已获 289 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 HTML）。核心方向：大语言模型（LLM）、推理（Inference）、评估与基准测试（Evaluation）。以文本为核心的大规模神经网络模型。当前已获 295 颗星。"
     },
     {
       "id": "8d5dbd0500bf",
@@ -69,9 +69,9 @@
         "models",
         "multimodal"
       ],
-      "score": 273,
+      "score": 276,
       "lang": "Python",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、多模态（Multimodal）。能自主规划并执行任务的 AI 程序。当前已获 273 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、多模态（Multimodal）。能自主规划并执行任务的 AI 程序。当前已获 276 颗星。"
     },
     {
       "id": "79a680869afa",
@@ -84,9 +84,27 @@
       "tags": [
         "claude"
       ],
-      "score": 250,
+      "score": 253,
       "lang": "Python",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：Claude 模型、技能（Skill）、代码开发。Anthropic 出品的大语言模型。当前已获 250 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：Claude 模型、技能（Skill）、代码开发。Anthropic 出品的大语言模型。当前已获 253 颗星。"
+    },
+    {
+      "id": "4225a2befcdf",
+      "source": "github",
+      "url": "https://github.com/AMAP-ML/LongHorizon-Harness",
+      "title": "AMAP-ML/LongHorizon-Harness",
+      "summary": "The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preserving task state and making reliable progre…",
+      "author": "AMAP-ML",
+      "postedAt": "2026-08-04T04:30:58Z",
+      "tags": [
+        "ai",
+        "agent",
+        "agents",
+        "claude"
+      ],
+      "score": 210,
+      "lang": "Python",
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：计算机操作（Computer Use）、执行框架（Harness）、AI 智能体（Agent）。让 AI 直接操控电脑/浏览器完成任务。当前已获 210 颗星。"
     },
     {
       "id": "df58765c5270",
@@ -103,9 +121,9 @@
         "llm",
         "api"
       ],
-      "score": 187,
+      "score": 191,
       "lang": "Python",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、API 接口。能自主规划并执行任务的 AI 程序。当前已获 187 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、API 接口。能自主规划并执行任务的 AI 程序。当前已获 191 颗星。"
     },
     {
       "id": "8b0e9aba1c97",
@@ -119,27 +137,9 @@
         "gpt",
         "claude"
       ],
-      "score": 182,
+      "score": 183,
       "lang": "Go",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Go）。核心方向：Claude 模型、GPT 模型、MCP 协议。Anthropic 出品的大语言模型。当前已获 182 颗星。"
-    },
-    {
-      "id": "4225a2befcdf",
-      "source": "github",
-      "url": "https://github.com/AMAP-ML/LongHorizon-Harness",
-      "title": "AMAP-ML/LongHorizon-Harness",
-      "summary": "The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preserving task state and making reliable progre…",
-      "author": "AMAP-ML",
-      "postedAt": "2026-08-04T04:30:58Z",
-      "tags": [
-        "ai",
-        "agent",
-        "agents",
-        "claude"
-      ],
-      "score": 176,
-      "lang": "Python",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：计算机操作（Computer Use）、执行框架（Harness）、AI 智能体（Agent）。让 AI 直接操控电脑/浏览器完成任务。当前已获 176 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Go）。核心方向：Claude 模型、GPT 模型、MCP 协议。Anthropic 出品的大语言模型。当前已获 183 颗星。"
     },
     {
       "id": "54422b94c76c",
@@ -159,6 +159,23 @@
       "zh": "GitHub 近期新增的 AI 开源项目（主语言 JavaScript）。核心方向：大语言模型（LLM）、推理（Inference）。以文本为核心的大规模神经网络模型。当前已获 142 颗星。"
     },
     {
+      "id": "667a05d2f331",
+      "source": "github",
+      "url": "https://github.com/cristicretu/diri",
+      "title": "cristicretu/diri",
+      "summary": "Native macOS orchestrator for coding agents — run Claude Code, Codex, Cursor, Gemini and shells in parallel across git worktrees and remote hosts",
+      "author": "cristicretu",
+      "postedAt": "2026-08-04T10:08:23Z",
+      "tags": [
+        "agent",
+        "agents",
+        "claude"
+      ],
+      "score": 128,
+      "lang": "Rust",
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Rust）。核心方向：AI 智能体（Agent）、Claude 模型、代码开发。能自主规划并执行任务的 AI 程序。当前已获 128 颗星。"
+    },
+    {
       "id": "df006e7122ad",
       "source": "github",
       "url": "https://github.com/xyaz1313/phoenix",
@@ -173,9 +190,9 @@
         "claude",
         "model"
       ],
-      "score": 117,
+      "score": 128,
       "lang": "Python",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、Claude 模型。能自主规划并执行任务的 AI 程序。当前已获 117 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、Claude 模型。能自主规划并执行任务的 AI 程序。当前已获 128 颗星。"
     },
     {
       "id": "f6da02e60bc1",
@@ -222,9 +239,9 @@
         "model",
         "automation"
       ],
-      "score": 102,
+      "score": 104,
       "lang": "Rust",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Rust）。核心方向：计算机操作（Computer Use）、AI 智能体（Agent）、自动化（Automation）。让 AI 直接操控电脑/浏览器完成任务。当前已获 102 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Rust）。核心方向：计算机操作（Computer Use）、AI 智能体（Agent）、自动化（Automation）。让 AI 直接操控电脑/浏览器完成任务。当前已获 104 颗星。"
     },
     {
       "id": "84253fe342ed",
@@ -242,6 +259,25 @@
       "score": 101,
       "lang": "TypeScript",
       "zh": "GitHub 近期新增的 AI 开源项目（主语言 TypeScript）。核心方向：大语言模型（LLM）。以文本为核心的大规模神经网络模型。当前已获 101 颗星。"
+    },
+    {
+      "id": "97990b1a4016",
+      "source": "github",
+      "url": "https://github.com/Sparkfetch/sparkfetch",
+      "title": "Sparkfetch/sparkfetch",
+      "summary": "🔥 Turn any URL into clean, structured, LLM-ready content. The open-source web fetching & extraction API.",
+      "author": "Sparkfetch",
+      "postedAt": "2026-08-05T00:23:26Z",
+      "tags": [
+        "ai",
+        "llm",
+        "api",
+        "rag",
+        "今日创新"
+      ],
+      "score": 35,
+      "lang": "TypeScript",
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 TypeScript）。核心方向：大语言模型（LLM）、检索增强生成（RAG）、API 接口。以文本为核心的大规模神经网络模型。当前已获 35 颗星。"
     },
     {
       "id": "3d94299d1f9b",
