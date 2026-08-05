@@ -9,6 +9,7 @@
 - 各源独立抓取，**任一源失败不阻塞其他源**，失败记录写 `crawlers/logs/*.failed`
 - Hugging Face 分为**两个独立子榜**（通用模型 / 视频模型），互不合并
 - 每个源父 tab 下都有独立的「本周最热」（近 7 天按热度降序）子榜；GitHub 子榜另有「Skill」子榜（AI 可复用专项能力），独立顶栏「Skill 榜」按 GitHub star 收录 DiscoverAISkills 热门技能，均为前端过滤
+- 页脚前的「资源推荐」区聚合 Skill / MCP / Agent 生态的优质外部目录与官方仓库（AgentSkillsHub、DiscoverAISkills、Anthropic Skills 等）
 
 ## 目录结构
 

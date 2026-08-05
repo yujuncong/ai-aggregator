@@ -1,6 +1,7 @@
 import type { CrawlItem } from "@/lib/items";
 import { ArchiveNav } from "./archive-nav";
 import { Hero } from "./hero";
+import { ResourcesSection } from "./resources";
 import { SiteFooter, SourcesSection } from "./sections";
 import { SiteNav } from "./site-nav";
 
@@ -32,6 +33,9 @@ export function Site({
         </section>
 
         <SourcesSection />
+
+        {/* 资源推荐：Skill / MCP / Agent 生态的优质外部目录 */}
+        <ResourcesSection />
       </main>
 
       <SiteFooter />
