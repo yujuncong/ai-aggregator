@@ -93,6 +93,15 @@ export function explainInChinese(it: CrawlItem): string {
     return s;
   }
 
+  if (it.source === "discover") {
+    const stars = it.score ?? 0;
+    let s = `DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。`;
+    if (terms) s += `核心方向：${terms}。`;
+    if (desc) s += `${desc}。`;
+    if (stars > 0) s += `站点收录 star 约 ${stars}。`;
+    return s;
+  }
+
   // source === "x"
   let s = `X 平台上关于 AI 的热门推文。`;
   if (terms) s += `话题：${terms}。`;

@@ -1,4 +1,5 @@
 import path from "node:path";
+import { crawlDiscoverAiSkills } from "./sources/discover";
 import { crawlEcommerce } from "./sources/ecommerce";
 import { crawlGithub } from "./sources/github";
 import { crawlHuggingFace, crawlHuggingFaceVideo } from "./sources/huggingface";
@@ -17,9 +18,10 @@ async function main(): Promise<void> {
   // 读取仓库根目录 .env（若有），再跑抓取
   loadDotEnv();
 
-  // 五榜并行，单源失败不阻塞其他源（HF 通用榜 / HF 视频榜各自独立，不合并）
+  // 六榜并行，单源失败不阻塞其他源（HF 通用榜 / HF 视频榜各自独立，不合并）
   const results = await Promise.allSettled([
     crawlGithub(),
+    crawlDiscoverAiSkills(),
     crawlEcommerce(),
     crawlX(),
     crawlHuggingFace(),

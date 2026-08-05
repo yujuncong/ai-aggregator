@@ -50,7 +50,7 @@ export function Hero({
           </h1>
 
           <p className="rise d3 mt-5 max-w-[52ch] text-[var(--step-1)] leading-relaxed text-[var(--ink-muted)]">
-            GitHub 新星、Hugging Face 热门模型、AI 产品上新、X 讨论热点——
+            GitHub 新星、Hugging Face 热门模型、AI 产品上新、X 讨论热点、AI 技能榜（DiscoverAISkills）——
             多源抓取、去重、生成中文摘要，按热度排好序，一屏读完。
           </p>
 

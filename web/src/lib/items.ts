@@ -1,4 +1,10 @@
-export type SourceId = "x" | "ecommerce" | "github" | "hf" | "hf-video";
+export type SourceId =
+  | "x"
+  | "ecommerce"
+  | "github"
+  | "hf"
+  | "hf-video"
+  | "discover";
 
 export interface CrawlItem {
   id: string;
@@ -23,7 +29,14 @@ export interface DataEnvelope {
   items: CrawlItem[];
 }
 
-export const SOURCE_ORDER: SourceId[] = ["github", "ecommerce", "x", "hf", "hf-video"];
+export const SOURCE_ORDER: SourceId[] = [
+  "github",
+  "discover",
+  "ecommerce",
+  "x",
+  "hf",
+  "hf-video",
+];
 
 export const SOURCE_META: Record<
   SourceId,
@@ -42,6 +55,12 @@ export const SOURCE_META: Record<
     label: "GitHub",
     code: "GH",
     color: "var(--src-github)",
+    unit: "stars",
+  },
+  discover: {
+    label: "Skill 榜",
+    code: "SK",
+    color: "var(--src-discover)",
     unit: "stars",
   },
   ecommerce: {

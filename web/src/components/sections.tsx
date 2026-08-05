@@ -45,6 +45,16 @@ export function SourcesSection() {
       ],
       stat: "Top 30 / 8 类",
     },
+    {
+      id: "discover" as const,
+      title: "按星标的技能榜",
+      lines: [
+        "来源 DiscoverAISkills 的 skills API",
+        "按 GitHub star 降序，每天取 Top 30",
+        "基础校验：名称 / 描述 / star > 0 才收录",
+      ],
+      stat: "Top 30 / 星",
+    },
   ];
 
   return (
@@ -57,7 +67,8 @@ export function SourcesSection() {
         <p className="mt-4 max-w-[58ch] text-[var(--step-1)] leading-relaxed text-[var(--ink-muted)]">
           阈值都写在 <code className="mono text-[var(--accent-3)]">crawlers/config.ts</code>{" "}
           里，可自行调整后重跑。每个源的子榜里都有独立的「本周最热」（近 7 天按热度降序）；
-          「Skill」（AI 可复用专项能力）目前集中在 GitHub 子榜——都是前端过滤，不重复抓取。
+          GitHub 子榜另有「Skill」子榜（AI 可复用专项能力），独立顶栏「Skill 榜」按 GitHub star
+          收录 DiscoverAISkills 的热门技能——都是前端过滤，不重复抓取。
         </p>
 
         <div className="mt-9 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
@@ -182,7 +193,7 @@ export function SiteFooter() {
               AI<span className="grad-text"> Radar</span>
             </p>
             <p className="mt-2 max-w-[32ch] text-[var(--step--1)] leading-relaxed text-[var(--ink-muted)]">
-              每天 2 次自动聚合 GitHub、Hugging Face、AI 电商、X 多源的 AI 资讯。纯静态、无追踪、开源可自建。
+              每天 2 次自动聚合 GitHub、Hugging Face、AI 电商、X、Skill 榜（DiscoverAISkills）多源的 AI 资讯。纯静态、无追踪、开源可自建。
             </p>
           </div>
 

@@ -74,3 +74,20 @@ export const HUGGINGFACE = {
   /** 视频榜封顶 */
   videoMaxItems: 20,
 };
+
+/**
+ * DiscoverAISkills：AI 技能榜（按 GitHub star 排序）。
+ * 注：robots.txt 禁止 /api/，但每天 2 次 × 1 页低频抓取，可接受。
+ */
+export const DISCOVERAISKILLS = {
+  /** 技能列表 API */
+  api: "https://discoveraiskills.com/api/skills",
+  /** 按 GitHub star 降序 */
+  sort: "stars",
+  /** 每页固定 30 条（limit 参数被忽略，不传） */
+  pageSize: 30,
+  /** 取前几页；默认 1 = Top-30，与 GitHub/HF 通用榜量级一致，最小化 /api/ 请求 */
+  pages: 1,
+  /** 封顶条数 */
+  maxItems: 30,
+};

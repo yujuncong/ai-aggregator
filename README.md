@@ -1,6 +1,6 @@
 # AI Radar · AI 资讯聚合站
 
-每天 2 次自动从 **X（Twitter）/ AI 电商（Product Hunt）/ GitHub / Hugging Face** 多源抓取 AI 相关资讯，
+每天 2 次自动从 **X（Twitter）/ AI 电商（Product Hunt）/ GitHub / Hugging Face / Skill 榜（DiscoverAISkills）** 多源抓取 AI 相关资讯，
 落地为纯静态 JSON + 静态站点，自动部署到 **GitHub Pages**。
 
 - 调度：GitHub Actions `cron 0 1,13 * * *`（UTC）= 北京时间 **9:00 / 21:00**
@@ -8,14 +8,14 @@
 - 数据：`data/latest.json`（最近 7 天合并去重）+ `data/YYYY-MM-DD.json`（每日归档）
 - 各源独立抓取，**任一源失败不阻塞其他源**，失败记录写 `crawlers/logs/*.failed`
 - Hugging Face 分为**两个独立子榜**（通用模型 / 视频模型），互不合并
-- 每个源父 tab 下都有独立的「本周最热」（近 7 天按热度降序）子榜；「Skill」（AI 可复用专项能力）集中在 GitHub 子榜，均为前端过滤
+- 每个源父 tab 下都有独立的「本周最热」（近 7 天按热度降序）子榜；GitHub 子榜另有「Skill」子榜（AI 可复用专项能力），独立顶栏「Skill 榜」按 GitHub star 收录 DiscoverAISkills 热门技能，均为前端过滤
 
 ## 目录结构
 
 ```
 ai-aggregator/
 ├── crawlers/                  # 纯 TS 抓取器（Node 24 内置 fetch）
-│   ├── sources/{github,ecommerce,x,huggingface}.ts   # 多源适配器（HF 含通用+视频两榜）
+│   ├── sources/{github,discover,ecommerce,x,huggingface}.ts   # 多源适配器（HF 含通用+视频两榜）
 │   ├── utils/                 # 去重 / 摘要 / IO / 时间
 │   └── index.ts               # 编排入口
 ├── web/                       # Next.js 16 静态站
@@ -42,7 +42,7 @@ npm run preview        # 本地预览 http://localhost:4173
 ```json
 {
   "id": "sha1(source+url) 前 12 位",
-  "source": "x | ecommerce | github | hf | hf-video",
+  "source": "x | ecommerce | github | hf | hf-video | discover",
   "url": "原始链接",
   "title": "标题",
   "summary": "1-2 行摘要（无 LLM，规则截断）",
@@ -61,6 +61,7 @@ npm run preview        # 本地预览 http://localhost:4173
 | X | 官方 search/recent（付费）→ 用户时间线 → RSSHub → Nitter，全失败则空 |
 | HF 通用 | **双榜之一**：官方 `sort=trendingScore` 最热榜（trendingScore 已加权近期热度），取前 30 条，点赞数为热度分 |
 | HF 视频 | **双榜之一**：8 类视频 pipeline（文生/图生/视频问答/视频编辑等）逐类抓 Trending 再合并，封顶 20 条。与通用榜**数据独立、互不合并**（同一模型可同时出现在两榜） |
+| Skill 榜 | DiscoverAISkills `sort=stars` 按 GitHub star 降序取 Top 30（1 页），基础校验 name / 描述 / star > 0。卡片外链指向其详情页，star 数为热度分 |
 
 > 说明：HF 的 `sort=createdAt` 纯最新榜前 100 名几乎全是 0 赞/0 下载的裸上传，故「最新最热」以官方 Trending 为准。
 

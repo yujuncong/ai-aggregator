@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-05T19:15:19.714Z",
-  "count": 104,
+  "generatedAt": "2026-08-05T19:43:03.078Z",
+  "count": 133,
   "items": [
     {
       "id": "572269a2984f",
@@ -14,9 +14,9 @@
         "llm",
         "inference"
       ],
-      "score": 2506,
+      "score": 2512,
       "lang": "C",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 C）。核心方向：大语言模型（LLM）、推理（Inference）。以文本为核心的大规模神经网络模型。当前已获 2506 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 C）。核心方向：大语言模型（LLM）、推理（Inference）。以文本为核心的大规模神经网络模型。当前已获 2512 颗星。"
     },
     {
       "id": "b9e01de928e4",
@@ -32,9 +32,9 @@
         "agents",
         "skill"
       ],
-      "score": 489,
+      "score": 497,
       "lang": "Python",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：AI 智能体（Agent）、技能（Skill）。能自主规划并执行任务的 AI 程序。当前已获 489 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：AI 智能体（Agent）、技能（Skill）。能自主规划并执行任务的 AI 程序。当前已获 497 颗星。"
     },
     {
       "id": "080f3511b34e",
@@ -70,9 +70,9 @@
         "skill",
         "skills"
       ],
-      "score": 399,
+      "score": 409,
       "lang": "Shell",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Shell）。核心方向：AI 智能体（Agent）、Claude 模型、GPT 模型。能自主规划并执行任务的 AI 程序。当前已获 399 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Shell）。核心方向：AI 智能体（Agent）、Claude 模型、GPT 模型。能自主规划并执行任务的 AI 程序。当前已获 409 颗星。"
     },
     {
       "id": "5d938f2dd5d8",
@@ -103,9 +103,9 @@
         "ai",
         "agent"
       ],
-      "score": 316,
+      "score": 319,
       "lang": "TypeScript",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 TypeScript）。核心方向：AI 智能体（Agent）。能自主规划并执行任务的 AI 程序。当前已获 316 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 TypeScript）。核心方向：AI 智能体（Agent）。能自主规划并执行任务的 AI 程序。当前已获 319 颗星。"
     },
     {
       "id": "694fab35f904",
@@ -193,9 +193,9 @@
         "claude",
         "mcp"
       ],
-      "score": 197,
+      "score": 198,
       "lang": "Rust",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Rust）。核心方向：AI 智能体（Agent）、Claude 模型、MCP 协议。能自主规划并执行任务的 AI 程序。当前已获 197 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Rust）。核心方向：AI 智能体（Agent）、Claude 模型、MCP 协议。能自主规划并执行任务的 AI 程序。当前已获 198 颗星。"
     },
     {
       "id": "8b0e9aba1c97",
@@ -252,6 +252,23 @@
       "zh": "GitHub 近期新增的 AI 开源项目（主语言 JavaScript）。核心方向：大语言模型（LLM）、推理（Inference）。以文本为核心的大规模神经网络模型。当前已获 128 颗星。"
     },
     {
+      "id": "fbdc3b92c9a2",
+      "source": "github",
+      "url": "https://github.com/0xwilliamortiz/claude-red",
+      "title": "0xwilliamortiz/claude-red",
+      "summary": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude…",
+      "author": "0xwilliamortiz",
+      "postedAt": "2026-08-05T16:54:36Z",
+      "tags": [
+        "claude",
+        "skill",
+        "skills"
+      ],
+      "score": 118,
+      "lang": "Python",
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：Claude 模型、技能（Skill）。Anthropic 出品的大语言模型。当前已获 118 颗星。"
+    },
+    {
       "id": "3584d231f139",
       "source": "github",
       "url": "https://github.com/mrpulor-gh/nuphus-mcp",
@@ -266,9 +283,9 @@
         "model",
         "automation"
       ],
-      "score": 115,
+      "score": 116,
       "lang": "Rust",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Rust）。核心方向：计算机操作（Computer Use）、AI 智能体（Agent）、自动化（Automation）。让 AI 直接操控电脑/浏览器完成任务。当前已获 115 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Rust）。核心方向：计算机操作（Computer Use）、AI 智能体（Agent）、自动化（Automation）。让 AI 直接操控电脑/浏览器完成任务。当前已获 116 颗星。"
     },
     {
       "id": "f6da02e60bc1",
@@ -355,24 +372,6 @@
       "zh": "GitHub 近期新增的 AI 开源项目（主语言 TypeScript）。核心方向：大语言模型（LLM）。以文本为核心的大规模神经网络模型。当前已获 102 颗星。"
     },
     {
-      "id": "fbdc3b92c9a2",
-      "source": "github",
-      "url": "https://github.com/0xwilliamortiz/claude-red",
-      "title": "0xwilliamortiz/claude-red",
-      "summary": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude…",
-      "author": "0xwilliamortiz",
-      "postedAt": "2026-08-05T16:54:36Z",
-      "tags": [
-        "claude",
-        "skill",
-        "skills",
-        "今日创新"
-      ],
-      "score": 97,
-      "lang": "Python",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：Claude 模型、技能（Skill）。Anthropic 出品的大语言模型。当前已获 97 颗星。"
-    },
-    {
       "id": "97990b1a4016",
       "source": "github",
       "url": "https://github.com/Sparkfetch/sparkfetch",
@@ -443,6 +442,430 @@
       ],
       "score": 10,
       "zh": "GitHub 近期新增的 AI 开源项目（语言未标注）。核心方向：AI 智能体（Agent）、Claude 模型、MCP 协议。能自主规划并执行任务的 AI 程序。当前已获 10 颗星。"
+    },
+    {
+      "id": "c5688924fb76",
+      "source": "discover",
+      "url": "https://discoveraiskills.com/skills/superpowers",
+      "title": "Superpowers",
+      "summary": "An engineering workflow framework by Jesse Vincent built on the philosophy that 'process beats prompts'. Superpowers transforms Claude Code from a passive code…",
+      "author": "Developer & DevOps",
+      "postedAt": "2026-05-13T02:43:12.081Z",
+      "tags": [
+        "workflow",
+        "tdd",
+        "engineering",
+        "methodology",
+        "planning"
+      ],
+      "score": 186000,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：提示词（Prompt）、Claude 模型、工作流（Workflow）。给模型的输入指令，决定输出方向。站点收录 star 约 186000。"
+    },
+    {
+      "id": "3ca9fd9ecd0d",
+      "source": "discover",
+      "url": "https://discoveraiskills.com/skills/skill-lookup",
+      "title": "skill-lookup",
+      "summary": "Activates when the user asks about AI prompts, needs prompt templates, wants to search for prompts, or mentions prompts.chat. Use for discovering, retrieving, a…",
+      "author": "",
+      "postedAt": "2026-04-07T12:32:00.238Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 157600,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：提示词（Prompt）、技能（Skill）、联网搜索（Search）。给模型的输入指令，决定输出方向。站点收录 star 约 157600。"
+    },
+    {
+      "id": "915a432dc353",
+      "source": "discover",
+      "url": "https://discoveraiskills.com/skills/prompt-lookup",
+      "title": "prompt-lookup",
+      "summary": "Activates when the user asks about AI prompts, needs prompt templates, wants to search for prompts, or mentions prompts.chat. Use for discovering, retrieving, a…",
+      "author": "",
+      "postedAt": "2026-04-07T12:31:49.036Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 157600,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：提示词（Prompt）、联网搜索（Search）。给模型的输入指令，决定输出方向。站点收录 star 约 157600。"
+    },
+    {
+      "id": "9fe79cbe6b5b",
+      "source": "discover",
+      "url": "https://discoveraiskills.com/skills/customer-billing-ops",
+      "title": "customer-billing-ops",
+      "summary": "Head-to-head comparison of coding agents (Claude Code, Aider, Codex, etc.) on custom tasks with pass rate, cost, time, and consistency metrics",
+      "author": "",
+      "postedAt": "2026-04-07T12:39:05.710Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 143800,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、Claude 模型、代码开发。能自主规划并执行任务的 AI 程序。站点收录 star 约 143800。"
+    },
+    {
+      "id": "4cc232b05ee9",
+      "source": "discover",
+      "url": "https://discoveraiskills.com/skills/configure-ecc",
+      "title": "configure-ecc",
+      "summary": "Head-to-head comparison of coding agents (Claude Code, Aider, Codex, etc.) on custom tasks with pass rate, cost, time, and consistency metrics",
+      "author": "",
+      "postedAt": "2026-04-07T12:36:32.254Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 143800,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、Claude 模型、代码开发。能自主规划并执行任务的 AI 程序。站点收录 star 约 143800。"
+    },
+    {
+      "id": "bb25c4ff9ca4",
+      "source": "discover",
+      "url": "https://discoveraiskills.com/skills/cpp-coding-standards",
+      "title": "cpp-coding-standards",
+      "summary": "Head-to-head comparison of coding agents (Claude Code, Aider, Codex, etc.) on custom tasks with pass rate, cost, time, and consistency metrics",
+      "author": "",
+      "postedAt": "2026-04-07T12:38:16.954Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 143800,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、Claude 模型、代码开发。能自主规划并执行任务的 AI 程序。站点收录 star 约 143800。"
+    },
+    {
+      "id": "b3b86879936b",
+      "source": "discover",
+      "url": "https://discoveraiskills.com/skills/content-hash-cache-pattern",
+      "title": "content-hash-cache-pattern",
+      "summary": "Head-to-head comparison of coding agents (Claude Code, Aider, Codex, etc.) on custom tasks with pass rate, cost, time, and consistency metrics",
+      "author": "",
+      "postedAt": "2026-04-07T12:36:51.045Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 143800,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、Claude 模型、代码开发。能自主规划并执行任务的 AI 程序。站点收录 star 约 143800。"
+    },
+    {
+      "id": "9bccca51bc21",
+      "source": "discover",
+      "url": "https://discoveraiskills.com/skills/code-tour",
+      "title": "code-tour",
+      "summary": "Head-to-head comparison of coding agents (Claude Code, Aider, Codex, etc.) on custom tasks with pass rate, cost, time, and consistency metrics",
+      "author": "",
+      "postedAt": "2026-04-07T12:36:05.789Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 143800,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、Claude 模型、代码开发。能自主规划并执行任务的 AI 程序。站点收录 star 约 143800。"
+    },
+    {
+      "id": "f94f4b2aa120",
+      "source": "discover",
+      "url": "https://discoveraiskills.com/skills/connections-optimizer",
+      "title": "connections-optimizer",
+      "summary": "Head-to-head comparison of coding agents (Claude Code, Aider, Codex, etc.) on custom tasks with pass rate, cost, time, and consistency metrics",
+      "author": "",
+      "postedAt": "2026-04-07T12:36:38.918Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 143800,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、Claude 模型、代码开发。能自主规划并执行任务的 AI 程序。站点收录 star 约 143800。"
+    },
+    {
+      "id": "b685f6ccb716",
+      "source": "discover",
+      "url": "https://discoveraiskills.com/skills/ck",
+      "title": "ck",
+      "summary": "Head-to-head comparison of coding agents (Claude Code, Aider, Codex, etc.) on custom tasks with pass rate, cost, time, and consistency metrics",
+      "author": "",
+      "postedAt": "2026-04-07T12:35:05.622Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 143800,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、Claude 模型、代码开发。能自主规划并执行任务的 AI 程序。站点收录 star 约 143800。"
+    },
+    {
+      "id": "cefc7564d993",
+      "source": "discover",
+      "url": "https://discoveraiskills.com/skills/api-connector-builder",
+      "title": "api-connector-builder",
+      "summary": "Head-to-head comparison of coding agents (Claude Code, Aider, Codex, etc.) on custom tasks with pass rate, cost, time, and consistency metrics",
+      "author": "",
+      "postedAt": "2026-04-07T12:33:39.661Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 143800,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、API 接口、Claude 模型。能自主规划并执行任务的 AI 程序。站点收录 star 约 143800。"
+    },
+    {
+      "id": "2f967195343a",
+      "source": "discover",
+      "url": "https://discoveraiskills.com/skills/clickhouse-io",
+      "title": "clickhouse-io",
+      "summary": "Head-to-head comparison of coding agents (Claude Code, Aider, Codex, etc.) on custom tasks with pass rate, cost, time, and consistency metrics",
+      "author": "",
+      "postedAt": "2026-04-07T12:35:58.301Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 143800,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、Claude 模型、代码开发。能自主规划并执行任务的 AI 程序。站点收录 star 约 143800。"
+    },
+    {
+      "id": "2926d69c0c2f",
+      "source": "discover",
+      "url": "https://discoveraiskills.com/skills/compose-multiplatform-patterns",
+      "title": "compose-multiplatform-patterns",
+      "summary": "Head-to-head comparison of coding agents (Claude Code, Aider, Codex, etc.) on custom tasks with pass rate, cost, time, and consistency metrics",
+      "author": "",
+      "postedAt": "2026-04-07T12:36:25.234Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 143800,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、Claude 模型、代码开发。能自主规划并执行任务的 AI 程序。站点收录 star 约 143800。"
+    },
+    {
+      "id": "4154b29ff331",
+      "source": "discover",
+      "url": "https://discoveraiskills.com/skills/continuous-learning-v2",
+      "title": "continuous-learning-v2",
+      "summary": "Head-to-head comparison of coding agents (Claude Code, Aider, Codex, etc.) on custom tasks with pass rate, cost, time, and consistency metrics",
+      "author": "",
+      "postedAt": "2026-04-07T12:37:37.009Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 143800,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、Claude 模型、代码开发。能自主规划并执行任务的 AI 程序。站点收录 star 约 143800。"
+    },
+    {
+      "id": "a245eca4e9a3",
+      "source": "discover",
+      "url": "https://discoveraiskills.com/skills/agent-harness-construction",
+      "title": "agent-harness-construction",
+      "summary": "Head-to-head comparison of coding agents (Claude Code, Aider, Codex, etc.) on custom tasks with pass rate, cost, time, and consistency metrics",
+      "author": "",
+      "postedAt": "2026-04-07T12:32:19.373Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 143800,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：执行框架（Harness）、AI 智能体（Agent）、Claude 模型。承载并运行 AI 任务的框架或环境。站点收录 star 约 143800。"
+    },
+    {
+      "id": "0bbb621ef82d",
+      "source": "discover",
+      "url": "https://discoveraiskills.com/skills/autonomous-loops",
+      "title": "autonomous-loops",
+      "summary": "Head-to-head comparison of coding agents (Claude Code, Aider, Codex, etc.) on custom tasks with pass rate, cost, time, and consistency metrics",
+      "author": "",
+      "postedAt": "2026-04-07T12:34:15.964Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 143800,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、Claude 模型、代码开发。能自主规划并执行任务的 AI 程序。站点收录 star 约 143800。"
+    },
+    {
+      "id": "fdd4efe8caee",
+      "source": "discover",
+      "url": "https://discoveraiskills.com/skills/videodb",
+      "title": "videodb",
+      "summary": "Head-to-head comparison of coding agents (Claude Code, Aider, Codex, etc.) on custom tasks with pass rate, cost, time, and consistency metrics",
+      "author": "",
+      "postedAt": "2026-04-07T12:23:11.073Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 143800,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、Claude 模型、视频生成（Video）。能自主规划并执行任务的 AI 程序。站点收录 star 约 143800。"
+    },
+    {
+      "id": "176ca9fafad3",
+      "source": "discover",
+      "url": "https://discoveraiskills.com/skills/autonomous-agent-harness",
+      "title": "autonomous-agent-harness",
+      "summary": "Head-to-head comparison of coding agents (Claude Code, Aider, Codex, etc.) on custom tasks with pass rate, cost, time, and consistency metrics",
+      "author": "",
+      "postedAt": "2026-04-07T12:34:03.278Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 143800,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：执行框架（Harness）、AI 智能体（Agent）、Claude 模型。承载并运行 AI 任务的框架或环境。站点收录 star 约 143800。"
+    },
+    {
+      "id": "9461eed68a74",
+      "source": "discover",
+      "url": "https://discoveraiskills.com/skills/context-budget",
+      "title": "context-budget",
+      "summary": "Head-to-head comparison of coding agents (Claude Code, Aider, Codex, etc.) on custom tasks with pass rate, cost, time, and consistency metrics",
+      "author": "",
+      "postedAt": "2026-04-07T12:37:04.671Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 143800,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、Claude 模型、代码开发。能自主规划并执行任务的 AI 程序。站点收录 star 约 143800。"
+    },
+    {
+      "id": "f870f665c2a0",
+      "source": "discover",
+      "url": "https://discoveraiskills.com/skills/claude-devfleet",
+      "title": "claude-devfleet",
+      "summary": "Head-to-head comparison of coding agents (Claude Code, Aider, Codex, etc.) on custom tasks with pass rate, cost, time, and consistency metrics",
+      "author": "",
+      "postedAt": "2026-04-07T12:35:32.524Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 143800,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、Claude 模型、代码开发。能自主规划并执行任务的 AI 程序。站点收录 star 约 143800。"
+    },
+    {
+      "id": "dabafdb59e7c",
+      "source": "discover",
+      "url": "https://discoveraiskills.com/skills/repo-scan",
+      "title": "repo-scan",
+      "summary": "Head-to-head comparison of coding agents (Claude Code, Aider, Codex, etc.) on custom tasks with pass rate, cost, time, and consistency metrics",
+      "author": "",
+      "postedAt": "2026-04-07T12:23:07.654Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 143800,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、Claude 模型、代码开发。能自主规划并执行任务的 AI 程序。站点收录 star 约 143800。"
+    },
+    {
+      "id": "4c0280a3eba6",
+      "source": "discover",
+      "url": "https://discoveraiskills.com/skills/benchmark",
+      "title": "benchmark",
+      "summary": "Head-to-head comparison of coding agents (Claude Code, Aider, Codex, etc.) on custom tasks with pass rate, cost, time, and consistency metrics",
+      "author": "",
+      "postedAt": "2026-04-07T12:34:22.718Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 143800,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、评估与基准测试（Evaluation）、Claude 模型。能自主规划并执行任务的 AI 程序。站点收录 star 约 143800。"
+    },
+    {
+      "id": "213faa2eef25",
+      "source": "discover",
+      "url": "https://discoveraiskills.com/skills/agent-payment-x402",
+      "title": "agent-payment-x402",
+      "summary": "Head-to-head comparison of coding agents (Claude Code, Aider, Codex, etc.) on custom tasks with pass rate, cost, time, and consistency metrics",
+      "author": "",
+      "postedAt": "2026-04-07T12:32:36.804Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 143800,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、Claude 模型、代码开发。能自主规划并执行任务的 AI 程序。站点收录 star 约 143800。"
+    },
+    {
+      "id": "c14efcdcb97c",
+      "source": "discover",
+      "url": "https://discoveraiskills.com/skills/ai-first-engineering",
+      "title": "ai-first-engineering",
+      "summary": "Head-to-head comparison of coding agents (Claude Code, Aider, Codex, etc.) on custom tasks with pass rate, cost, time, and consistency metrics",
+      "author": "",
+      "postedAt": "2026-04-07T12:33:09.284Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 143800,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、Claude 模型、代码开发。能自主规划并执行任务的 AI 程序。站点收录 star 约 143800。"
+    },
+    {
+      "id": "cfca0e6b7819",
+      "source": "discover",
+      "url": "https://discoveraiskills.com/skills/canary-watch",
+      "title": "canary-watch",
+      "summary": "Head-to-head comparison of coding agents (Claude Code, Aider, Codex, etc.) on custom tasks with pass rate, cost, time, and consistency metrics",
+      "author": "",
+      "postedAt": "2026-04-07T12:34:58.738Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 143800,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、Claude 模型、代码开发。能自主规划并执行任务的 AI 程序。站点收录 star 约 143800。"
+    },
+    {
+      "id": "4abb9c684a95",
+      "source": "discover",
+      "url": "https://discoveraiskills.com/skills/agent-sort",
+      "title": "agent-sort",
+      "summary": "Head-to-head comparison of coding agents (Claude Code, Aider, Codex, etc.) on custom tasks with pass rate, cost, time, and consistency metrics",
+      "author": "",
+      "postedAt": "2026-04-07T12:32:43.297Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 143800,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、Claude 模型、代码开发。能自主规划并执行任务的 AI 程序。站点收录 star 约 143800。"
+    },
+    {
+      "id": "e5da2203c3b9",
+      "source": "discover",
+      "url": "https://discoveraiskills.com/skills/browser-qa",
+      "title": "browser-qa",
+      "summary": "Head-to-head comparison of coding agents (Claude Code, Aider, Codex, etc.) on custom tasks with pass rate, cost, time, and consistency metrics",
+      "author": "",
+      "postedAt": "2026-04-07T12:34:46.934Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 143800,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、Claude 模型、代码开发。能自主规划并执行任务的 AI 程序。站点收录 star 约 143800。"
+    },
+    {
+      "id": "f709c04f5d79",
+      "source": "discover",
+      "url": "https://discoveraiskills.com/skills/android-clean-architecture",
+      "title": "android-clean-architecture",
+      "summary": "Head-to-head comparison of coding agents (Claude Code, Aider, Codex, etc.) on custom tasks with pass rate, cost, time, and consistency metrics",
+      "author": "",
+      "postedAt": "2026-04-07T12:33:27.990Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 143800,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、Claude 模型、代码开发。能自主规划并执行任务的 AI 程序。站点收录 star 约 143800。"
+    },
+    {
+      "id": "5872335880d0",
+      "source": "discover",
+      "url": "https://discoveraiskills.com/skills/blueprint",
+      "title": "blueprint",
+      "summary": "Head-to-head comparison of coding agents (Claude Code, Aider, Codex, etc.) on custom tasks with pass rate, cost, time, and consistency metrics",
+      "author": "",
+      "postedAt": "2026-04-07T12:34:34.486Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 143800,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、Claude 模型、代码开发。能自主规划并执行任务的 AI 程序。站点收录 star 约 143800。"
+    },
+    {
+      "id": "111d611a8e04",
+      "source": "discover",
+      "url": "https://discoveraiskills.com/skills/dart-flutter-patterns",
+      "title": "dart-flutter-patterns",
+      "summary": "Head-to-head comparison of coding agents (Claude Code, Aider, Codex, etc.) on custom tasks with pass rate, cost, time, and consistency metrics",
+      "author": "",
+      "postedAt": "2026-04-15T04:55:39.677Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 143800,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、Claude 模型、代码开发。能自主规划并执行任务的 AI 程序。站点收录 star 约 143800。"
     },
     {
       "id": "f6a9274c8b77",
@@ -633,20 +1056,6 @@
       ],
       "score": 14,
       "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：语音能力（Voice）。语音合成（TTS）或识别（ASR）。"
-    },
-    {
-      "id": "7b6543ad1551",
-      "source": "ecommerce",
-      "url": "https://www.producthunt.com/products/mascotai",
-      "title": "MascotAI",
-      "summary": "Animated SVG mascot studios for apps that need a personality",
-      "author": "Tahiru Nasuru",
-      "postedAt": "2026-08-03T06:19:32.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 14,
-      "zh": "Product Hunt 上发布的 AI 相关新产品。"
     },
     {
       "id": "f5b521ed8bc5",
@@ -885,9 +1294,9 @@
         "safetensors",
         "multimodal"
       ],
-      "score": 2460,
+      "score": 2462,
       "lang": "diffusers",
-      "zh": "Hugging Face 上热门的 AI 开源模型（基于 diffusers 库）。核心方向：多模态（Multimodal）、视频生成（Video）、图像生成（Image）。同时处理文本、图像、音频等多种数据。社区已点赞 2460 次。"
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 diffusers 库）。核心方向：多模态（Multimodal）、视频生成（Video）、图像生成（Image）。同时处理文本、图像、音频等多种数据。社区已点赞 2462 次。"
     },
     {
       "id": "82dc2ddde0b5",
@@ -902,9 +1311,9 @@
         "transformers",
         "safetensors"
       ],
-      "score": 2469,
+      "score": 2470,
       "lang": "transformers",
-      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。社区已点赞 2469 次。"
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。社区已点赞 2470 次。"
     },
     {
       "id": "618be2c22b29",
@@ -919,9 +1328,9 @@
         "transformers",
         "safetensors"
       ],
-      "score": 10106,
+      "score": 10109,
       "lang": "transformers",
-      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。核心方向：图像生成（Image）。根据文字描述生成图片。社区已点赞 10106 次。"
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。核心方向：图像生成（Image）。根据文字描述生成图片。社区已点赞 10109 次。"
     },
     {
       "id": "14a70cb4c3e3",
@@ -934,8 +1343,8 @@
       "tags": [
         "ai"
       ],
-      "score": 735,
-      "zh": "Hugging Face 上热门的 AI 开源模型（库未标注）。社区已点赞 735 次。"
+      "score": 736,
+      "zh": "Hugging Face 上热门的 AI 开源模型（库未标注）。社区已点赞 736 次。"
     },
     {
       "id": "a35598a0ed3b",
@@ -949,8 +1358,8 @@
         "image-text-to-text",
         "gguf"
       ],
-      "score": 1569,
-      "zh": "Hugging Face 上热门的 AI 开源模型（库未标注）。核心方向：图像生成（Image）。根据文字描述生成图片。社区已点赞 1569 次。"
+      "score": 1571,
+      "zh": "Hugging Face 上热门的 AI 开源模型（库未标注）。核心方向：图像生成（Image）。根据文字描述生成图片。社区已点赞 1571 次。"
     },
     {
       "id": "5d9d16c24ddc",
@@ -979,9 +1388,9 @@
         "transformers",
         "safetensors"
       ],
-      "score": 3901,
+      "score": 3902,
       "lang": "transformers",
-      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。核心方向：图像生成（Image）。根据文字描述生成图片。社区已点赞 3901 次。"
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。核心方向：图像生成（Image）。根据文字描述生成图片。社区已点赞 3902 次。"
     },
     {
       "id": "136207e218cb",
@@ -996,9 +1405,9 @@
         "transformers",
         "safetensors"
       ],
-      "score": 307,
+      "score": 308,
       "lang": "transformers",
-      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。核心方向：图像生成（Image）。根据文字描述生成图片。社区已点赞 307 次。"
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。核心方向：图像生成（Image）。根据文字描述生成图片。社区已点赞 308 次。"
     },
     {
       "id": "b863b9f6f899",
@@ -1028,9 +1437,9 @@
         "transformers",
         "safetensors"
       ],
-      "score": 258,
+      "score": 261,
       "lang": "transformers",
-      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。社区已点赞 258 次。"
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。社区已点赞 261 次。"
     },
     {
       "id": "343d5df4c12e",
@@ -1127,9 +1536,9 @@
         "transformers",
         "safetensors"
       ],
-      "score": 488,
+      "score": 489,
       "lang": "transformers",
-      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。核心方向：代码开发。生成或修改代码的开发类工具。社区已点赞 488 次。"
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。核心方向：代码开发。生成或修改代码的开发类工具。社区已点赞 489 次。"
     },
     {
       "id": "cfc6beca27a0",
@@ -1306,9 +1715,9 @@
       "tags": [
         "safetensors"
       ],
-      "score": 119,
+      "score": 120,
       "lang": "vllm",
-      "zh": "Hugging Face 上热门的 AI 开源模型（基于 vllm 库）。核心方向：大语言模型（LLM）。以文本为核心的大规模神经网络模型。社区已点赞 119 次。"
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 vllm 库）。核心方向：大语言模型（LLM）。以文本为核心的大规模神经网络模型。社区已点赞 120 次。"
     },
     {
       "id": "55923f606ee8",
@@ -1371,9 +1780,9 @@
         "diffusers",
         "safetensors"
       ],
-      "score": 2460,
+      "score": 2462,
       "lang": "diffusers",
-      "zh": "Hugging Face 上热门的 AI 视频开源模型（基于 diffusers 库）。核心方向：视频生成（Video）、图像生成（Image）。根据文字/图片生成视频。社区已点赞 2460 次。"
+      "zh": "Hugging Face 上热门的 AI 视频开源模型（基于 diffusers 库）。核心方向：视频生成（Video）、图像生成（Image）。根据文字/图片生成视频。社区已点赞 2462 次。"
     },
     {
       "id": "64b77a456e11",
@@ -1426,6 +1835,24 @@
       "score": 575,
       "lang": "transformers",
       "zh": "Hugging Face 上热门的 AI 视频开源模型（基于 transformers 库）。核心方向：视频生成（Video）。根据文字/图片生成视频。社区已点赞 575 次。"
+    },
+    {
+      "id": "1679405a8ec3",
+      "source": "hf-video",
+      "url": "https://huggingface.co/facebook/vjepa2-vitl-fpc64-256",
+      "title": "facebook/vjepa2-vitl-fpc64-256",
+      "summary": "视频分类 · transformers · 300.0k downloads",
+      "author": "facebook",
+      "postedAt": "2025-05-31T09:02:35.000Z",
+      "tags": [
+        "video-classification",
+        "video",
+        "transformers",
+        "safetensors"
+      ],
+      "score": 205,
+      "lang": "transformers",
+      "zh": "Hugging Face 上热门的 AI 视频开源模型（基于 transformers 库）。核心方向：视频生成（Video）。根据文字/图片生成视频。社区已点赞 205 次。"
     },
     {
       "id": "b914baedaead",
@@ -1572,8 +1999,8 @@
         "gguf",
         "multimodal"
       ],
-      "score": 59,
-      "zh": "Hugging Face 上热门的 AI 视频开源模型（库未标注）。核心方向：多模态（Multimodal）、视频生成（Video）、图像生成（Image）。同时处理文本、图像、音频等多种数据。社区已点赞 59 次。"
+      "score": 60,
+      "zh": "Hugging Face 上热门的 AI 视频开源模型（库未标注）。核心方向：多模态（Multimodal）、视频生成（Video）、图像生成（Image）。同时处理文本、图像、音频等多种数据。社区已点赞 60 次。"
     },
     {
       "id": "d100627bd171",
@@ -1669,23 +2096,6 @@
       "tags": [
         "image-text-to-video",
         "video",
-        "multimodal"
-      ],
-      "score": 28,
-      "zh": "Hugging Face 上热门的 AI 视频开源模型（库未标注）。核心方向：多模态（Multimodal）、视频生成（Video）、图像生成（Image）。同时处理文本、图像、音频等多种数据。社区已点赞 28 次。"
-    },
-    {
-      "id": "77aa051286af",
-      "source": "hf-video",
-      "url": "https://huggingface.co/sand-ai/MAGI-2-preview",
-      "title": "sand-ai/MAGI-2-preview",
-      "summary": "图文生视频 · 0 downloads",
-      "author": "sand-ai",
-      "postedAt": "2026-08-03T12:34:20.000Z",
-      "tags": [
-        "image-text-to-video",
-        "video",
-        "safetensors",
         "multimodal"
       ],
       "score": 28,

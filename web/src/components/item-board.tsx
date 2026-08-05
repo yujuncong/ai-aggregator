@@ -8,7 +8,7 @@ import { ItemCard } from "./item-card";
 import { SearchIcon } from "./icons";
 
 /** 顶级 tab：每个源是一个父 tab，点开后展开各自的子榜（含独立「本周最热」） */
-type TopTab = "all" | "github" | "ecommerce" | "x" | "hf";
+type TopTab = "all" | "github" | "discover" | "ecommerce" | "x" | "hf";
 type Sort = "hot" | "latest";
 
 /** 一周毫秒数 */
@@ -17,6 +17,7 @@ const WEEK_MS = 7 * 864e5;
 const TOP_TABS: { id: TopTab; label: string }[] = [
   { id: "all", label: "全部" },
   { id: "github", label: "GitHub" },
+  { id: "discover", label: "Skill 榜" },
   { id: "ecommerce", label: "电商" },
   { id: "x", label: "X" },
   { id: "hf", label: "Hugging Face" },
@@ -40,6 +41,10 @@ const SUB_TABS: Record<Exclude<TopTab, "all">, SubTab[]> = {
     { id: "github-week", label: "本周最热", countKey: "githubWeek" },
     { id: "github-skill", label: "Skill", countKey: "githubSkill" },
   ],
+  discover: [
+    { id: "discover", label: "综合榜", countKey: "discover" },
+    { id: "discover-week", label: "本周最热", countKey: "discoverWeek" },
+  ],
   ecommerce: [
     { id: "ecommerce", label: "综合榜", countKey: "ecommerce" },
     { id: "ecommerce-week", label: "本周最热", countKey: "ecommerceWeek" },
@@ -57,6 +62,7 @@ const SUB_TABS: Record<Exclude<TopTab, "all">, SubTab[]> = {
 
 const DEFAULT_SUB: Record<Exclude<TopTab, "all">, string> = {
   github: "github",
+  discover: "discover",
   ecommerce: "ecommerce",
   x: "x",
   hf: "hf",
@@ -116,6 +122,7 @@ export function ItemBoard({ items }: { items: CrawlItem[] }) {
     const c: Record<string, number> = {
       all: items.length,
       github: per.github ?? 0,
+      discover: per.discover ?? 0,
       ecommerce: per.ecommerce ?? 0,
       x: per.x ?? 0,
       /** 父 tab 计数 = 通用 + 视频 */
@@ -123,10 +130,13 @@ export function ItemBoard({ items }: { items: CrawlItem[] }) {
       /** HF 子榜计数（各自独立） */
       hfModel: per.hf ?? 0,
       hfVideo: per["hf-video"] ?? 0,
+      /** 侧栏「来源分布」按 SOURCE_ORDER 取 counts[source]，hf-video 需有对应 key */
+      "hf-video": per["hf-video"] ?? 0,
     };
     // 各源「本周最热」计数 = 近 7 天
     const weekPreds: [string, (s: SourceId) => boolean][] = [
       ["githubWeek", (s) => s === "github"],
+      ["discoverWeek", (s) => s === "discover"],
       ["ecommerceWeek", (s) => s === "ecommerce"],
       ["xWeek", (s) => s === "x"],
       ["hfWeek", (s) => s === "hf" || s === "hf-video"],
