@@ -1,7 +1,129 @@
 {
-  "generatedAt": "2026-08-27T22:52:46.312Z",
-  "count": 272,
+  "generatedAt": "2026-08-28T12:35:13.527Z",
+  "count": 275,
   "items": [
+    {
+      "id": "d1980e5d2611",
+      "source": "github",
+      "url": "https://github.com/camilleroux/genart-skill",
+      "title": "camilleroux/genart-skill",
+      "summary": "Generative art skill for Claude Code — deterministic, hash-seeded, onchain-ready",
+      "author": "camilleroux",
+      "postedAt": "2026-08-28T09:05:47Z",
+      "tags": [
+        "ai",
+        "claude",
+        "skill",
+        "今日创新"
+      ],
+      "score": 11,
+      "lang": "JavaScript",
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 JavaScript）。核心方向：Claude 模型、技能（Skill）、链上/Web3。Anthropic 出品的大语言模型。当前已获 11 颗星。"
+    },
+    {
+      "id": "e8452e662235",
+      "source": "github",
+      "url": "https://github.com/baidu-baige/LoongSage",
+      "title": "baidu-baige/LoongSage",
+      "summary": "A production-grade, high-efficiency Agentic RL framework for frontier LLMs with validated recipes.",
+      "author": "baidu-baige",
+      "postedAt": "2026-08-28T07:22:30Z",
+      "tags": [
+        "agent",
+        "llm",
+        "今日创新"
+      ],
+      "score": 32,
+      "lang": "Python",
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：AI 智能体（Agent）、大语言模型（LLM）。能自主规划并执行任务的 AI 程序。当前已获 32 颗星。"
+    },
+    {
+      "id": "aa1d50fb087e",
+      "source": "github",
+      "url": "https://github.com/Nanako0129/sepia",
+      "title": "Nanako0129/sepia",
+      "summary": "De-AI writing skill for Claude Code, Codex, Grok Build, and Antigravity — narrative-architecture repair for fiction, venue-matched rules for professional prose.…",
+      "author": "Nanako0129",
+      "postedAt": "2026-08-28T05:56:49Z",
+      "tags": [
+        "ai",
+        "agent",
+        "llm",
+        "claude",
+        "prompt",
+        "今日创新"
+      ],
+      "score": 46,
+      "lang": "Shell",
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Shell）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、提示词（Prompt）。能自主规划并执行任务的 AI 程序。当前已获 46 颗星。"
+    },
+    {
+      "id": "ea0911a540f2",
+      "source": "github",
+      "url": "https://github.com/fridge1/llmgateway",
+      "title": "fridge1/llmgateway",
+      "summary": "Unified LLM API gateway & commercial platform. Supports OpenAI / Anthropic / Gemini protocols, works with Claude Code, Codex CLI, Cursor, Windsurf. Built-in bil…",
+      "author": "fridge1",
+      "postedAt": "2026-08-28T01:28:01Z",
+      "tags": [
+        "ai",
+        "llm",
+        "claude",
+        "api",
+        "今日创新"
+      ],
+      "score": 17,
+      "lang": "TypeScript",
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 TypeScript）。核心方向：大语言模型（LLM）、API 接口、Claude 模型。以文本为核心的大规模神经网络模型。当前已获 17 颗星。"
+    },
+    {
+      "id": "5aa5b79daf0d",
+      "source": "ecommerce",
+      "url": "https://www.producthunt.com/products/opentag",
+      "title": "OpenTag",
+      "summary": "AI coworker lives on Slack and Teams",
+      "author": "Garry Tan",
+      "postedAt": "2026-08-27T21:52:16.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 14,
+      "zh": "Product Hunt 上发布的 AI 相关新产品。"
+    },
+    {
+      "id": "aa75f326a025",
+      "source": "ecommerce",
+      "url": "https://www.producthunt.com/products/almanac-5",
+      "title": "Almanac",
+      "summary": "The agent with a second brain",
+      "author": "Garry Tan",
+      "postedAt": "2026-08-27T20:43:25.000Z",
+      "tags": [
+        "ai",
+        "agent"
+      ],
+      "score": 14,
+      "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：AI 智能体（Agent）。能自主规划并执行任务的 AI 程序。"
+    },
+    {
+      "id": "5d34bba145cd",
+      "source": "github",
+      "url": "https://github.com/OnlyTerp/opengrok",
+      "title": "OnlyTerp/opengrok",
+      "summary": "Run any model in Grok Bot — one-command setup, model picker UI, evidence-based provider wire maps, and an update-proof doctor. Not farming you, arming you.",
+      "author": "OnlyTerp",
+      "postedAt": "2026-08-27T18:30:44Z",
+      "tags": [
+        "ai",
+        "agent",
+        "agents",
+        "llm",
+        "model"
+      ],
+      "score": 120,
+      "lang": "Python",
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：AI 智能体（Agent）、大语言模型（LLM）。能自主规划并执行任务的 AI 程序。当前已获 120 颗星。"
+    },
     {
       "id": "26c0338d8a1e",
       "source": "github",
@@ -15,9 +137,54 @@
         "claude",
         "model"
       ],
-      "score": 211,
+      "score": 212,
       "lang": "Python",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：Claude 模型、代码开发。Anthropic 出品的大语言模型。当前已获 211 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：Claude 模型、代码开发。Anthropic 出品的大语言模型。当前已获 212 颗星。"
+    },
+    {
+      "id": "f829525c0202",
+      "source": "ecommerce",
+      "url": "https://www.producthunt.com/products/hugging-face",
+      "title": "Microduck",
+      "summary": "A tiny open-source biped you can train yourself",
+      "author": "Zac Zuo",
+      "postedAt": "2026-08-27T13:40:20.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 14,
+      "zh": "Product Hunt 上发布的 AI 相关新产品。"
+    },
+    {
+      "id": "8b2120d22bab",
+      "source": "hf",
+      "url": "https://huggingface.co/tencent/Hy4-preview",
+      "title": "tencent/Hy4-preview",
+      "summary": "文本生成 · transformers · 0 downloads",
+      "author": "tencent",
+      "postedAt": "2026-08-27T08:52:40.000Z",
+      "tags": [
+        "text-generation",
+        "transformers",
+        "safetensors"
+      ],
+      "score": 180,
+      "lang": "transformers",
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。社区已点赞 180 次。"
+    },
+    {
+      "id": "393d075acd57",
+      "source": "ecommerce",
+      "url": "https://www.producthunt.com/products/spline",
+      "title": "Spline V2",
+      "summary": "Best 3D platform for the agentic era",
+      "author": "Alejandro León",
+      "postedAt": "2026-08-27T08:06:07.000Z",
+      "tags": [
+        "agent"
+      ],
+      "score": 14,
+      "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：AI 智能体（Agent）。能自主规划并执行任务的 AI 程序。"
     },
     {
       "id": "05495f44fcce",
@@ -82,6 +249,22 @@
       "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：AI 智能体（Agent）。能自主规划并执行任务的 AI 程序。"
     },
     {
+      "id": "2450b24abf00",
+      "source": "ecommerce",
+      "url": "https://www.producthunt.com/products/screenpipe",
+      "title": "screenpipe",
+      "summary": "AI that records your computer work to power agents.",
+      "author": "louis030195",
+      "postedAt": "2026-08-27T03:15:53.000Z",
+      "tags": [
+        "ai",
+        "agent",
+        "agents"
+      ],
+      "score": 14,
+      "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：AI 智能体（Agent）。能自主规划并执行任务的 AI 程序。"
+    },
+    {
       "id": "67eb1a833494",
       "source": "github",
       "url": "https://github.com/thebuggeddev/controller",
@@ -127,8 +310,8 @@
         "skill",
         "skills"
       ],
-      "score": 222,
-      "zh": "GitHub 近期新增的 AI 开源项目（语言未标注）。核心方向：大语言模型（LLM）、Claude 模型、技能（Skill）。以文本为核心的大规模神经网络模型。当前已获 222 颗星。"
+      "score": 286,
+      "zh": "GitHub 近期新增的 AI 开源项目（语言未标注）。核心方向：大语言模型（LLM）、Claude 模型、技能（Skill）。以文本为核心的大规模神经网络模型。当前已获 286 颗星。"
     },
     {
       "id": "2f6cba3e6735",
@@ -143,9 +326,9 @@
         "claude",
         "skill"
       ],
-      "score": 297,
+      "score": 373,
       "lang": "CSS",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 CSS）。核心方向：Claude 模型、技能（Skill）、代码开发。Anthropic 出品的大语言模型。当前已获 297 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 CSS）。核心方向：Claude 模型、技能（Skill）、代码开发。Anthropic 出品的大语言模型。当前已获 373 颗星。"
     },
     {
       "id": "6d2634c44aba",
@@ -161,8 +344,23 @@
         "skill",
         "skills"
       ],
-      "score": 144,
-      "zh": "GitHub 近期新增的 AI 开源项目（语言未标注）。核心方向：AI 智能体（Agent）、Claude 模型、技能（Skill）。能自主规划并执行任务的 AI 程序。当前已获 144 颗星。"
+      "score": 158,
+      "zh": "GitHub 近期新增的 AI 开源项目（语言未标注）。核心方向：AI 智能体（Agent）、Claude 模型、技能（Skill）。能自主规划并执行任务的 AI 程序。当前已获 158 颗星。"
+    },
+    {
+      "id": "88a0026b6898",
+      "source": "ecommerce",
+      "url": "https://www.producthunt.com/products/extract-by-firecrawl",
+      "title": "Firecrawl Developer Index",
+      "summary": "A curated index of 70M+ artifacts for coding agents.",
+      "author": "Eric Ciarla",
+      "postedAt": "2026-08-26T17:33:36.000Z",
+      "tags": [
+        "agent",
+        "agents"
+      ],
+      "score": 14,
+      "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：AI 智能体（Agent）、代码开发。能自主规划并执行任务的 AI 程序。"
     },
     {
       "id": "aac89444df98",
@@ -191,9 +389,9 @@
         "transformers",
         "gguf"
       ],
-      "score": 199,
+      "score": 232,
       "lang": "transformers",
-      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。社区已点赞 199 次。"
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。社区已点赞 232 次。"
     },
     {
       "id": "355f7de79bce",
@@ -207,8 +405,8 @@
         "image-text-to-text",
         "gguf"
       ],
-      "score": 447,
-      "zh": "Hugging Face 上热门的 AI 开源模型（库未标注）。核心方向：图像生成（Image）。根据文字描述生成图片。社区已点赞 447 次。"
+      "score": 485,
+      "zh": "Hugging Face 上热门的 AI 开源模型（库未标注）。核心方向：图像生成（Image）。根据文字描述生成图片。社区已点赞 485 次。"
     },
     {
       "id": "5bcfe16a44a7",
@@ -225,9 +423,9 @@
         "api",
         "skill"
       ],
-      "score": 119,
+      "score": 139,
       "lang": "JavaScript",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 JavaScript）。核心方向：AI 智能体（Agent）、API 接口、Claude 模型。能自主规划并执行任务的 AI 程序。当前已获 119 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 JavaScript）。核心方向：AI 智能体（Agent）、API 接口、Claude 模型。能自主规划并执行任务的 AI 程序。当前已获 139 颗星。"
     },
     {
       "id": "ffb9f12c2477",
@@ -298,6 +496,40 @@
       "zh": "GitHub 近期新增的 AI 开源项目（语言未标注）。核心方向：大语言模型（LLM）、检索增强生成（RAG）、视觉理解（Vision）。以文本为核心的大规模神经网络模型。当前已获 12 颗星。"
     },
     {
+      "id": "a01dbcbd3992",
+      "source": "github",
+      "url": "https://github.com/S1N6H/pentest-harness",
+      "title": "S1N6H/pentest-harness",
+      "summary": "Pentest Harness — Heaven for Hackers. A self-hosted AI agent harness for authorized pentests, bug bounty, security labs, and CTFs. Bring your own AI model API;…",
+      "author": "S1N6H",
+      "postedAt": "2026-08-26T04:57:19Z",
+      "tags": [
+        "ai",
+        "agent",
+        "llm",
+        "model",
+        "api"
+      ],
+      "score": 127,
+      "lang": "TypeScript",
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 TypeScript）。核心方向：执行框架（Harness）、AI 智能体（Agent）、大语言模型（LLM）。承载并运行 AI 任务的框架或环境。当前已获 127 颗星。"
+    },
+    {
+      "id": "169ce6e84f21",
+      "source": "hf",
+      "url": "https://huggingface.co/alibaba-pai/MiniMax-H3-Acc-LoRAs",
+      "title": "alibaba-pai/MiniMax-H3-Acc-LoRAs",
+      "summary": "文生视频 · videox_fun · 609 downloads",
+      "author": "alibaba-pai",
+      "postedAt": "2026-08-26T03:48:27.000Z",
+      "tags": [
+        "text-to-video"
+      ],
+      "score": 125,
+      "lang": "videox_fun",
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 videox_fun 库）。核心方向：视频生成（Video）。根据文字/图片生成视频。社区已点赞 125 次。"
+    },
+    {
       "id": "1db1b14d4904",
       "source": "hf-video",
       "url": "https://huggingface.co/alibaba-pai/MiniMax-H3-Acc-LoRAs",
@@ -309,9 +541,9 @@
         "text-to-video",
         "video"
       ],
-      "score": 108,
+      "score": 125,
       "lang": "videox_fun",
-      "zh": "Hugging Face 上热门的 AI 视频开源模型（基于 videox_fun 库）。核心方向：视频生成（Video）。根据文字/图片生成视频。社区已点赞 108 次。"
+      "zh": "Hugging Face 上热门的 AI 视频开源模型（基于 videox_fun 库）。核心方向：视频生成（Video）。根据文字/图片生成视频。社区已点赞 125 次。"
     },
     {
       "id": "cfa688270748",
@@ -356,8 +588,8 @@
         "ai",
         "agent"
       ],
-      "score": 179,
-      "zh": "GitHub 近期新增的 AI 开源项目（语言未标注）。核心方向：AI 智能体（Agent）、代码开发。能自主规划并执行任务的 AI 程序。当前已获 179 颗星。"
+      "score": 218,
+      "zh": "GitHub 近期新增的 AI 开源项目（语言未标注）。核心方向：AI 智能体（Agent）、代码开发。能自主规划并执行任务的 AI 程序。当前已获 218 颗星。"
     },
     {
       "id": "a6a7a58444f3",
@@ -390,9 +622,9 @@
         "safetensors",
         "pytorch"
       ],
-      "score": 127,
+      "score": 141,
       "lang": "transformers",
-      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。核心方向：语音能力（Voice）。语音合成（TTS）或识别（ASR）。社区已点赞 127 次。"
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。核心方向：语音能力（Voice）。语音合成（TTS）或识别（ASR）。社区已点赞 141 次。"
     },
     {
       "id": "ebc270dd1d76",
@@ -421,9 +653,9 @@
         "agent",
         "agents"
       ],
-      "score": 105,
+      "score": 165,
       "lang": "TypeScript",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 TypeScript）。核心方向：AI 智能体（Agent）。能自主规划并执行任务的 AI 程序。当前已获 105 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 TypeScript）。核心方向：AI 智能体（Agent）。能自主规划并执行任务的 AI 程序。当前已获 165 颗星。"
     },
     {
       "id": "2c5cea8c8af7",
@@ -468,9 +700,9 @@
         "transformers",
         "safetensors"
       ],
-      "score": 1311,
+      "score": 1419,
       "lang": "transformers",
-      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。社区已点赞 1311 次。"
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。社区已点赞 1419 次。"
     },
     {
       "id": "43173d1a6f07",
@@ -500,6 +732,22 @@
       "postedAt": "2026-08-25T05:11:15.000Z",
       "tags": [
         "agent"
+      ],
+      "score": 14,
+      "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：AI 智能体（Agent）。能自主规划并执行任务的 AI 程序。"
+    },
+    {
+      "id": "ca70422e3ce1",
+      "source": "ecommerce",
+      "url": "https://www.producthunt.com/products/ctrl-micro",
+      "title": "CTRL Micro",
+      "summary": "Haptic control deck for your Mac and AI agents",
+      "author": "Andrew Flores",
+      "postedAt": "2026-08-24T21:54:57.000Z",
+      "tags": [
+        "ai",
+        "agent",
+        "agents"
       ],
       "score": 14,
       "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：AI 智能体（Agent）。能自主规划并执行任务的 AI 程序。"
@@ -548,8 +796,8 @@
         "skill",
         "skills"
       ],
-      "score": 126,
-      "zh": "GitHub 近期新增的 AI 开源项目（语言未标注）。核心方向：AI 智能体（Agent）、Claude 模型、技能（Skill）。能自主规划并执行任务的 AI 程序。当前已获 126 颗星。"
+      "score": 133,
+      "zh": "GitHub 近期新增的 AI 开源项目（语言未标注）。核心方向：AI 智能体（Agent）、Claude 模型、技能（Skill）。能自主规划并执行任务的 AI 程序。当前已获 133 颗星。"
     },
     {
       "id": "1b395f906448",
@@ -576,9 +824,9 @@
       "tags": [
         "claude"
       ],
-      "score": 111,
+      "score": 119,
       "lang": "TypeScript",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 TypeScript）。核心方向：Claude 模型、代码开发。Anthropic 出品的大语言模型。当前已获 111 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 TypeScript）。核心方向：Claude 模型、代码开发。Anthropic 出品的大语言模型。当前已获 119 颗星。"
     },
     {
       "id": "4764f0170f38",
@@ -595,9 +843,9 @@
         "skill",
         "skills"
       ],
-      "score": 165,
+      "score": 166,
       "lang": "JavaScript",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 JavaScript）。核心方向：AI 智能体（Agent）、Claude 模型、技能（Skill）。能自主规划并执行任务的 AI 程序。当前已获 165 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 JavaScript）。核心方向：AI 智能体（Agent）、Claude 模型、技能（Skill）。能自主规划并执行任务的 AI 程序。当前已获 166 颗星。"
     },
     {
       "id": "9594a2f4ee33",
@@ -610,9 +858,9 @@
       "tags": [
         "claude"
       ],
-      "score": 133,
+      "score": 146,
       "lang": "JavaScript",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 JavaScript）。核心方向：执行框架（Harness）、AI 智能体（Agent）、Claude 模型。承载并运行 AI 任务的框架或环境。当前已获 133 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 JavaScript）。核心方向：执行框架（Harness）、AI 智能体（Agent）、Claude 模型。承载并运行 AI 任务的框架或环境。当前已获 146 颗星。"
     },
     {
       "id": "148a2d4d5e8a",
@@ -676,9 +924,9 @@
         "transformers",
         "safetensors"
       ],
-      "score": 121,
+      "score": 139,
       "lang": "transformers",
-      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。核心方向：图像生成（Image）。根据文字描述生成图片。社区已点赞 121 次。"
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。核心方向：图像生成（Image）。根据文字描述生成图片。社区已点赞 139 次。"
     },
     {
       "id": "659206a5ac7a",
@@ -693,9 +941,9 @@
         "transformers",
         "safetensors"
       ],
-      "score": 3942,
+      "score": 4054,
       "lang": "transformers",
-      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。核心方向：图像生成（Image）。根据文字描述生成图片。社区已点赞 3942 次。"
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。核心方向：图像生成（Image）。根据文字描述生成图片。社区已点赞 4054 次。"
     },
     {
       "id": "749819e57490",
@@ -763,9 +1011,9 @@
       "tags": [
         "text-to-video"
       ],
-      "score": 148,
+      "score": 149,
       "lang": "videox_fun",
-      "zh": "Hugging Face 上热门的 AI 开源模型（基于 videox_fun 库）。核心方向：视频生成（Video）。根据文字/图片生成视频。社区已点赞 148 次。"
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 videox_fun 库）。核心方向：视频生成（Video）。根据文字/图片生成视频。社区已点赞 149 次。"
     },
     {
       "id": "b0fe378bebc6",
@@ -779,9 +1027,9 @@
         "text-to-video",
         "video"
       ],
-      "score": 148,
+      "score": 149,
       "lang": "videox_fun",
-      "zh": "Hugging Face 上热门的 AI 视频开源模型（基于 videox_fun 库）。核心方向：视频生成（Video）。根据文字/图片生成视频。社区已点赞 148 次。"
+      "zh": "Hugging Face 上热门的 AI 视频开源模型（基于 videox_fun 库）。核心方向：视频生成（Video）。根据文字/图片生成视频。社区已点赞 149 次。"
     },
     {
       "id": "6111921d6544",
@@ -816,9 +1064,9 @@
         "api",
         "automation"
       ],
-      "score": 219,
+      "score": 222,
       "lang": "Rust",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Rust）。核心方向：AI 智能体（Agent）、自动化（Automation）、API 接口。能自主规划并执行任务的 AI 程序。当前已获 219 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Rust）。核心方向：AI 智能体（Agent）、自动化（Automation）、API 接口。能自主规划并执行任务的 AI 程序。当前已获 222 颗星。"
     },
     {
       "id": "ff2110a9f527",
@@ -890,9 +1138,9 @@
         "llm",
         "claude"
       ],
-      "score": 374,
+      "score": 380,
       "lang": "TypeScript",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 TypeScript）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、Claude 模型。能自主规划并执行任务的 AI 程序。当前已获 374 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 TypeScript）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、Claude 模型。能自主规划并执行任务的 AI 程序。当前已获 380 颗星。"
     },
     {
       "id": "6b997c9d174d",
@@ -938,9 +1186,9 @@
         "agent",
         "skill"
       ],
-      "score": 316,
+      "score": 327,
       "lang": "Python",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：AI 智能体（Agent）、技能（Skill）。能自主规划并执行任务的 AI 程序。当前已获 316 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：AI 智能体（Agent）、技能（Skill）。能自主规划并执行任务的 AI 程序。当前已获 327 颗星。"
     },
     {
       "id": "2839f25891a0",
@@ -957,9 +1205,9 @@
         "claude",
         "skill"
       ],
-      "score": 125,
+      "score": 126,
       "lang": "Python",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、Claude 模型。能自主规划并执行任务的 AI 程序。当前已获 125 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、Claude 模型。能自主规划并执行任务的 AI 程序。当前已获 126 颗星。"
     },
     {
       "id": "7bf79c571fcb",
@@ -973,9 +1221,9 @@
         "ai",
         "agent"
       ],
-      "score": 510,
+      "score": 513,
       "lang": "TypeScript",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 TypeScript）。核心方向：AI 智能体（Agent）。能自主规划并执行任务的 AI 程序。当前已获 510 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 TypeScript）。核心方向：AI 智能体（Agent）。能自主规划并执行任务的 AI 程序。当前已获 513 颗星。"
     },
     {
       "id": "14f0548fca9f",
@@ -1018,9 +1266,9 @@
       "tags": [
         "claude"
       ],
-      "score": 225,
+      "score": 227,
       "lang": "Python",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：Claude 模型。Anthropic 出品的大语言模型。当前已获 225 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：Claude 模型。Anthropic 出品的大语言模型。当前已获 227 颗星。"
     },
     {
       "id": "91d5f7c645af",
@@ -1053,9 +1301,9 @@
         "claude",
         "mcp"
       ],
-      "score": 455,
+      "score": 474,
       "lang": "TypeScript",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 TypeScript）。核心方向：AI 智能体（Agent）、Claude 模型、MCP 协议。能自主规划并执行任务的 AI 程序。当前已获 455 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 TypeScript）。核心方向：AI 智能体（Agent）、Claude 模型、MCP 协议。能自主规划并执行任务的 AI 程序。当前已获 474 颗星。"
     },
     {
       "id": "a77e6c12df03",
@@ -1087,9 +1335,9 @@
         "skill",
         "skills"
       ],
-      "score": 1096,
+      "score": 1126,
       "lang": "JavaScript",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 JavaScript）。核心方向：AI 智能体（Agent）、Claude 模型、技能（Skill）。能自主规划并执行任务的 AI 程序。当前已获 1096 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 JavaScript）。核心方向：AI 智能体（Agent）、Claude 模型、技能（Skill）。能自主规划并执行任务的 AI 程序。当前已获 1126 颗星。"
     },
     {
       "id": "ae7a3cfdb62b",
@@ -1106,9 +1354,9 @@
         "claude",
         "model"
       ],
-      "score": 1541,
+      "score": 1627,
       "lang": "Zig",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Zig）。核心方向：AI 智能体（Agent）、Claude 模型、MCP 协议。能自主规划并执行任务的 AI 程序。当前已获 1541 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Zig）。核心方向：AI 智能体（Agent）、Claude 模型、MCP 协议。能自主规划并执行任务的 AI 程序。当前已获 1627 颗星。"
     },
     {
       "id": "7ed25919298e",
@@ -1122,9 +1370,9 @@
         "ai",
         "agent"
       ],
-      "score": 288,
+      "score": 317,
       "lang": "Python",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：AI 智能体（Agent）。能自主规划并执行任务的 AI 程序。当前已获 288 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：AI 智能体（Agent）。能自主规划并执行任务的 AI 程序。当前已获 317 颗星。"
     },
     {
       "id": "f18acbb6724c",
@@ -1201,9 +1449,9 @@
         "agents",
         "model"
       ],
-      "score": 408,
+      "score": 435,
       "lang": "TypeScript",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 TypeScript）。核心方向：AI 智能体（Agent）。能自主规划并执行任务的 AI 程序。当前已获 408 颗星。"
+      "zh": "GitHub 近期新增的 AI 开源项目（主语言 TypeScript）。核心方向：AI 智能体（Agent）。能自主规划并执行任务的 AI 程序。当前已获 435 颗星。"
     },
     {
       "id": "5850add36151",
@@ -1346,24 +1594,6 @@
       "zh": "GitHub 近期新增的 AI 开源项目（主语言 JavaScript）。核心方向：大语言模型（LLM）、API 接口、代码开发。以文本为核心的大规模神经网络模型。当前已获 100 颗星。"
     },
     {
-      "id": "4b64034e46ad",
-      "source": "github",
-      "url": "https://github.com/atinux/docster",
-      "title": "atinux/docster",
-      "summary": "A skill that helps AI agents write better docs, with support of Comark components.",
-      "author": "atinux",
-      "postedAt": "2026-08-21T09:41:41Z",
-      "tags": [
-        "ai",
-        "agent",
-        "agents",
-        "skill",
-        "今日创新"
-      ],
-      "score": 13,
-      "zh": "GitHub 近期新增的 AI 开源项目（语言未标注）。核心方向：AI 智能体（Agent）、技能（Skill）。能自主规划并执行任务的 AI 程序。当前已获 13 颗星。"
-    },
-    {
       "id": "607f9906428e",
       "source": "ecommerce",
       "url": "https://www.producthunt.com/products/shogunai",
@@ -1378,25 +1608,6 @@
       "zh": "Product Hunt 上发布的 AI 相关新产品。"
     },
     {
-      "id": "c1222656ad75",
-      "source": "github",
-      "url": "https://github.com/LeeHueeng/store-screenshots",
-      "title": "LeeHueeng/store-screenshots",
-      "summary": "🖼️ AI agent skill for Claude Code & Codex — turns raw app screenshots into store-ready App Store & Google Play marketing images: device frames (iPhone·iPad·Gal…",
-      "author": "LeeHueeng",
-      "postedAt": "2026-08-21T03:48:58Z",
-      "tags": [
-        "ai",
-        "agent",
-        "agents",
-        "claude",
-        "skill",
-        "今日创新"
-      ],
-      "score": 15,
-      "zh": "GitHub 近期新增的 AI 开源项目（语言未标注）。核心方向：AI 智能体（Agent）、Claude 模型、技能（Skill）。能自主规划并执行任务的 AI 程序。当前已获 15 颗星。"
-    },
-    {
       "id": "c8aa957f894d",
       "source": "ecommerce",
       "url": "https://www.producthunt.com/products/project-sky",
@@ -1409,23 +1620,6 @@
       ],
       "score": 14,
       "zh": "Product Hunt 上发布的 AI 相关新产品。"
-    },
-    {
-      "id": "d76993580bb8",
-      "source": "github",
-      "url": "https://github.com/xiaolouJB/prompt-toolkit",
-      "title": "xiaolouJB/prompt-toolkit",
-      "summary": "12 个常用 Prompt 合集（数字生命卡兹克整理）· 多智能体分发版：WorkBuddy / Claude Code / Cursor / Trae / CodeBuddy / 通用 md。参考微信原文，CC BY-NC 4.0。",
-      "author": "xiaolouJB",
-      "postedAt": "2026-08-21T01:31:36Z",
-      "tags": [
-        "claude",
-        "prompt",
-        "今日创新"
-      ],
-      "score": 10,
-      "lang": "Python",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Python）。核心方向：提示词（Prompt）、Claude 模型、代码开发。给模型的输入指令，决定输出方向。当前已获 10 颗星。"
     },
     {
       "id": "bc2583999395",
@@ -1652,8 +1846,8 @@
         "image-to-video",
         "video"
       ],
-      "score": 62,
-      "zh": "Hugging Face 上热门的 AI 视频开源模型（库未标注）。核心方向：视频生成（Video）、图像生成（Image）。根据文字/图片生成视频。社区已点赞 62 次。"
+      "score": 82,
+      "zh": "Hugging Face 上热门的 AI 视频开源模型（库未标注）。核心方向：视频生成（Video）、图像生成（Image）。根据文字/图片生成视频。社区已点赞 82 次。"
     },
     {
       "id": "a08499f41300",
@@ -1849,9 +2043,9 @@
         "safetensors",
         "gguf"
       ],
-      "score": 845,
+      "score": 871,
       "lang": "mlx",
-      "zh": "Hugging Face 上热门的 AI 开源模型（基于 mlx 库）。社区已点赞 845 次。"
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 mlx 库）。社区已点赞 871 次。"
     },
     {
       "id": "f466e3159159",
@@ -1965,9 +2159,9 @@
         "transformers",
         "safetensors"
       ],
-      "score": 180,
+      "score": 186,
       "lang": "transformers",
-      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。社区已点赞 180 次。"
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。社区已点赞 186 次。"
     },
     {
       "id": "29e01a563a9a",
@@ -2039,53 +2233,6 @@
       "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。社区已点赞 206 次。"
     },
     {
-      "id": "cf6eb6097012",
-      "source": "ecommerce",
-      "url": "https://www.producthunt.com/products/balsa-ui",
-      "title": "Balsa UI",
-      "summary": "Create design systems, build with agents",
-      "author": "Pedro Balsamão da Costa",
-      "postedAt": "2026-08-18T23:54:45.000Z",
-      "tags": [
-        "agent",
-        "agents"
-      ],
-      "score": 14,
-      "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：AI 智能体（Agent）。能自主规划并执行任务的 AI 程序。"
-    },
-    {
-      "id": "d45745adb944",
-      "source": "ecommerce",
-      "url": "https://www.producthunt.com/products/cronloop-ai",
-      "title": "Cronloop AI",
-      "summary": "AI agents that run in a loop",
-      "author": "Mike Tromba",
-      "postedAt": "2026-08-18T23:47:54.000Z",
-      "tags": [
-        "ai",
-        "agent",
-        "agents"
-      ],
-      "score": 14,
-      "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：AI 智能体（Agent）。能自主规划并执行任务的 AI 程序。"
-    },
-    {
-      "id": "4668c97921c5",
-      "source": "ecommerce",
-      "url": "https://www.producthunt.com/products/berd",
-      "title": "Berd",
-      "summary": "Weird, playful desktop app for building with AI agents",
-      "author": "Chris Messina",
-      "postedAt": "2026-08-18T23:41:53.000Z",
-      "tags": [
-        "ai",
-        "agent",
-        "agents"
-      ],
-      "score": 14,
-      "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：AI 智能体（Agent）。能自主规划并执行任务的 AI 程序。"
-    },
-    {
       "id": "99ae318f9ec5",
       "source": "ecommerce",
       "url": "https://www.producthunt.com/products/arena-5",
@@ -2143,37 +2290,9 @@
         "transformers",
         "safetensors"
       ],
-      "score": 125,
+      "score": 137,
       "lang": "transformers",
-      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。核心方向：图像生成（Image）。根据文字描述生成图片。社区已点赞 125 次。"
-    },
-    {
-      "id": "56fd76d48194",
-      "source": "ecommerce",
-      "url": "https://www.producthunt.com/products/ressearch-ai",
-      "title": "Ressearch AI",
-      "summary": "AI workspace for reproducible scientific research",
-      "author": "Irwing Smith Saldaña Ugaz",
-      "postedAt": "2026-08-18T15:09:11.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 14,
-      "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：联网搜索（Search）。让 AI 检索实时信息再作答。"
-    },
-    {
-      "id": "1ff8058ffa0c",
-      "source": "ecommerce",
-      "url": "https://www.producthunt.com/products/openai",
-      "title": "ChatGPT for Teens",
-      "summary": "ChatGPT, built differently for teens",
-      "author": "Justin Jincaid",
-      "postedAt": "2026-08-18T13:19:56.000Z",
-      "tags": [
-        "gpt"
-      ],
-      "score": 14,
-      "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：GPT 模型。OpenAI 出品的大语言模型。"
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。核心方向：图像生成（Image）。根据文字描述生成图片。社区已点赞 137 次。"
     },
     {
       "id": "cf47360f300a",
@@ -2238,9 +2357,9 @@
         "transformers",
         "gguf"
       ],
-      "score": 325,
+      "score": 329,
       "lang": "transformers",
-      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。社区已点赞 325 次。"
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。社区已点赞 329 次。"
     },
     {
       "id": "9cf6f0023e4e",
@@ -2255,9 +2374,9 @@
         "transformers",
         "safetensors"
       ],
-      "score": 464,
+      "score": 471,
       "lang": "transformers",
-      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。社区已点赞 464 次。"
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。社区已点赞 471 次。"
     },
     {
       "id": "8ef21221f813",
@@ -2430,6 +2549,21 @@
       "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：AI 智能体（Agent）。能自主规划并执行任务的 AI 程序。"
     },
     {
+      "id": "335b2416990e",
+      "source": "ecommerce",
+      "url": "https://www.producthunt.com/products/caddi-3",
+      "title": "Caddi",
+      "summary": "Agent that builds agents by only showing your work only once",
+      "author": "Ben Lang",
+      "postedAt": "2026-08-17T16:16:01.000Z",
+      "tags": [
+        "agent",
+        "agents"
+      ],
+      "score": 14,
+      "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：AI 智能体（Agent）。能自主规划并执行任务的 AI 程序。"
+    },
+    {
       "id": "64080edc47dc",
       "source": "hf",
       "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
@@ -2442,8 +2576,8 @@
         "gguf",
         "multimodal"
       ],
-      "score": 686,
-      "zh": "Hugging Face 上热门的 AI 开源模型（库未标注）。核心方向：多模态（Multimodal）、图像生成（Image）。同时处理文本、图像、音频等多种数据。社区已点赞 686 次。"
+      "score": 703,
+      "zh": "Hugging Face 上热门的 AI 开源模型（库未标注）。核心方向：多模态（Multimodal）、图像生成（Image）。同时处理文本、图像、音频等多种数据。社区已点赞 703 次。"
     },
     {
       "id": "1b00237a9ab3",
@@ -2476,9 +2610,9 @@
         "safetensors",
         "multimodal"
       ],
-      "score": 1164,
+      "score": 1175,
       "lang": "mlx",
-      "zh": "Hugging Face 上热门的 AI 开源模型（基于 mlx 库）。核心方向：多模态（Multimodal）、图像生成（Image）。同时处理文本、图像、音频等多种数据。社区已点赞 1164 次。"
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 mlx 库）。核心方向：多模态（Multimodal）、图像生成（Image）。同时处理文本、图像、音频等多种数据。社区已点赞 1175 次。"
     },
     {
       "id": "d310a3efc983",
@@ -2511,8 +2645,8 @@
         "gguf",
         "finetune"
       ],
-      "score": 261,
-      "zh": "Hugging Face 上热门的 AI 开源模型（库未标注）。核心方向：微调（Fine-tuning）、图像生成（Image）。在预训练模型基础上做针对性再训练。社区已点赞 261 次。"
+      "score": 266,
+      "zh": "Hugging Face 上热门的 AI 开源模型（库未标注）。核心方向：微调（Fine-tuning）、图像生成（Image）。在预训练模型基础上做针对性再训练。社区已点赞 266 次。"
     },
     {
       "id": "58d811bb9f4e",
@@ -2674,9 +2808,9 @@
         "transformers",
         "gguf"
       ],
-      "score": 402,
+      "score": 410,
       "lang": "transformers",
-      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。核心方向：图像生成（Image）。根据文字描述生成图片。社区已点赞 402 次。"
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。核心方向：图像生成（Image）。根据文字描述生成图片。社区已点赞 410 次。"
     },
     {
       "id": "bbcde83594c8",
@@ -2726,25 +2860,9 @@
         "image-text-to-text",
         "gguf"
       ],
-      "score": 492,
+      "score": 506,
       "lang": "gguf",
-      "zh": "Hugging Face 上热门的 AI 开源模型（基于 gguf 库）。核心方向：图像生成（Image）。根据文字描述生成图片。社区已点赞 492 次。"
-    },
-    {
-      "id": "f36d778f1c07",
-      "source": "ecommerce",
-      "url": "https://www.producthunt.com/products/agentr",
-      "title": "AgentR 3.0",
-      "summary": "Hiring evaluation built for the AI cheating era",
-      "author": "Prateek Porwal",
-      "postedAt": "2026-08-16T05:45:01.000Z",
-      "tags": [
-        "ai",
-        "agent",
-        "evaluation"
-      ],
-      "score": 14,
-      "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：AI 智能体（Agent）、评估与基准测试（Evaluation）。能自主规划并执行任务的 AI 程序。"
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 gguf 库）。核心方向：图像生成（Image）。根据文字描述生成图片。社区已点赞 506 次。"
     },
     {
       "id": "f313618a9be4",
@@ -2816,44 +2934,6 @@
       "zh": "Hugging Face 上热门的 AI 开源模型（基于 gguf 库）。核心方向：多模态（Multimodal）、图像生成（Image）。同时处理文本、图像、音频等多种数据。社区已点赞 253 次。"
     },
     {
-      "id": "9b0bef6bcc7c",
-      "source": "github",
-      "url": "https://github.com/Vistyy/nopus",
-      "title": "Vistyy/nopus",
-      "summary": "Deterministic prose checks for clearer coding-agent responses",
-      "author": "Vistyy",
-      "postedAt": "2026-08-15T12:53:20Z",
-      "tags": [
-        "ai",
-        "agent",
-        "agents",
-        "llm",
-        "claude"
-      ],
-      "score": 160,
-      "lang": "TypeScript",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 TypeScript）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、Claude 模型。能自主规划并执行任务的 AI 程序。当前已获 160 颗星。"
-    },
-    {
-      "id": "8db4d51d1925",
-      "source": "github",
-      "url": "https://github.com/Avijit07x/claude-db",
-      "title": "Avijit07x/claude-db",
-      "summary": "Persistent memory for Claude Code. Bring your own database.",
-      "author": "Avijit07x",
-      "postedAt": "2026-08-15T12:50:41Z",
-      "tags": [
-        "ai",
-        "claude",
-        "api",
-        "skill",
-        "skills"
-      ],
-      "score": 170,
-      "lang": "TypeScript",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 TypeScript）。核心方向：API 接口、Claude 模型、技能（Skill）。供程序化调用 AI 能力的接口。当前已获 170 颗星。"
-    },
-    {
       "id": "9c5a7dcb6ce9",
       "source": "ecommerce",
       "url": "https://www.producthunt.com/products/subtitlegenerator",
@@ -2880,26 +2960,9 @@
         "transformers",
         "safetensors"
       ],
-      "score": 1206,
+      "score": 1216,
       "lang": "transformers",
-      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。核心方向：图像生成（Image）。根据文字描述生成图片。社区已点赞 1206 次。"
-    },
-    {
-      "id": "186cebc8cec5",
-      "source": "github",
-      "url": "https://github.com/zachahn/vomit",
-      "title": "zachahn/vomit",
-      "summary": "Clean up Claude 5's token vomit with a separate LLM. Save your tokens, Claude 5 is hopeless",
-      "author": "zachahn",
-      "postedAt": "2026-08-15T05:43:59Z",
-      "tags": [
-        "ai",
-        "llm",
-        "claude"
-      ],
-      "score": 116,
-      "lang": "Go",
-      "zh": "GitHub 近期新增的 AI 开源项目（主语言 Go）。核心方向：大语言模型（LLM）、Claude 模型。以文本为核心的大规模神经网络模型。当前已获 116 颗星。"
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。核心方向：图像生成（Image）。根据文字描述生成图片。社区已点赞 1216 次。"
     },
     {
       "id": "1f54777a2d54",
@@ -2991,9 +3054,9 @@
         "text-generation",
         "gguf"
       ],
-      "score": 780,
+      "score": 789,
       "lang": "llama.cpp",
-      "zh": "Hugging Face 上热门的 AI 开源模型（基于 llama.cpp 库）。社区已点赞 780 次。"
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 llama.cpp 库）。社区已点赞 789 次。"
     },
     {
       "id": "6d1187c411b6",
@@ -3051,8 +3114,8 @@
       "tags": [
         "gguf"
       ],
-      "score": 3069,
-      "zh": "Hugging Face 上热门的 AI 开源模型（库未标注）。社区已点赞 3069 次。"
+      "score": 3103,
+      "zh": "Hugging Face 上热门的 AI 开源模型（库未标注）。社区已点赞 3103 次。"
     },
     {
       "id": "2363cd54ebe2",
@@ -3173,8 +3236,8 @@
         "text-to-video",
         "video"
       ],
-      "score": 148,
-      "zh": "Hugging Face 上热门的 AI 视频开源模型（库未标注）。核心方向：视频生成（Video）。根据文字/图片生成视频。社区已点赞 148 次。"
+      "score": 152,
+      "zh": "Hugging Face 上热门的 AI 视频开源模型（库未标注）。核心方向：视频生成（Video）。根据文字/图片生成视频。社区已点赞 152 次。"
     },
     {
       "id": "9e695f82e723",
@@ -3189,24 +3252,9 @@
         "video",
         "safetensors"
       ],
-      "score": 307,
+      "score": 311,
       "lang": "minimax-h3",
-      "zh": "Hugging Face 上热门的 AI 视频开源模型（基于 minimax-h3 库）。核心方向：视频生成（Video）、图像生成（Image）。根据文字/图片生成视频。社区已点赞 307 次。"
-    },
-    {
-      "id": "6a151382d6ff",
-      "source": "ecommerce",
-      "url": "https://www.producthunt.com/products/checksum-ai",
-      "title": "Checksum AI",
-      "summary": "Your coding agent’s testing buddy",
-      "author": "Ben Lang",
-      "postedAt": "2026-08-10T14:43:32.000Z",
-      "tags": [
-        "ai",
-        "agent"
-      ],
-      "score": 14,
-      "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：AI 智能体（Agent）、代码开发。能自主规划并执行任务的 AI 程序。"
+      "zh": "Hugging Face 上热门的 AI 视频开源模型（基于 minimax-h3 库）。核心方向：视频生成（Video）、图像生成（Image）。根据文字/图片生成视频。社区已点赞 311 次。"
     },
     {
       "id": "91070a1a22aa",
@@ -3272,6 +3320,20 @@
       "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。社区已点赞 1141 次。"
     },
     {
+      "id": "148a16c42c37",
+      "source": "ecommerce",
+      "url": "https://www.producthunt.com/products/super-intern-4",
+      "title": "SuperIntern",
+      "summary": "Your email and meeting assistant, inside your chat apps",
+      "author": "Jieyu Yang",
+      "postedAt": "2026-08-07T15:11:44.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 14,
+      "zh": "Product Hunt 上发布的 AI 相关新产品。"
+    },
+    {
       "id": "4651ca42d09d",
       "source": "hf-video",
       "url": "https://huggingface.co/lightx2v/Minimax-h3-Turbo",
@@ -3284,25 +3346,9 @@
         "video",
         "diffusers"
       ],
-      "score": 726,
+      "score": 739,
       "lang": "diffusers",
-      "zh": "Hugging Face 上热门的 AI 视频开源模型（基于 diffusers 库）。核心方向：视频生成（Video）、图像生成（Image）。根据文字/图片生成视频。社区已点赞 726 次。"
-    },
-    {
-      "id": "c078ceef1baf",
-      "source": "hf",
-      "url": "https://huggingface.co/lightx2v/Minimax-h3-Turbo",
-      "title": "lightx2v/Minimax-h3-Turbo",
-      "summary": "图生视频 · diffusers · 425.4k downloads",
-      "author": "lightx2v",
-      "postedAt": "2026-08-07T12:59:07.000Z",
-      "tags": [
-        "image-to-video",
-        "diffusers"
-      ],
-      "score": 665,
-      "lang": "diffusers",
-      "zh": "Hugging Face 上热门的 AI 开源模型（基于 diffusers 库）。核心方向：视频生成（Video）、图像生成（Image）。根据文字/图片生成视频。社区已点赞 665 次。"
+      "zh": "Hugging Face 上热门的 AI 视频开源模型（基于 diffusers 库）。核心方向：视频生成（Video）、图像生成（Image）。根据文字/图片生成视频。社区已点赞 739 次。"
     },
     {
       "id": "18fc3a1c5608",
@@ -3318,9 +3364,9 @@
         "safetensors",
         "pytorch"
       ],
-      "score": 1274,
+      "score": 1278,
       "lang": "diffusers",
-      "zh": "Hugging Face 上热门的 AI 开源模型（基于 diffusers 库）。社区已点赞 1274 次。"
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 diffusers 库）。社区已点赞 1278 次。"
     },
     {
       "id": "2be45ae63572",
@@ -3336,9 +3382,9 @@
         "gguf",
         "multimodal"
       ],
-      "score": 223,
+      "score": 224,
       "lang": "gguf",
-      "zh": "Hugging Face 上热门的 AI 视频开源模型（基于 gguf 库）。核心方向：多模态（Multimodal）、视频生成（Video）、图像生成（Image）。同时处理文本、图像、音频等多种数据。社区已点赞 223 次。"
+      "zh": "Hugging Face 上热门的 AI 视频开源模型（基于 gguf 库）。核心方向：多模态（Multimodal）、视频生成（Video）、图像生成（Image）。同时处理文本、图像、音频等多种数据。社区已点赞 224 次。"
     },
     {
       "id": "0741646c97a1",
@@ -3384,9 +3430,25 @@
         "transformers",
         "safetensors"
       ],
-      "score": 13029,
+      "score": 13083,
       "lang": "transformers",
-      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。核心方向：图像生成（Image）。根据文字描述生成图片。社区已点赞 13029 次。"
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。核心方向：图像生成（Image）。根据文字描述生成图片。社区已点赞 13083 次。"
+    },
+    {
+      "id": "8c3387bf7ce6",
+      "source": "ecommerce",
+      "url": "https://www.producthunt.com/products/aramb",
+      "title": "Aramb",
+      "summary": "Build, launch and monetize your AI agents in 20 minutes",
+      "author": "Ganesh J",
+      "postedAt": "2026-08-04T10:19:31.000Z",
+      "tags": [
+        "ai",
+        "agent",
+        "agents"
+      ],
+      "score": 14,
+      "zh": "Product Hunt 上发布的 AI 相关新产品。主打方向：AI 智能体（Agent）。能自主规划并执行任务的 AI 程序。"
     },
     {
       "id": "30a586c57699",
@@ -3515,9 +3577,9 @@
         "transformers",
         "safetensors"
       ],
-      "score": 3760,
+      "score": 3779,
       "lang": "transformers",
-      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。社区已点赞 3760 次。"
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。社区已点赞 3779 次。"
     },
     {
       "id": "3cfb62d8d4a7",
@@ -3538,7 +3600,7 @@
       "source": "hf",
       "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
       "title": "MiniMaxAI/MiniMax-H3",
-      "summary": "图文生视频 · minimax-h3 · 4.9M downloads",
+      "summary": "图文生视频 · minimax-h3 · 4.8M downloads",
       "author": "MiniMaxAI",
       "postedAt": "2026-07-28T10:45:18.000Z",
       "tags": [
@@ -3547,16 +3609,16 @@
         "safetensors",
         "multimodal"
       ],
-      "score": 4531,
+      "score": 4553,
       "lang": "minimax-h3",
-      "zh": "Hugging Face 上热门的 AI 开源模型（基于 minimax-h3 库）。核心方向：多模态（Multimodal）、视频生成（Video）、图像生成（Image）。同时处理文本、图像、音频等多种数据。社区已点赞 4531 次。"
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 minimax-h3 库）。核心方向：多模态（Multimodal）、视频生成（Video）、图像生成（Image）。同时处理文本、图像、音频等多种数据。社区已点赞 4553 次。"
     },
     {
       "id": "51af3540356a",
       "source": "hf-video",
       "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
       "title": "MiniMaxAI/MiniMax-H3",
-      "summary": "图文生视频 · minimax-h3 · 4.9M downloads",
+      "summary": "图文生视频 · minimax-h3 · 4.8M downloads",
       "author": "MiniMaxAI",
       "postedAt": "2026-07-28T10:45:18.000Z",
       "tags": [
@@ -3565,9 +3627,9 @@
         "diffusers",
         "safetensors"
       ],
-      "score": 4531,
+      "score": 4553,
       "lang": "minimax-h3",
-      "zh": "Hugging Face 上热门的 AI 视频开源模型（基于 minimax-h3 库）。核心方向：视频生成（Video）、图像生成（Image）。根据文字/图片生成视频。社区已点赞 4531 次。"
+      "zh": "Hugging Face 上热门的 AI 视频开源模型（基于 minimax-h3 库）。核心方向：视频生成（Video）、图像生成（Image）。根据文字/图片生成视频。社区已点赞 4553 次。"
     },
     {
       "id": "0f82f7e9f3db",
@@ -3580,9 +3642,9 @@
       "tags": [
         "image-to-video"
       ],
-      "score": 1934,
+      "score": 1955,
       "lang": "diffusion-single-file",
-      "zh": "Hugging Face 上热门的 AI 开源模型（基于 diffusion-single-file 库）。核心方向：视频生成（Video）、图像生成（Image）。根据文字/图片生成视频。社区已点赞 1934 次。"
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 diffusion-single-file 库）。核心方向：视频生成（Video）、图像生成（Image）。根据文字/图片生成视频。社区已点赞 1955 次。"
     },
     {
       "id": "31c798afb490",
@@ -3596,16 +3658,16 @@
         "image-to-video",
         "video"
       ],
-      "score": 1934,
+      "score": 1955,
       "lang": "diffusion-single-file",
-      "zh": "Hugging Face 上热门的 AI 视频开源模型（基于 diffusion-single-file 库）。核心方向：视频生成（Video）、图像生成（Image）。根据文字/图片生成视频。社区已点赞 1934 次。"
+      "zh": "Hugging Face 上热门的 AI 视频开源模型（基于 diffusion-single-file 库）。核心方向：视频生成（Video）、图像生成（Image）。根据文字/图片生成视频。社区已点赞 1955 次。"
     },
     {
       "id": "0270dbdcf0af",
       "source": "hf-video",
       "url": "https://huggingface.co/OpenMOSS-Team/MOSS-VL-Realtime",
       "title": "OpenMOSS-Team/MOSS-VL-Realtime",
-      "summary": "视频问答 · transformers · 822 downloads",
+      "summary": "视频问答 · transformers · 784 downloads",
       "author": "OpenMOSS-Team",
       "postedAt": "2026-07-14T06:35:39.000Z",
       "tags": [
@@ -3623,7 +3685,7 @@
       "source": "hf",
       "url": "https://huggingface.co/moonshotai/Kimi-K3",
       "title": "moonshotai/Kimi-K3",
-      "summary": "图文理解 · transformers · 2.8M downloads",
+      "summary": "图文理解 · transformers · 2.7M downloads",
       "author": "moonshotai",
       "postedAt": "2026-06-13T06:42:57.000Z",
       "tags": [
@@ -3631,9 +3693,9 @@
         "transformers",
         "safetensors"
       ],
-      "score": 11036,
+      "score": 11050,
       "lang": "transformers",
-      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。核心方向：图像生成（Image）。根据文字描述生成图片。社区已点赞 11036 次。"
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 transformers 库）。核心方向：图像生成（Image）。根据文字描述生成图片。社区已点赞 11050 次。"
     },
     {
       "id": "289c062f09a2",
@@ -3650,8 +3712,8 @@
         "llm",
         "claude"
       ],
-      "score": 113976,
-      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、Claude 模型。能自主规划并执行任务的 AI 程序。站点收录 star 约 113976。"
+      "score": 114815,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、Claude 模型。能自主规划并执行任务的 AI 程序。站点收录 star 约 114815。"
     },
     {
       "id": "4dd2a725215c",
@@ -3667,8 +3729,8 @@
         "skill",
         "skills"
       ],
-      "score": 24964,
-      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、Claude 模型、技能（Skill）。能自主规划并执行任务的 AI 程序。站点收录 star 约 24964。"
+      "score": 25206,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、Claude 模型、技能（Skill）。能自主规划并执行任务的 AI 程序。站点收录 star 约 25206。"
     },
     {
       "id": "c2687f6cf2b4",
@@ -3703,8 +3765,8 @@
         "llm",
         "claude"
       ],
-      "score": 26191,
-      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、Claude 模型。能自主规划并执行任务的 AI 程序。站点收录 star 约 26191。"
+      "score": 26496,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、Claude 模型。能自主规划并执行任务的 AI 程序。站点收录 star 约 26496。"
     },
     {
       "id": "84fcc937e823",
@@ -3721,8 +3783,8 @@
         "claude",
         "skill"
       ],
-      "score": 92046,
-      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：执行框架（Harness）、AI 智能体（Agent）、Claude 模型。承载并运行 AI 任务的框架或环境。站点收录 star 约 92046。"
+      "score": 92265,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：执行框架（Harness）、AI 智能体（Agent）、Claude 模型。承载并运行 AI 任务的框架或环境。站点收录 star 约 92265。"
     },
     {
       "id": "e16754bc02c6",
@@ -3735,16 +3797,16 @@
       "tags": [
         "ai"
       ],
-      "score": 1504,
+      "score": 1506,
       "lang": "mlx",
-      "zh": "Hugging Face 上热门的 AI 开源模型（基于 mlx 库）。社区已点赞 1504 次。"
+      "zh": "Hugging Face 上热门的 AI 开源模型（基于 mlx 库）。社区已点赞 1506 次。"
     },
     {
       "id": "b914baedaead",
       "source": "hf-video",
       "url": "https://huggingface.co/joyfox/LTX2.3-ICEdit-Insight",
       "title": "joyfox/LTX2.3-ICEdit-Insight",
-      "summary": "视频转视频 · diffusers · 53.6k downloads",
+      "summary": "视频转视频 · diffusers · 50.5k downloads",
       "author": "joyfox",
       "postedAt": "2026-04-23T10:09:22.000Z",
       "tags": [
@@ -3771,8 +3833,8 @@
         "skill",
         "skills"
       ],
-      "score": 27919,
-      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、Claude 模型、技能（Skill）。能自主规划并执行任务的 AI 程序。站点收录 star 约 27919。"
+      "score": 28213,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、Claude 模型、技能（Skill）。能自主规划并执行任务的 AI 程序。站点收录 star 约 28213。"
     },
     {
       "id": "48c5c8e9ec11",
@@ -3822,8 +3884,8 @@
         "llm",
         "claude"
       ],
-      "score": 24051,
-      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、Claude 模型。能自主规划并执行任务的 AI 程序。站点收录 star 约 24051。"
+      "score": 24078,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、Claude 模型。能自主规划并执行任务的 AI 程序。站点收录 star 约 24078。"
     },
     {
       "id": "b299e2b1b31f",
@@ -3840,15 +3902,15 @@
         "claude",
         "copilot"
       ],
-      "score": 80768,
-      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、编程助手（Copilot）。能自主规划并执行任务的 AI 程序。站点收录 star 约 80768。"
+      "score": 80833,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、编程助手（Copilot）。能自主规划并执行任务的 AI 程序。站点收录 star 约 80833。"
     },
     {
       "id": "64b77a456e11",
       "source": "hf-video",
       "url": "https://huggingface.co/Lightricks/LTX-2.3",
       "title": "Lightricks/LTX-2.3",
-      "summary": "图生视频 · diffusers · 1.4M downloads",
+      "summary": "图生视频 · diffusers · 1.3M downloads",
       "author": "Lightricks",
       "postedAt": "2026-03-04T22:28:28.000Z",
       "tags": [
@@ -3856,9 +3918,9 @@
         "video",
         "diffusers"
       ],
-      "score": 1842,
+      "score": 1844,
       "lang": "diffusers",
-      "zh": "Hugging Face 上热门的 AI 视频开源模型（基于 diffusers 库）。核心方向：视频生成（Video）、图像生成（Image）。根据文字/图片生成视频。社区已点赞 1842 次。"
+      "zh": "Hugging Face 上热门的 AI 视频开源模型（基于 diffusers 库）。核心方向：视频生成（Video）、图像生成（Image）。根据文字/图片生成视频。社区已点赞 1844 次。"
     },
     {
       "id": "644572c93777",
@@ -3875,8 +3937,8 @@
         "automation",
         "skill"
       ],
-      "score": 30598,
-      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、自动化（Automation）、API 接口。能自主规划并执行任务的 AI 程序。站点收录 star 约 30598。"
+      "score": 30613,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、自动化（Automation）、API 接口。能自主规划并执行任务的 AI 程序。站点收录 star 约 30613。"
     },
     {
       "id": "8247620f9776",
@@ -3910,8 +3972,8 @@
         "claude",
         "skill"
       ],
-      "score": 90283,
-      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、Claude 模型、技能（Skill）。能自主规划并执行任务的 AI 程序。站点收录 star 约 90283。"
+      "score": 90422,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、Claude 模型、技能（Skill）。能自主规划并执行任务的 AI 程序。站点收录 star 约 90422。"
     },
     {
       "id": "4cd1a6345c8f",
@@ -3944,8 +4006,8 @@
         "skill",
         "skills"
       ],
-      "score": 52211,
-      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、技能（Skill）。能自主规划并执行任务的 AI 程序。站点收录 star 约 52211。"
+      "score": 52215,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、技能（Skill）。能自主规划并执行任务的 AI 程序。站点收录 star 约 52215。"
     },
     {
       "id": "613bc081ce52",
@@ -3962,8 +4024,8 @@
         "prompt",
         "skill"
       ],
-      "score": 38339,
-      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、提示词（Prompt）、Claude 模型。能自主规划并执行任务的 AI 程序。站点收录 star 约 38339。"
+      "score": 38479,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、提示词（Prompt）、Claude 模型。能自主规划并执行任务的 AI 程序。站点收录 star 约 38479。"
     },
     {
       "id": "7f645e822263",
@@ -3980,8 +4042,8 @@
         "claude",
         "skill"
       ],
-      "score": 45546,
-      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、Claude 模型、技能（Skill）。能自主规划并执行任务的 AI 程序。站点收录 star 约 45546。"
+      "score": 45580,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、Claude 模型、技能（Skill）。能自主规划并执行任务的 AI 程序。站点收录 star 约 45580。"
     },
     {
       "id": "a338fc6193f8",
@@ -3998,8 +4060,8 @@
         "claude",
         "api"
       ],
-      "score": 18961,
-      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、API 接口、Claude 模型。能自主规划并执行任务的 AI 程序。站点收录 star 约 18961。"
+      "score": 18976,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、API 接口、Claude 模型。能自主规划并执行任务的 AI 程序。站点收录 star 约 18976。"
     },
     {
       "id": "0f370d00900c",
@@ -4016,8 +4078,8 @@
         "llm",
         "claude"
       ],
-      "score": 26386,
-      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、Claude 模型。能自主规划并执行任务的 AI 程序。站点收录 star 约 26386。"
+      "score": 26397,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、Claude 模型。能自主规划并执行任务的 AI 程序。站点收录 star 约 26397。"
     },
     {
       "id": "1640c596d468",
@@ -4034,26 +4096,8 @@
         "gpt",
         "claude"
       ],
-      "score": 68446,
-      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：执行框架（Harness）、AI 智能体（Agent）、Claude 模型。承载并运行 AI 任务的框架或环境。站点收录 star 约 68446。"
-    },
-    {
-      "id": "4a24690c8b96",
-      "source": "discover",
-      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
-      "title": "Orchestra-Research/AI-Research-SKILLs",
-      "summary": "Comprehensive open-source library of AI research and engineering skills for any AI model. Package the skills and your claude code/codex/gemini agent will be an…",
-      "author": "Orchestra-Research",
-      "postedAt": "2025-11-03T06:13:06Z",
-      "tags": [
-        "ai",
-        "agent",
-        "llm",
-        "gpt",
-        "claude"
-      ],
-      "score": 11922,
-      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、Claude 模型。能自主规划并执行任务的 AI 程序。站点收录 star 约 11922。"
+      "score": 68463,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：执行框架（Harness）、AI 智能体（Agent）、Claude 模型。承载并运行 AI 任务的框架或环境。站点收录 star 约 68463。"
     },
     {
       "id": "9da4a7d0e2d6",
@@ -4070,8 +4114,8 @@
         "claude",
         "skill"
       ],
-      "score": 32911,
-      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、Claude 模型、技能（Skill）。能自主规划并执行任务的 AI 程序。站点收录 star 约 32911。"
+      "score": 32970,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、Claude 模型、技能（Skill）。能自主规划并执行任务的 AI 程序。站点收录 star 约 32970。"
     },
     {
       "id": "061b5b9ac190",
@@ -4088,8 +4132,8 @@
         "skill",
         "skills"
       ],
-      "score": 35282,
-      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、Claude 模型、技能（Skill）。能自主规划并执行任务的 AI 程序。站点收录 star 约 35282。"
+      "score": 35769,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、Claude 模型、技能（Skill）。能自主规划并执行任务的 AI 程序。站点收录 star 约 35769。"
     },
     {
       "id": "f6d63fdfbb5c",
@@ -4106,8 +4150,8 @@
         "claude",
         "prompt"
       ],
-      "score": 25096,
-      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、提示词（Prompt）、Claude 模型。能自主规划并执行任务的 AI 程序。站点收录 star 约 25096。"
+      "score": 25123,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、提示词（Prompt）、Claude 模型。能自主规划并执行任务的 AI 程序。站点收录 star 约 25123。"
     },
     {
       "id": "3a96e5f67672",
@@ -4124,8 +4168,8 @@
         "automation",
         "skill"
       ],
-      "score": 14844,
-      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：自动化（Automation）、API 接口、Claude 模型。把重复流程交给 AI 自动完成。站点收录 star 约 14844。"
+      "score": 14845,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：自动化（Automation）、API 接口、Claude 模型。把重复流程交给 AI 自动完成。站点收录 star 约 14845。"
     },
     {
       "id": "a0721e607a2e",
@@ -4142,8 +4186,8 @@
         "claude",
         "automation"
       ],
-      "score": 73589,
-      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、自动化（Automation）、Claude 模型。能自主规划并执行任务的 AI 程序。站点收录 star 约 73589。"
+      "score": 73781,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、自动化（Automation）、Claude 模型。能自主规划并执行任务的 AI 程序。站点收录 star 约 73781。"
     },
     {
       "id": "da82577ce8bd",
@@ -4160,8 +4204,8 @@
         "skill",
         "skills"
       ],
-      "score": 14853,
-      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、Claude 模型、工作流（Workflow）。能自主规划并执行任务的 AI 程序。站点收录 star 约 14853。"
+      "score": 14866,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、Claude 模型、工作流（Workflow）。能自主规划并执行任务的 AI 程序。站点收录 star 约 14866。"
     },
     {
       "id": "aaccc4d386aa",
@@ -4176,8 +4220,8 @@
         "skill",
         "skills"
       ],
-      "score": 172068,
-      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、技能（Skill）。能自主规划并执行任务的 AI 程序。站点收录 star 约 172068。"
+      "score": 172184,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、技能（Skill）。能自主规划并执行任务的 AI 程序。站点收录 star 约 172184。"
     },
     {
       "id": "56d54b40371c",
@@ -4194,8 +4238,8 @@
         "claude",
         "rag"
       ],
-      "score": 92250,
-      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、检索增强生成（RAG）、Claude 模型。能自主规划并执行任务的 AI 程序。站点收录 star 约 92250。"
+      "score": 92454,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、检索增强生成（RAG）、Claude 模型。能自主规划并执行任务的 AI 程序。站点收录 star 约 92454。"
     },
     {
       "id": "8b742d59b29b",
@@ -4230,8 +4274,8 @@
         "claude",
         "copilot"
       ],
-      "score": 39199,
-      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：执行框架（Harness）、AI 智能体（Agent）、编程助手（Copilot）。承载并运行 AI 任务的框架或环境。站点收录 star 约 39199。"
+      "score": 39215,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：执行框架（Harness）、AI 智能体（Agent）、编程助手（Copilot）。承载并运行 AI 任务的框架或环境。站点收录 star 约 39215。"
     },
     {
       "id": "d1508dda55bd",
@@ -4248,8 +4292,8 @@
         "copilot",
         "prompt"
       ],
-      "score": 38327,
-      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、提示词（Prompt）、编程助手（Copilot）。能自主规划并执行任务的 AI 程序。站点收录 star 约 38327。"
+      "score": 38366,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、提示词（Prompt）、编程助手（Copilot）。能自主规划并执行任务的 AI 程序。站点收录 star 约 38366。"
     },
     {
       "id": "30d492df22fb",
@@ -4271,7 +4315,7 @@
       "source": "hf-video",
       "url": "https://huggingface.co/google/gemma-3n-E4B-it",
       "title": "google/gemma-3n-E4B-it",
-      "summary": "图文理解 · transformers · 26.5k downloads",
+      "summary": "图文理解 · transformers · 24.8k downloads",
       "author": "google",
       "postedAt": "2025-06-03T18:17:07.000Z",
       "tags": [
@@ -4299,8 +4343,8 @@
         "llm",
         "claude"
       ],
-      "score": 53095,
-      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、Claude 模型。能自主规划并执行任务的 AI 程序。站点收录 star 约 53095。"
+      "score": 53116,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、Claude 模型。能自主规划并执行任务的 AI 程序。站点收录 star 约 53116。"
     },
     {
       "id": "3a27556ce09d",
@@ -4322,7 +4366,7 @@
       "source": "hf-video",
       "url": "https://huggingface.co/HuggingFaceTB/SmolVLM2-2.2B-Instruct",
       "title": "HuggingFaceTB/SmolVLM2-2.2B-Instruct",
-      "summary": "图文理解 · transformers · 178.9k downloads",
+      "summary": "图文理解 · transformers · 165.4k downloads",
       "author": "HuggingFaceTB",
       "postedAt": "2025-02-08T19:18:45.000Z",
       "tags": [
@@ -4340,7 +4384,7 @@
       "source": "hf-video",
       "url": "https://huggingface.co/OpenGVLab/InternVideo2_5_Chat_8B",
       "title": "OpenGVLab/InternVideo2_5_Chat_8B",
-      "summary": "视频问答 · transformers · 2.8k downloads",
+      "summary": "视频问答 · transformers · 2.7k downloads",
       "author": "OpenGVLab",
       "postedAt": "2025-01-22T06:53:11.000Z",
       "tags": [
@@ -4386,8 +4430,8 @@
         "llm",
         "claude"
       ],
-      "score": 51152,
-      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、Claude 模型。能自主规划并执行任务的 AI 程序。站点收录 star 约 51152。"
+      "score": 51189,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、大语言模型（LLM）、Claude 模型。能自主规划并执行任务的 AI 程序。站点收录 star 约 51189。"
     },
     {
       "id": "7ccc5753f174",
@@ -4420,15 +4464,15 @@
         "rag",
         "skill"
       ],
-      "score": 30298,
-      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、检索增强生成（RAG）、技能（Skill）。能自主规划并执行任务的 AI 程序。站点收录 star 约 30298。"
+      "score": 30316,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、检索增强生成（RAG）、技能（Skill）。能自主规划并执行任务的 AI 程序。站点收录 star 约 30316。"
     },
     {
       "id": "f100cc15a010",
       "source": "hf-video",
       "url": "https://huggingface.co/microsoft/xclip-base-patch32",
       "title": "microsoft/xclip-base-patch32",
-      "summary": "视频分类 · transformers · 99.8k downloads",
+      "summary": "视频分类 · transformers · 97.0k downloads",
       "author": "microsoft",
       "postedAt": "2022-08-25T13:06:15.000Z",
       "tags": [
@@ -4456,8 +4500,8 @@
         "skills",
         "mcp"
       ],
-      "score": 41844,
-      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、MCP 协议、技能（Skill）。能自主规划并执行任务的 AI 程序。站点收录 star 约 41844。"
+      "score": 41862,
+      "zh": "DiscoverAISkills 收录的热门 AI 技能榜（按 GitHub star 排序）。核心方向：AI 智能体（Agent）、MCP 协议、技能（Skill）。能自主规划并执行任务的 AI 程序。站点收录 star 约 41862。"
     }
   ]
 }
